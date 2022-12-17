@@ -1,6 +1,7 @@
 package com.Hileb.add_potion.gui.potion.expOne;
 
 import com.Hileb.add_potion.IdlFramework;
+import com.Hileb.add_potion.init.ModConfig;
 import com.Hileb.add_potion.network.NetworkHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
@@ -9,12 +10,19 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Slot;
+import net.minecraft.item.Item;
+import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.client.config.GuiUtils;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import java.awt.*;
 import java.io.IOException;
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.List;
 
 import static com.Hileb.add_potion.gui.ModGuiElementLoader.GUI_DEMO;
 
@@ -38,6 +46,14 @@ public class GuiContainerDemo extends GuiContainer
     }
 
     @Override
+    public void drawScreen(int mouseX, int mouseY, float partialTicks)
+    {
+        this.drawDefaultBackground();
+        super.drawScreen(mouseX, mouseY, partialTicks);
+        this.renderHoveredToolTip(mouseX, mouseY);
+        this.drawBottonTooltip(mouseX,mouseY);
+    }
+    @Override
     protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY)
     {
         GlStateManager.color(1.0F, 1.0F, 1.0F);
@@ -45,7 +61,6 @@ public class GuiContainerDemo extends GuiContainer
         this.mc.getTextureManager().bindTexture(TEXTURE);
         int offsetX = (this.width - this.xSize) / 2, offsetY = (this.height - this.ySize) / 2;
 
-        this.renderHoveredToolTip(mouseX, mouseY);
         this.drawTexturedModalRect(offsetX, offsetY, 0, 0, this.xSize, this.ySize);
 
     }
@@ -94,6 +109,35 @@ public class GuiContainerDemo extends GuiContainer
             default:
                 super.actionPerformed(button);
                 return;
+        }
+    }
+    protected void drawBottonTooltip(int mouseX,int mouseY){
+        int offsetX = (this.width - this.xSize) / 2, offsetY = (this.height - this.ySize) / 2;
+        //offsetX + 36, offsetY + 8, 23, 13
+        offsetX=offsetX+36;
+        offsetY=offsetY+8;
+        if (mouseX>=offsetX && mouseY>=offsetY){
+            if(mouseX<=offsetX+23){
+                if (mouseY<=offsetY+13){
+                    List<String> tooltip= new ArrayList<>();
+                    tooltip.add(I18n.format("com.hileb.ap.botton"));
+                    tooltip.add("");
+
+
+                    if (ModConfig.entityElectricShakingConf.ap_showPotion_desc){
+                        tooltip.add(I18n.format("com.hileb.ap.desc_1"));
+                        PotionUtils.addPotionTooltip(foodSlot.getStack().copy(), tooltip, 1.0F);
+                    }
+                    tooltip.add(I18n.format("com.hileb.ap.desc_2"));
+                    PotionUtils.addPotionTooltip(potionSlot.getStack().copy(), tooltip, 1.0F);
+
+                    int max=0;
+                    for (String s:tooltip){
+                        if (s.length()>=max)max=s.length();
+                    }
+                    GuiUtils.drawHoveringText(tooltip,mouseX,mouseY,width,height,tooltip.size(),fontRenderer);
+                }
+            }
         }
     }
 }

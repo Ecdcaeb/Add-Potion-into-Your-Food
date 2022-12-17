@@ -23,4 +23,15 @@ public class ModConfig {
             }
         }
     }
+    @Config.LangKey("ap.showPotion.desc")
+    @Config.Comment("ap.showPotion.desc")
+    public static final EntityElectricShakingConf entityElectricShakingConf = new EntityElectricShakingConf();
+
+    public static class EntityElectricShakingConf{
+        //ConfigLoader.canEntityElectricShaking=true;
+        @Config.LangKey("ap.showPotion.desc")
+        @Config.Comment("ap.showPotion.desc")
+        @Config.RequiresMcRestart
+        public boolean ap_showPotion_desc=false;
+    }
 }
