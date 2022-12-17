@@ -3,3 +3,4 @@ com.hileb.ap.botton=按下以注入
 com.hileb.ap.desc_1=该物品已有以下效果：
 com.hileb.ap.desc_2=即将注入以下效果：
 ap.showPotion.desc=显示效果
+ap.showPotion.desc.tooltip=是否显示物品已有效果

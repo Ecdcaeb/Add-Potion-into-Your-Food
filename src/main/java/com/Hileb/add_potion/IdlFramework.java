@@ -1,9 +1,7 @@
 package com.Hileb.add_potion;
 
 import com.Hileb.add_potion.gui.ModGuiElementLoader;
-import com.Hileb.add_potion.init.ModConfig;
 import com.Hileb.add_potion.init.ModRecipes;
-import com.Hileb.add_potion.init.ModSpawn;
 import com.Hileb.add_potion.init.RegistryHandler;
 import com.Hileb.add_potion.network.NetworkHandler;
 import com.Hileb.add_potion.proxy.ProxyBase;
