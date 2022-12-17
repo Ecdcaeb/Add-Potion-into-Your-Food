@@ -137,14 +137,14 @@ public class ContainerDemo extends Container {
         }
         else if (index >= 2 && index < 29)
         {
-            isMerged = mergeItemStack(newStack, 0, 1, false)
-                    || mergeItemStack(newStack, 1, 2, false)
+            isMerged = mergeItemStack(newStack, 1, 2, false)
+                    || mergeItemStack(newStack, 0, 1, false)
                     || mergeItemStack(newStack, 29, 38, false);
         }
         else if (index >= 29 && index < 38)
         {
-            isMerged =  mergeItemStack(newStack, 0, 1, false)
-                    || mergeItemStack(newStack, 1, 2, false)
+            isMerged =  mergeItemStack(newStack, 1, 2, false)
+                    || mergeItemStack(newStack, 0, 1, false)
                     || mergeItemStack(newStack, 2, 29, false);
         }
 

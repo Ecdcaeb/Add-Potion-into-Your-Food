@@ -100,7 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>configloa</find>
       <find>ConfigLoader</find>
       <find>Imob</find>
       <find>fla</find>
@@ -130,6 +129,7 @@
       <find>bre</find>
       <find>addInf</find>
       <find>conf</find>
+      <find>recipe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -414,7 +414,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3654485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -425,12 +424,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32819074" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32819074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32819074" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31837308" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31837308" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32819074" />

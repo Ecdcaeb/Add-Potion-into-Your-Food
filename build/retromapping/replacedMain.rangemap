@@ -474,7 +474,7 @@ Class Start: com.Hileb.add_potion.gui.ModGuiElementLoader
 Class End  : com.Hileb.add_potion.gui.ModGuiElementLoader
 endProcessing "com/Hileb/add_potion/gui/ModGuiElementLoader.java"
 
-startProcessing "com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" md5: fdb5031740946085d335bef1aa4d6508
+startProcessing "com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" md5: 12c7409e1584da525cb8a12bdeb6420c
 @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|8|46|com.Hileb.add_potion.gui.potion.expOne|package|com.Hileb.add_potion.gui.potion.expOne|(file)
 Class Start: com.Hileb.add_potion.gui.potion.expOne.ContainerDemo
    @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|987|1000|ContainerDemo|class|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|false
