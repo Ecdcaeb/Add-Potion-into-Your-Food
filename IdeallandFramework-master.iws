@@ -56,57 +56,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/PotionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="46" />
-              <folding>
-                <element signature="e#1568#1582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/Potion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="208" column="96" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="96" />
-              <folding>
-                <element signature="e#7092#7093#0" expanded="true" />
-                <element signature="e#7120#7121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state>
+              <caret selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="145" column="53" selection-start-line="145" selection-start-column="53" selection-end-line="145" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,12 +180,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionMath.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/ModGuiElementLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/NBTStrDef/IDLNBTUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModToolTipEvents.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang" />
         <option value="$PROJECT_DIR$/GenBlockJson.lua" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/models/block/blackstonebrick.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/recipes/emp_bitdo.json" />
@@ -216,7 +190,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" />
       </list>
     </option>
   </component>
@@ -253,150 +230,24 @@
             <path>
               <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
               <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
               <item name="run" type="462c0819:PsiDirectoryNode" />
               <item name="saves" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="potion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="potion" type="462c0819:PsiDirectoryNode" />
-              <item name="expOne" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -574,12 +425,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32819074" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32819074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31932774" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32819074" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31837308" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32819074" />
@@ -598,13 +449,6 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="317" column="16" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/proxy/ProxyBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -637,13 +481,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/network/protocols/PacketTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionMath.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/NBTStrDef/IDLNBTUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,16 +496,6 @@
           <folding>
             <element signature="e#10065#10066#0" expanded="true" />
             <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,18 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/GuiFlatPresets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-935">
@@ -759,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -818,9 +626,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/models/item/blackstonebrick.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/run/config/add_potion.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/run/SinglePlayer.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -869,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemPotion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -903,13 +701,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/PotionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="185">
+          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="46" />
+          <folding>
+            <element signature="e#1568#1582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="633" column="19" selection-start-line="633" selection-start-column="19" selection-end-line="633" selection-end-column="19" />
+          <folding>
+            <element signature="e#19667#19668#0" expanded="true" />
+            <element signature="e#19736#19737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="185" column="107" selection-start-line="185" selection-start-column="107" selection-end-line="185" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/config/add_potion.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -924,20 +764,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/PotionUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding>
-            <element signature="e#1568#1582#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state>
+          <caret selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="145" column="53" selection-start-line="145" selection-start-column="53" selection-end-line="145" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

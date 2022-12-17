@@ -139,12 +139,12 @@ public class GuiContainerDemo extends GuiContainer
                     if (ModConfig.entityElectricShakingConf.ap_showPotion_desc && !foodSlot.getStack().isEmpty()){
                         if (foodSlot.getStack().getTagCompound()!=null)
                             tooltip.add(I18n.format("com.hileb.ap.desc_1"));
-                        addPotionTooltip(foodSlot.getStack().copy(), tooltip, 1.0F);
+                        addPotionTooltip(foodSlot.getStack().copy(), tooltip, 0);
                         tooltip.add("");
                     }
                     if (!potionSlot.getStack().isEmpty()){
                         tooltip.add(I18n.format("com.hileb.ap.desc_2"));
-                        addPotionTooltip(potionSlot.getStack().copy(), tooltip, 1.0F);
+                        addPotionTooltip(potionSlot.getStack().copy(), tooltip,1);
 
                     }
 
@@ -154,7 +154,7 @@ public class GuiContainerDemo extends GuiContainer
         }
     }
     @SideOnly(Side.CLIENT)
-    public static void addPotionTooltip(ItemStack stackIn, List<String> lores, float durationFactor) {
+    public static void addPotionTooltip(ItemStack stackIn, List<String> lores, int Type) {
         List<String> s=new ArrayList<>();
         for(int i = 0; i< IDLNBTUtil.GetInt(stackIn,"PotionCountAP",0); i++){
             if (IDLNBTUtil.GetString(
@@ -177,8 +177,13 @@ public class GuiContainerDemo extends GuiContainer
                 }
             }
         }
+
         if (stackIn.hasTagCompound()){
-            if (PotionUtils.getPotionTypeFromNBT(stackIn.getTagCompound())!= null){
+            if ( Type==0){
+                if (Type==0)lores.add(I18n.format("com.hileb.ap.desc_3"));
+                addPotionTooltip(PotionUtils.getPotionTypeFromNBT(stackIn.getTagCompound()),lores,1.0f);
+            }
+            if ( Type==1 && PotionUtils.getPotionTypeFromNBT(stackIn.getTagCompound())!=PotionTypes.EMPTY){
                 addPotionTooltip(PotionUtils.getPotionTypeFromNBT(stackIn.getTagCompound()),lores,1.0f);
             }
         }

@@ -1,1 +1,7 @@
 tile.blackstonebrick.name=Potion Table
+com.hileb.ap.botton=Press this button to inject
+com.hileb.ap.desc_1=This item has been injected with the following potionEffects:
+com.hileb.ap.desc_2=The following potionEffects will be injected:
+com.hileb.ap.desc_3=This item has the following potionEffects(tooltip):
+ap.showPotion.desc=show potionEffects
+ap.showPotion.desc.tooltip=Whether to display the potionEffects of injected items,in Potion Table
