@@ -5,3 +5,6 @@ com.hileb.ap.desc_2=The following potionEffects will be injected:
 com.hileb.ap.desc_3=This item has the following potionEffects(tooltip):
 ap.showPotion.desc=show potionEffects
 ap.showPotion.desc.tooltip=Whether to display the potionEffects of injected items,in Potion Table
+
+ap.configMisc.desc=AP Misc
+ap.config.maxCountIs1.desc=ItemStackLimit = 1

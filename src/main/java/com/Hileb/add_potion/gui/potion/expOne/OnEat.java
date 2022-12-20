@@ -61,4 +61,13 @@ public class OnEat {
             }
         }
     }
+//    @SubscribeEvent
+//    public static void onMilkEaten(LivingEntityUseItemEvent.Finish event){
+//        if (!event.getEntityLiving().world.isRemote){
+//            if (event.getItem().getItem()==Items.MILK_BUCKET){
+//                event.setCanceled(true);
+//                event.getItem().shrink(1);
+//            }
+//        }
+//    }
 }

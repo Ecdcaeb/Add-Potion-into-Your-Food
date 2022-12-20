@@ -1,12 +1,9 @@
 package com.Hileb.add_potion.gui.potion.expOne;
 
 import com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil;
-import com.google.common.collect.Lists;
-import net.minecraft.init.Items;
 import net.minecraft.init.PotionTypes;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.PotionEffect;
 import net.minecraft.potion.PotionType;
 import net.minecraft.potion.PotionUtils;
 

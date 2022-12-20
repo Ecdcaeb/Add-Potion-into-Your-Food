@@ -1,6 +1,7 @@
 package com.Hileb.add_potion.gui.potion.expOne;
 
-import net.minecraft.command.CommandFunction;
+import com.Hileb.add_potion.IdlFramework;
+import com.Hileb.add_potion.init.ModConfig;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.Container;
@@ -9,9 +10,6 @@ import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
-import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
-import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
@@ -61,6 +59,11 @@ public class ContainerDemo extends Container {
             @Override
             public boolean isItemValid(@Nonnull ItemStack stack) {
                 return super.isItemValid(stack)&&(stack.getItem() instanceof ItemFood || stack.getItem()==Items.POTIONITEM);
+            }
+
+            @Override
+            public int getSlotStackLimit() {
+                return  ModConfig.entityElectricShakingConf.ap_maxIs1_desc?1:64;
             }
 
             @Override
@@ -123,7 +126,7 @@ public class ContainerDemo extends Container {
 
         if (slot == null || !slot.getHasStack())
         {
-            return null;
+            return ItemStack.EMPTY;
         }
 
         ItemStack newStack = slot.getStack(), oldStack = newStack.copy();
@@ -150,7 +153,7 @@ public class ContainerDemo extends Container {
 
         if (!isMerged)
         {
-            return null;
+            return ItemStack.EMPTY;
         }
 
         //---------------------
@@ -169,6 +172,4 @@ public class ContainerDemo extends Container {
 
         return oldStack;
     }
-
-    
 }

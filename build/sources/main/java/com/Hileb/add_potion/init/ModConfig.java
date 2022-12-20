@@ -23,8 +23,8 @@ public class ModConfig {
             }
         }
     }
-    @Config.LangKey("ap.showPotion.desc")
-    @Config.Comment("ap.showPotion.desc")
+    @Config.LangKey("ap.configMisc.desc")
+    @Config.Comment("ap.configMisc.desc")
     public static final EntityElectricShakingConf entityElectricShakingConf = new EntityElectricShakingConf();
 
     public static class EntityElectricShakingConf{
@@ -33,5 +33,10 @@ public class ModConfig {
         @Config.Comment("ap.showPotion.desc")
         @Config.RequiresMcRestart
         public boolean ap_showPotion_desc=false;
+
+        @Config.LangKey("ap.config.maxCountIs1.desc")
+        @Config.Comment("ap.config.maxCountIs1.desc")
+        @Config.RequiresMcRestart
+        public boolean ap_maxIs1_desc=false;
     }
 }

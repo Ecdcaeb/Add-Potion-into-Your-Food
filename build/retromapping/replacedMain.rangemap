@@ -1,7 +1,7 @@
 Unsupposrted library path: E:\project\MC MOD\Add Potion\IdeallandFramework-master\Add-Potion-into-Your-Food-1.12.2\build\classes\java\api
 Unsupposrted library path: E:\project\MC MOD\Add Potion\IdeallandFramework-master\Add-Potion-into-Your-Food-1.12.2\build\resources\api
 Symbol range map extraction starting
-Processing 51 files
+Processing 52 files
 startProcessing "com/Hileb/add_potion/Advancements/Advancementkeys.java" md5: 1e4537fc859234346bd612a93b86dc9c
 @|com/Hileb/add_potion/Advancements/Advancementkeys.java|8|41|com.Hileb.add_potion.Advancements|package|com.Hileb.add_potion.Advancements|(file)
 Class Start: com.Hileb.add_potion.Advancements.Advancementkeys
@@ -130,7 +130,7 @@ Class Start: com.Hileb.add_potion.Advancements.ModAdvancementsInit
 Class End  : com.Hileb.add_potion.Advancements.ModAdvancementsInit
 endProcessing "com/Hileb/add_potion/Advancements/ModAdvancementsInit.java"
 
-startProcessing "com/Hileb/add_potion/IdlFramework.java" md5: bcc03c3d03c01d24deb2838cf0e38838
+startProcessing "com/Hileb/add_potion/IdlFramework.java" md5: f349c7306c6a3c30bdce60c8f89197c2
 @|com/Hileb/add_potion/IdlFramework.java|8|28|com.Hileb.add_potion|package|com.Hileb.add_potion|(file)
 Class Start: com.Hileb.add_potion.IdlFramework
    @|com/Hileb/add_potion/IdlFramework.java|877|880|Mod|class|net.minecraftforge.fml.common.Mod|false
@@ -153,129 +153,120 @@ Class Start: com.Hileb.add_potion.IdlFramework
    @|com/Hileb/add_potion/IdlFramework.java|1198|1204|String|class|java.lang.String|false
    @|com/Hileb/add_potion/IdlFramework.java|1198|1204|String|class|java.lang.String|false
    @|com/Hileb/add_potion/IdlFramework.java|1205|1212|VERSION|field|com.Hileb.add_potion.IdlFramework|VERSION|
-   @|com/Hileb/add_potion/IdlFramework.java|1245|1251|Logger|class|org.apache.logging.log4j.Logger|false
-   @|com/Hileb/add_potion/IdlFramework.java|1245|1251|Logger|class|org.apache.logging.log4j.Logger|false
-   @|com/Hileb/add_potion/IdlFramework.java|1252|1258|logger|field|com.Hileb.add_potion.IdlFramework|logger|
-   @|com/Hileb/add_potion/IdlFramework.java|1295|1304|SHOW_WARN|field|com.Hileb.add_potion.IdlFramework|SHOW_WARN|
-   @|com/Hileb/add_potion/IdlFramework.java|1353|1365|IdlFramework|class|com.Hileb.add_potion.IdlFramework|false
-   @|com/Hileb/add_potion/IdlFramework.java|1321|1333|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
-   @|com/Hileb/add_potion/IdlFramework.java|1353|1365|IdlFramework|class|com.Hileb.add_potion.IdlFramework|false
-   @|com/Hileb/add_potion/IdlFramework.java|1366|1374|instance|field|com.Hileb.add_potion.IdlFramework|instance|
-   @|com/Hileb/add_potion/IdlFramework.java|1500|1509|ProxyBase|class|com.Hileb.add_potion.proxy.ProxyBase|false
-   @|com/Hileb/add_potion/IdlFramework.java|1384|1394|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
-   @|com/Hileb/add_potion/IdlFramework.java|1395|1405|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|com/Hileb/add_potion/IdlFramework.java|1408|1417|Reference|class|com.Hileb.add_potion.util.Reference|false
-   @|com/Hileb/add_potion/IdlFramework.java|1418|1436|CLIENT_PROXY_CLASS|field|com.Hileb.add_potion.util.Reference|CLIENT_PROXY_CLASS
-   @|com/Hileb/add_potion/IdlFramework.java|1438|1448|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|com/Hileb/add_potion/IdlFramework.java|1451|1460|Reference|class|com.Hileb.add_potion.util.Reference|false
-   @|com/Hileb/add_potion/IdlFramework.java|1461|1479|SERVER_PROXY_CLASS|field|com.Hileb.add_potion.util.Reference|SERVER_PROXY_CLASS
-   @|com/Hileb/add_potion/IdlFramework.java|1500|1509|ProxyBase|class|com.Hileb.add_potion.proxy.ProxyBase|false
-   @|com/Hileb/add_potion/IdlFramework.java|1510|1515|proxy|field|com.Hileb.add_potion.IdlFramework|proxy|
+   @|com/Hileb/add_potion/IdlFramework.java|1247|1253|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/add_potion/IdlFramework.java|1247|1253|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/Hileb/add_potion/IdlFramework.java|1254|1260|logger|field|com.Hileb.add_potion.IdlFramework|logger|
+   @|com/Hileb/add_potion/IdlFramework.java|1297|1306|SHOW_WARN|field|com.Hileb.add_potion.IdlFramework|SHOW_WARN|
+   @|com/Hileb/add_potion/IdlFramework.java|1355|1367|IdlFramework|class|com.Hileb.add_potion.IdlFramework|false
+   @|com/Hileb/add_potion/IdlFramework.java|1323|1335|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|com/Hileb/add_potion/IdlFramework.java|1355|1367|IdlFramework|class|com.Hileb.add_potion.IdlFramework|false
+   @|com/Hileb/add_potion/IdlFramework.java|1368|1376|instance|field|com.Hileb.add_potion.IdlFramework|instance|
+   @|com/Hileb/add_potion/IdlFramework.java|1502|1511|ProxyBase|class|com.Hileb.add_potion.proxy.ProxyBase|false
+   @|com/Hileb/add_potion/IdlFramework.java|1386|1396|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|com/Hileb/add_potion/IdlFramework.java|1397|1407|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/Hileb/add_potion/IdlFramework.java|1410|1419|Reference|class|com.Hileb.add_potion.util.Reference|false
+   @|com/Hileb/add_potion/IdlFramework.java|1420|1438|CLIENT_PROXY_CLASS|field|com.Hileb.add_potion.util.Reference|CLIENT_PROXY_CLASS
+   @|com/Hileb/add_potion/IdlFramework.java|1440|1450|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/Hileb/add_potion/IdlFramework.java|1453|1462|Reference|class|com.Hileb.add_potion.util.Reference|false
+   @|com/Hileb/add_potion/IdlFramework.java|1463|1481|SERVER_PROXY_CLASS|field|com.Hileb.add_potion.util.Reference|SERVER_PROXY_CLASS
+   @|com/Hileb/add_potion/IdlFramework.java|1502|1511|ProxyBase|class|com.Hileb.add_potion.proxy.ProxyBase|false
+   @|com/Hileb/add_potion/IdlFramework.java|1512|1517|proxy|field|com.Hileb.add_potion.IdlFramework|proxy|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|1589|1594|event|param|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com/Hileb/add_potion/IdlFramework.java|1525|1537|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|1555|1562|preInit|method|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|1563|1588|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
-      @|com/Hileb/add_potion/IdlFramework.java|1607|1613|logger|field|com.Hileb.add_potion.IdlFramework|logger
-      @|com/Hileb/add_potion/IdlFramework.java|1616|1621|event|param|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com/Hileb/add_potion/IdlFramework.java|1622|1631|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
-      @|com/Hileb/add_potion/IdlFramework.java|1646|1661|RegistryHandler|class|com.Hileb.add_potion.init.RegistryHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|1662|1679|preInitRegistries|method|com.Hileb.add_potion.init.RegistryHandler|preInitRegistries|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|1680|1685|event|param|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com/Hileb/add_potion/IdlFramework.java|1697|1711|NetworkHandler|class|com.Hileb.add_potion.network.NetworkHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|1712|1716|init|method|com.Hileb.add_potion.network.NetworkHandler|init|()V
+      @|com/Hileb/add_potion/IdlFramework.java|1591|1596|event|param|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|1527|1539|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|1557|1564|preInit|method|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/Hileb/add_potion/IdlFramework.java|1565|1590|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|com/Hileb/add_potion/IdlFramework.java|1609|1615|logger|field|com.Hileb.add_potion.IdlFramework|logger
+      @|com/Hileb/add_potion/IdlFramework.java|1618|1623|event|param|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|1624|1633|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+      @|com/Hileb/add_potion/IdlFramework.java|1648|1663|RegistryHandler|class|com.Hileb.add_potion.init.RegistryHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|1664|1681|preInitRegistries|method|com.Hileb.add_potion.init.RegistryHandler|preInitRegistries|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/Hileb/add_potion/IdlFramework.java|1682|1687|event|param|com.Hileb.add_potion.IdlFramework|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|1699|1713|NetworkHandler|class|com.Hileb.add_potion.network.NetworkHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|1714|1718|init|method|com.Hileb.add_potion.network.NetworkHandler|init|()V
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|1840|1845|event|param|com.Hileb.add_potion.IdlFramework|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|com/Hileb/add_potion/IdlFramework.java|1775|1787|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|1812|1816|Init|method|com.Hileb.add_potion.IdlFramework|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|1817|1839|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
-      @|com/Hileb/add_potion/IdlFramework.java|1858|1868|ModRecipes|class|com.Hileb.add_potion.init.ModRecipes|false
-      @|com/Hileb/add_potion/IdlFramework.java|1869|1873|Init|method|com.Hileb.add_potion.init.ModRecipes|Init|()V
-      @|com/Hileb/add_potion/IdlFramework.java|1886|1904|RegisterTileEntity|method|com.Hileb.add_potion.IdlFramework|RegisterTileEntity|()V
-      @|com/Hileb/add_potion/IdlFramework.java|1917|1931|initRegistries|method|com.Hileb.add_potion.init.RegistryHandler|initRegistries|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|1932|1937|event|param|com.Hileb.add_potion.IdlFramework|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|com/Hileb/add_potion/IdlFramework.java|1953|1972|ModGuiElementLoader|class|com.Hileb.add_potion.gui.ModGuiElementLoader|false
-      @|com/Hileb/add_potion/IdlFramework.java|1981|1991|LogWarning|method|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2031|2036|MODID|field|com.Hileb.add_potion.IdlFramework|MODID
+      @|com/Hileb/add_potion/IdlFramework.java|1804|1809|event|param|com.Hileb.add_potion.IdlFramework|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|1739|1751|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|1776|1780|Init|method|com.Hileb.add_potion.IdlFramework|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/Hileb/add_potion/IdlFramework.java|1781|1803|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|com/Hileb/add_potion/IdlFramework.java|1822|1832|ModRecipes|class|com.Hileb.add_potion.init.ModRecipes|false
+      @|com/Hileb/add_potion/IdlFramework.java|1833|1837|Init|method|com.Hileb.add_potion.init.ModRecipes|Init|()V
+      @|com/Hileb/add_potion/IdlFramework.java|1850|1868|RegisterTileEntity|method|com.Hileb.add_potion.IdlFramework|RegisterTileEntity|()V
+      @|com/Hileb/add_potion/IdlFramework.java|1881|1895|initRegistries|method|com.Hileb.add_potion.init.RegistryHandler|initRegistries|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/Hileb/add_potion/IdlFramework.java|1896|1901|event|param|com.Hileb.add_potion.IdlFramework|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|1917|1936|ModGuiElementLoader|class|com.Hileb.add_potion.gui.ModGuiElementLoader|false
+      @|com/Hileb/add_potion/IdlFramework.java|1945|1955|LogWarning|method|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/add_potion/IdlFramework.java|1995|2000|MODID|field|com.Hileb.add_potion.IdlFramework|MODID
    Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2119|2124|event|param|com.Hileb.add_potion.IdlFramework|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|com/Hileb/add_potion/IdlFramework.java|2053|2065|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|2083|2091|postInit|method|com.Hileb.add_potion.IdlFramework|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2092|2118|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
-      @|com/Hileb/add_potion/IdlFramework.java|2137|2149|TrashTalking|method|com.Hileb.add_potion.IdlFramework|TrashTalking|()V
-      @|com/Hileb/add_potion/IdlFramework.java|2162|2177|RegistryHandler|class|com.Hileb.add_potion.init.RegistryHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|2178|2189|postInitReg|method|com.Hileb.add_potion.init.RegistryHandler|postInitReg|()V
+      @|com/Hileb/add_potion/IdlFramework.java|2083|2088|event|param|com.Hileb.add_potion.IdlFramework|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|2017|2029|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|2047|2055|postInit|method|com.Hileb.add_potion.IdlFramework|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2056|2082|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+      @|com/Hileb/add_potion/IdlFramework.java|2101|2113|TrashTalking|method|com.Hileb.add_potion.IdlFramework|TrashTalking|()V
+      @|com/Hileb/add_potion/IdlFramework.java|2126|2141|RegistryHandler|class|com.Hileb.add_potion.init.RegistryHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|2142|2153|postInitReg|method|com.Hileb.add_potion.init.RegistryHandler|postInitReg|()V
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
    Method Start: serverInit(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2279|2284|event|param|com.Hileb.add_potion.IdlFramework|serverInit|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
-      @|com/Hileb/add_potion/IdlFramework.java|2208|2220|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|2245|2255|serverInit|method|com.Hileb.add_potion.IdlFramework|serverInit|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2256|2278|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
-      @|com/Hileb/add_potion/IdlFramework.java|2297|2312|RegistryHandler|class|com.Hileb.add_potion.init.RegistryHandler|false
-      @|com/Hileb/add_potion/IdlFramework.java|2313|2329|serverRegistries|method|com.Hileb.add_potion.init.RegistryHandler|serverRegistries|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2330|2335|event|param|com.Hileb.add_potion.IdlFramework|serverInit|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|2243|2248|event|param|com.Hileb.add_potion.IdlFramework|serverInit|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com/Hileb/add_potion/IdlFramework.java|2172|2184|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|2209|2219|serverInit|method|com.Hileb.add_potion.IdlFramework|serverInit|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2220|2242|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+      @|com/Hileb/add_potion/IdlFramework.java|2261|2276|RegistryHandler|class|com.Hileb.add_potion.init.RegistryHandler|false
+      @|com/Hileb/add_potion/IdlFramework.java|2277|2293|serverRegistries|method|com.Hileb.add_potion.init.RegistryHandler|serverRegistries|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2294|2299|event|param|com.Hileb.add_potion.IdlFramework|serverInit|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
    Method End: serverInit(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
    Method Start: TrashTalking()V
-      @|com/Hileb/add_potion/IdlFramework.java|2367|2379|TrashTalking|method|com.Hileb.add_potion.IdlFramework|TrashTalking|()V
+      @|com/Hileb/add_potion/IdlFramework.java|2331|2343|TrashTalking|method|com.Hileb.add_potion.IdlFramework|TrashTalking|()V
    Method End: TrashTalking()V
    Method Start: RegisterTileEntity()V
-      @|com/Hileb/add_potion/IdlFramework.java|2418|2436|RegisterTileEntity|method|com.Hileb.add_potion.IdlFramework|RegisterTileEntity|()V
+      @|com/Hileb/add_potion/IdlFramework.java|2382|2400|RegisterTileEntity|method|com.Hileb.add_potion.IdlFramework|RegisterTileEntity|()V
    Method End: RegisterTileEntity()V
    Method Start: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2492|2495|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/add_potion/IdlFramework.java|2507|2511|args|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-      @|com/Hileb/add_potion/IdlFramework.java|2474|2484|LogWarning|method|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2485|2491|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|2497|2503|Object|class|java.lang.Object|false
-      @|com/Hileb/add_potion/IdlFramework.java|2528|2537|SHOW_WARN|field|com.Hileb.add_potion.IdlFramework|SHOW_WARN
-      @|com/Hileb/add_potion/IdlFramework.java|2554|2560|logger|field|com.Hileb.add_potion.IdlFramework|logger
-      @|com/Hileb/add_potion/IdlFramework.java|2561|2565|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2566|2572|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|2573|2579|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/add_potion/IdlFramework.java|2580|2583|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/add_potion/IdlFramework.java|2585|2589|args|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/add_potion/IdlFramework.java|2456|2459|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2471|2475|args|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/add_potion/IdlFramework.java|2438|2448|LogWarning|method|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2449|2455|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/IdlFramework.java|2461|2467|Object|class|java.lang.Object|false
+      @|com/Hileb/add_potion/IdlFramework.java|2492|2501|SHOW_WARN|field|com.Hileb.add_potion.IdlFramework|SHOW_WARN
+      @|com/Hileb/add_potion/IdlFramework.java|2518|2524|logger|field|com.Hileb.add_potion.IdlFramework|logger
+      @|com/Hileb/add_potion/IdlFramework.java|2525|2529|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2530|2536|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/IdlFramework.java|2537|2543|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/add_potion/IdlFramework.java|2544|2547|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2549|2553|args|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
    Method End: LogWarning(Ljava/lang/String;[Ljava/lang/Object;)V
    Method Start: LogWarning(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2655|2658|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
-      @|com/Hileb/add_potion/IdlFramework.java|2637|2647|LogWarning|method|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2648|2654|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|2675|2684|SHOW_WARN|field|com.Hileb.add_potion.IdlFramework|SHOW_WARN
-      @|com/Hileb/add_potion/IdlFramework.java|2701|2707|logger|field|com.Hileb.add_potion.IdlFramework|logger
-      @|com/Hileb/add_potion/IdlFramework.java|2708|2712|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2713|2716|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2619|2622|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2601|2611|LogWarning|method|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2612|2618|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/IdlFramework.java|2639|2648|SHOW_WARN|field|com.Hileb.add_potion.IdlFramework|SHOW_WARN
+      @|com/Hileb/add_potion/IdlFramework.java|2665|2671|logger|field|com.Hileb.add_potion.IdlFramework|logger
+      @|com/Hileb/add_potion/IdlFramework.java|2672|2676|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2677|2680|str|param|com.Hileb.add_potion.IdlFramework|LogWarning|(Ljava/lang/String;)V|str|0
    Method End: LogWarning(Ljava/lang/String;)V
    Method Start: Log(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2774|2777|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;)V|str|0
-      @|com/Hileb/add_potion/IdlFramework.java|2763|2766|Log|method|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2767|2773|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|2848|2854|logger|field|com.Hileb.add_potion.IdlFramework|logger
-      @|com/Hileb/add_potion/IdlFramework.java|2855|2859|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2860|2863|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2738|2741|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2727|2730|Log|method|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2731|2737|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/IdlFramework.java|2754|2760|logger|field|com.Hileb.add_potion.IdlFramework|logger
+      @|com/Hileb/add_potion/IdlFramework.java|2761|2765|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2766|2769|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;)V|str|0
    Method End: Log(Ljava/lang/String;)V
    Method Start: Log(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2923|2926|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/add_potion/IdlFramework.java|2938|2942|args|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
-      @|com/Hileb/add_potion/IdlFramework.java|2912|2915|Log|method|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V
-      @|com/Hileb/add_potion/IdlFramework.java|2916|2922|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|2928|2934|Object|class|java.lang.Object|false
-      @|com/Hileb/add_potion/IdlFramework.java|3013|3019|logger|field|com.Hileb.add_potion.IdlFramework|logger
-      @|com/Hileb/add_potion/IdlFramework.java|3020|3024|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
-      @|com/Hileb/add_potion/IdlFramework.java|3025|3031|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|3032|3038|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/add_potion/IdlFramework.java|3039|3042|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
-      @|com/Hileb/add_potion/IdlFramework.java|3044|3048|args|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/add_potion/IdlFramework.java|2816|2819|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2831|2835|args|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
+      @|com/Hileb/add_potion/IdlFramework.java|2805|2808|Log|method|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2809|2815|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/IdlFramework.java|2821|2827|Object|class|java.lang.Object|false
+      @|com/Hileb/add_potion/IdlFramework.java|2848|2854|logger|field|com.Hileb.add_potion.IdlFramework|logger
+      @|com/Hileb/add_potion/IdlFramework.java|2855|2859|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/Hileb/add_potion/IdlFramework.java|2860|2866|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/IdlFramework.java|2867|2873|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/add_potion/IdlFramework.java|2874|2877|str|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|str|0
+      @|com/Hileb/add_potion/IdlFramework.java|2879|2883|args|param|com.Hileb.add_potion.IdlFramework|Log|(Ljava/lang/String;[Ljava/lang/Object;)V|args|1
    Method End: Log(Ljava/lang/String;[Ljava/lang/Object;)V
-   Method Start: after_mod(Ljava/lang/String;)Ljava/lang/String;
-      @|com/Hileb/add_potion/IdlFramework.java|3115|3120|modid|param|com.Hileb.add_potion.IdlFramework|after_mod|(Ljava/lang/String;)Ljava/lang/String;|modid|0
-      @|com/Hileb/add_potion/IdlFramework.java|3091|3097|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|3098|3107|after_mod|method|com.Hileb.add_potion.IdlFramework|after_mod|(Ljava/lang/String;)Ljava/lang/String;
-      @|com/Hileb/add_potion/IdlFramework.java|3108|3114|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|3139|3145|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/IdlFramework.java|3146|3152|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/add_potion/IdlFramework.java|3166|3171|modid|param|com.Hileb.add_potion.IdlFramework|after_mod|(Ljava/lang/String;)Ljava/lang/String;|modid|0
-   Method End: after_mod(Ljava/lang/String;)Ljava/lang/String;
 Class End  : com.Hileb.add_potion.IdlFramework
 endProcessing "com/Hileb/add_potion/IdlFramework.java"
 
@@ -474,197 +465,208 @@ Class Start: com.Hileb.add_potion.gui.ModGuiElementLoader
 Class End  : com.Hileb.add_potion.gui.ModGuiElementLoader
 endProcessing "com/Hileb/add_potion/gui/ModGuiElementLoader.java"
 
-startProcessing "com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" md5: 12c7409e1584da525cb8a12bdeb6420c
+startProcessing "com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" md5: bfa0dc064579353ba0eb346bb07ccbda
 @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|8|46|com.Hileb.add_potion.gui.potion.expOne|package|com.Hileb.add_potion.gui.potion.expOne|(file)
 Class Start: com.Hileb.add_potion.gui.potion.expOne.ContainerDemo
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|987|1000|ContainerDemo|class|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1009|1018|Container|class|net.minecraft.inventory.Container|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1036|1052|ItemStackHandler|class|net.minecraftforge.items.ItemStackHandler|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1036|1052|ItemStackHandler|class|net.minecraftforge.items.ItemStackHandler|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1053|1058|items|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|items|
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1065|1081|ItemStackHandler|class|net.minecraftforge.items.ItemStackHandler|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1103|1107|Slot|class|net.minecraft.inventory.Slot|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1103|1107|Slot|class|net.minecraft.inventory.Slot|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1108|1118|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot|
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1135|1139|Slot|class|net.minecraft.inventory.Slot|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1135|1139|Slot|class|net.minecraft.inventory.Slot|false
-   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1140|1148|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot|
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|814|827|ContainerDemo|class|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|836|845|Container|class|net.minecraft.inventory.Container|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|863|879|ItemStackHandler|class|net.minecraftforge.items.ItemStackHandler|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|863|879|ItemStackHandler|class|net.minecraftforge.items.ItemStackHandler|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|880|885|items|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|items|
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|892|908|ItemStackHandler|class|net.minecraftforge.items.ItemStackHandler|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|930|934|Slot|class|net.minecraft.inventory.Slot|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|930|934|Slot|class|net.minecraft.inventory.Slot|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|935|945|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot|
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|962|966|Slot|class|net.minecraft.inventory.Slot|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|962|966|Slot|class|net.minecraft.inventory.Slot|false
+   @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|967|975|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot|
    Method Start: omessage(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1212|1217|event|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|omessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V|event|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1158|1172|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1190|1198|omessage|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|omessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1199|1211|ProcessEvent|class|com.Hileb.add_potion.gui.potion.expOne.ProcessEvent|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1229|1238|onMessage|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1239|1244|event|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|omessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V|event|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1245|1252|message|field|com.Hileb.add_potion.gui.potion.expOne.ProcessEvent|message
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1039|1044|event|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|omessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V|event|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|985|999|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1017|1025|omessage|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|omessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1026|1038|ProcessEvent|class|com.Hileb.add_potion.gui.potion.expOne.ProcessEvent|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1056|1065|onMessage|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1066|1071|event|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|omessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V|event|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1072|1079|message|field|com.Hileb.add_potion.gui.potion.expOne.ProcessEvent|message
    Method End: omessage(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessEvent;)V
    Method Start: onMessage(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1314|1321|message|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;|message|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1274|1288|ProcessMessage|class|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1289|1298|onMessage|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1299|1313|ProcessMessage|class|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1337|1344|message|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;|message|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1345|1352|message|field|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|message
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1353|1359|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1360|1374|ProcessMessage|class|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1375|1382|PROCESS|field|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|PROCESS
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1385|1398|PotionProcess|class|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1399|1406|process|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1407|1417|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1418|1426|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1446|1453|message|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;|message|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1141|1148|message|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;|message|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1101|1115|ProcessMessage|class|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1116|1125|onMessage|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1126|1140|ProcessMessage|class|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1164|1171|message|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;|message|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1172|1179|message|field|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|message
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1180|1186|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1187|1201|ProcessMessage|class|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1202|1209|PROCESS|field|com.Hileb.add_potion.gui.potion.expOne.ProcessMessage|PROCESS
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1212|1225|PotionProcess|class|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1226|1233|process|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1234|1244|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1245|1253|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1273|1280|message|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onMessage|(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;|message|0
    Method End: onMessage(Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;)Lcom/Hileb/add_potion/gui/potion/expOne/ProcessMessage;
    Method Start: ContainerDemo(Lnet/minecraft/entity/player/EntityPlayer;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1507|1513|player|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1480|1493|ContainerDemo|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1494|1506|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1549|1563|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1564|1573|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1574|1582|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1606|1624|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1630|1640|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1647|1662|SlotItemHandler|class|net.minecraftforge.items.SlotItemHandler|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1663|1668|items|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|items
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1334|1340|player|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1307|1320|ContainerDemo|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1321|1333|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1376|1390|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1391|1400|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1401|1409|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1433|1451|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1457|1467|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1474|1489|SlotItemHandler|class|net.minecraftforge.items.SlotItemHandler|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1490|1495|items|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|items
       Anon Class Start: com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1
          Method Start: isItemValid(Lnet/minecraft/item/ItemStack;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1764|1769|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1705|1713|Override|class|java.lang.Override|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1742|1753|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1754|1763|ItemStack|class|net.minecraft.item.ItemStack|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1816|1827|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1828|1833|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1837|1842|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1843|1850|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1854|1859|Items|class|net.minecraft.init.Items|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1860|1870|POTIONITEM|field|net.minecraft.init.Items|POTIONITEM
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1591|1596|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1532|1540|Override|class|java.lang.Override|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1569|1580|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1581|1590|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1643|1654|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1655|1660|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1664|1669|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1670|1677|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1681|1686|Items|class|net.minecraft.init.Items|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1687|1697|POTIONITEM|field|net.minecraft.init.Items|POTIONITEM
          Method End: isItemValid(Lnet/minecraft/item/ItemStack;)Z
          Method Start: canTakeStack(Lnet/minecraft/entity/player/EntityPlayer;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1965|1973|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z|playerIn|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1902|1910|Override|class|java.lang.Override|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1939|1951|canTakeStack|method|net.minecraft.inventory.Slot|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1952|1964|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1792|1800|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z|playerIn|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1729|1737|Override|class|java.lang.Override|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1766|1778|canTakeStack|method|net.minecraft.inventory.Slot|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1779|1791|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
          Method End: canTakeStack(Lnet/minecraft/entity/player/EntityPlayer;)Z
       Anon Class End: com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2079|2097|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2103|2111|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2117|2132|SlotItemHandler|class|net.minecraftforge.items.SlotItemHandler|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2133|2138|items|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|items
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1906|1924|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1930|1938|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1944|1959|SlotItemHandler|class|net.minecraftforge.items.SlotItemHandler|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|1960|1965|items|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|items
       Anon Class Start: com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2
          Method Start: isItemValid(Lnet/minecraft/item/ItemStack;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2244|2249|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2176|2184|Override|class|java.lang.Override|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2213|2224|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2226|2233|Nonnull|class|javax.annotation.Nonnull|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2234|2243|ItemStack|class|net.minecraft.item.ItemStack|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2283|2294|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2295|2300|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2304|2309|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2310|2317|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2331|2339|ItemFood|class|net.minecraft.item.ItemFood|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2343|2348|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2349|2356|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2360|2365|Items|class|net.minecraft.init.Items|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2366|2376|POTIONITEM|field|net.minecraft.init.Items|POTIONITEM
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2071|2076|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2003|2011|Override|class|java.lang.Override|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2040|2051|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2053|2060|Nonnull|class|javax.annotation.Nonnull|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2061|2070|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2110|2121|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2122|2127|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2131|2136|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2137|2144|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2158|2166|ItemFood|class|net.minecraft.item.ItemFood|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2170|2175|stack|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2176|2183|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2187|2192|Items|class|net.minecraft.init.Items|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2193|2203|POTIONITEM|field|net.minecraft.init.Items|POTIONITEM
          Method End: isItemValid(Lnet/minecraft/item/ItemStack;)Z
+         Method Start: getSlotStackLimit()I
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2237|2245|Override|class|java.lang.Override|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2270|2287|getSlotStackLimit|method|net.minecraft.inventory.Slot|getSlotStackLimit|()I
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2317|2326|ModConfig|class|com.Hileb.add_potion.init.ModConfig|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2327|2352|entityElectricShakingConf|field|com.Hileb.add_potion.init.ModConfig|entityElectricShakingConf
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2353|2367|ap_maxIs1_desc|field|com.Hileb.add_potion.init.ModConfig.EntityElectricShakingConf|ap_maxIs1_desc
+         Method End: getSlotStackLimit()I
          Method Start: canTakeStack(Lnet/minecraft/entity/player/EntityPlayer;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2473|2481|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z|playerIn|0
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2410|2418|Override|class|java.lang.Override|false
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2447|2459|canTakeStack|method|net.minecraft.inventory.Slot|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z
-            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2460|2472|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2468|2476|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z|playerIn|0
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2405|2413|Override|class|java.lang.Override|false
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2442|2454|canTakeStack|method|net.minecraft.inventory.Slot|canTakeStack|(Lnet/minecraft/entity/player/EntityPlayer;)Z
+            @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2455|2467|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
          Method End: canTakeStack(Lnet/minecraft/entity/player/EntityPlayer;)Z
       Anon Class End: com.Hileb.add_potion.gui.potion.expOne.ContainerDemo$2
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2684|2702|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2707|2711|Slot|class|net.minecraft.inventory.Slot|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2712|2718|player|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2719|2728|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2866|2884|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2889|2893|Slot|class|net.minecraft.inventory.Slot|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2894|2900|player|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2901|2910|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2679|2697|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2702|2706|Slot|class|net.minecraft.inventory.Slot|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2707|2713|player|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2714|2723|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2861|2879|addSlotToContainer|method|net.minecraft.inventory.Container|addSlotToContainer|(Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2884|2888|Slot|class|net.minecraft.inventory.Slot|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2889|2895|player|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|ContainerDemo|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2896|2905|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
    Method End: ContainerDemo(Lnet/minecraft/entity/player/EntityPlayer;)V
    Method Start: getPotionSlot()Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2969|2973|Slot|class|net.minecraft.inventory.Slot|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2974|2987|getPotionSlot|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|getPotionSlot|()Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2997|3007|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2964|2968|Slot|class|net.minecraft.inventory.Slot|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2969|2982|getPotionSlot|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|getPotionSlot|()Lnet/minecraft/inventory/Slot;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|2992|3002|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
    Method End: getPotionSlot()Lnet/minecraft/inventory/Slot;
    Method Start: getFoodSlot()Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3023|3027|Slot|class|net.minecraft.inventory.Slot|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3028|3039|getFoodSlot|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|getFoodSlot|()Lnet/minecraft/inventory/Slot;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3049|3057|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3018|3022|Slot|class|net.minecraft.inventory.Slot|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3023|3034|getFoodSlot|method|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|getFoodSlot|()Lnet/minecraft/inventory/Slot;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3044|3052|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
    Method End: getFoodSlot()Lnet/minecraft/inventory/Slot;
    Method Start: canInteractWith(Lnet/minecraft/entity/player/EntityPlayer;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3128|3136|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|canInteractWith|(Lnet/minecraft/entity/player/EntityPlayer;)Z|playerIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3070|3078|Override|class|java.lang.Override|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3099|3114|canInteractWith|method|net.minecraft.inventory.Container|canInteractWith|(Lnet/minecraft/entity/player/EntityPlayer;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3115|3127|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3123|3131|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|canInteractWith|(Lnet/minecraft/entity/player/EntityPlayer;)Z|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3065|3073|Override|class|java.lang.Override|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3094|3109|canInteractWith|method|net.minecraft.inventory.Container|canInteractWith|(Lnet/minecraft/entity/player/EntityPlayer;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3110|3122|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
    Method End: canInteractWith(Lnet/minecraft/entity/player/EntityPlayer;)Z
    Method Start: onContainerClosed(Lnet/minecraft/entity/player/EntityPlayer;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3234|3242|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3177|3185|Override|class|java.lang.Override|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3203|3220|onContainerClosed|method|net.minecraft.inventory.Container|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3221|3233|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3266|3283|onContainerClosed|method|net.minecraft.inventory.Container|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3284|3292|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3310|3318|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3319|3332|isServerWorld|method|net.minecraft.entity.EntityLivingBase|isServerWorld|()Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3360|3369|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3387|3397|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3398|3406|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3440|3449|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3450|3455|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3489|3497|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3498|3521|addItemStackToInventory|method|net.minecraft.entity.player.EntityPlayer|addItemStackToInventory|(Lnet/minecraft/item/ItemStack;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3556|3566|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3567|3575|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3576|3585|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3586|3591|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3622|3631|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3652|3660|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3661|3669|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3706|3715|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3716|3721|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3755|3763|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3764|3787|addItemStackToInventory|method|net.minecraft.entity.player.EntityPlayer|addItemStackToInventory|(Lnet/minecraft/item/ItemStack;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3825|3833|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3834|3842|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3843|3852|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3853|3858|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3229|3237|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3172|3180|Override|class|java.lang.Override|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3198|3215|onContainerClosed|method|net.minecraft.inventory.Container|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3216|3228|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3261|3278|onContainerClosed|method|net.minecraft.inventory.Container|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3279|3287|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3305|3313|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3314|3327|isServerWorld|method|net.minecraft.entity.EntityLivingBase|isServerWorld|()Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3355|3364|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3382|3392|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3393|3401|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3435|3444|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3445|3450|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3484|3492|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3493|3516|addItemStackToInventory|method|net.minecraft.entity.player.EntityPlayer|addItemStackToInventory|(Lnet/minecraft/item/ItemStack;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3551|3561|potionSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|potionSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3562|3570|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3571|3580|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3581|3586|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3617|3626|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3647|3655|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3656|3664|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3701|3710|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3711|3716|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3750|3758|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3759|3782|addItemStackToInventory|method|net.minecraft.entity.player.EntityPlayer|addItemStackToInventory|(Lnet/minecraft/item/ItemStack;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3820|3828|foodSlot|field|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|foodSlot
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3829|3837|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3838|3847|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3848|3853|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
    Method End: onContainerClosed(Lnet/minecraft/entity/player/EntityPlayer;)V
    Method Start: transferStackInSlot(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3966|3974|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|playerIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3980|3985|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3902|3910|Override|class|java.lang.Override|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3923|3932|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3933|3952|transferStackInSlot|method|net.minecraft.inventory.Container|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3953|3965|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4003|4007|Slot|class|net.minecraft.inventory.Slot|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4015|4029|inventorySlots|field|net.minecraft.inventory.Container|inventorySlots
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4030|4033|get|method|java.util.List|get|(I)Ljava/lang/Object;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4034|4039|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4079|4090|getHasStack|method|net.minecraft.inventory.Slot|getHasStack|()Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4153|4162|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4179|4187|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4211|4215|copy|method|net.minecraft.item.ItemStack|copy|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4304|4309|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4318|4323|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4365|4379|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4433|4438|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4447|4452|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4494|4508|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4556|4570|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4618|4632|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4688|4693|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4703|4708|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4751|4765|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4813|4827|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4875|4889|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5061|5069|getCount|method|net.minecraft.item.ItemStack|getCount|()I
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5107|5115|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5116|5125|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5126|5131|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5188|5201|onSlotChanged|method|net.minecraft.inventory.Slot|onSlotChanged|()V
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5232|5238|onTake|method|net.minecraft.inventory.Slot|onTake|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5239|5247|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3961|3969|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|playerIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3975|3980|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3897|3905|Override|class|java.lang.Override|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3918|3927|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3928|3947|transferStackInSlot|method|net.minecraft.inventory.Container|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3948|3960|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|3998|4002|Slot|class|net.minecraft.inventory.Slot|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4010|4024|inventorySlots|field|net.minecraft.inventory.Container|inventorySlots
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4025|4028|get|method|java.util.List|get|(I)Ljava/lang/Object;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4029|4034|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4074|4085|getHasStack|method|net.minecraft.inventory.Slot|getHasStack|()Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4120|4129|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4130|4135|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4159|4168|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4185|4193|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4217|4221|copy|method|net.minecraft.item.ItemStack|copy|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4310|4315|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4324|4329|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4371|4385|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4439|4444|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4453|4458|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4500|4514|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4562|4576|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4624|4638|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4694|4699|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4709|4714|index|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|index|1
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4757|4771|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4819|4833|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4881|4895|mergeItemStack|method|net.minecraft.inventory.Container|mergeItemStack|(Lnet/minecraft/item/ItemStack;IIZ)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4989|4998|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|4999|5004|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5078|5086|getCount|method|net.minecraft.item.ItemStack|getCount|()I
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5124|5132|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5133|5142|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5143|5148|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5205|5218|onSlotChanged|method|net.minecraft.inventory.Slot|onSlotChanged|()V
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5249|5255|onTake|method|net.minecraft.inventory.Slot|onTake|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java|5256|5264|playerIn|param|com.Hileb.add_potion.gui.potion.expOne.ContainerDemo|transferStackInSlot|(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;|playerIn|0
    Method End: transferStackInSlot(Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;
 Class End  : com.Hileb.add_potion.gui.potion.expOne.ContainerDemo
 endProcessing "com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java"
@@ -1065,7 +1067,7 @@ Class Start: com.Hileb.add_potion.gui.potion.expOne.GuiContainerDemo
 Class End  : com.Hileb.add_potion.gui.potion.expOne.GuiContainerDemo
 endProcessing "com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java"
 
-startProcessing "com/Hileb/add_potion/gui/potion/expOne/OnEat.java" md5: 93a40a5ed9d067e03648499a38e1c18b
+startProcessing "com/Hileb/add_potion/gui/potion/expOne/OnEat.java" md5: 7fe820a22f7b14ad090abf4235733bbd
 @|com/Hileb/add_potion/gui/potion/expOne/OnEat.java|8|46|com.Hileb.add_potion.gui.potion.expOne|package|com.Hileb.add_potion.gui.potion.expOne|(file)
 Class Start: com.Hileb.add_potion.gui.potion.expOne.OnEat
    @|com/Hileb/add_potion/gui/potion/expOne/OnEat.java|701|723|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
@@ -1137,110 +1139,110 @@ Class Start: com.Hileb.add_potion.gui.potion.expOne.OnEat
 Class End  : com.Hileb.add_potion.gui.potion.expOne.OnEat
 endProcessing "com/Hileb/add_potion/gui/potion/expOne/OnEat.java"
 
-startProcessing "com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java" md5: 0ad28d70cbe1148d93d089c9ba4dcf7d
+startProcessing "com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java" md5: 4d6b4fbbaf03fa2ce28a3908f66d8910
 @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|8|46|com.Hileb.add_potion.gui.potion.expOne|package|com.Hileb.add_potion.gui.potion.expOne|(file)
 Class Start: com.Hileb.add_potion.gui.potion.expOne.PotionProcess
-   @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|494|507|PotionProcess|class|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|false
+   @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|376|389|PotionProcess|class|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|false
    Method Start: process(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|547|553|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|560|564|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|534|541|process|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|542|546|Slot|class|net.minecraft.inventory.Slot|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|555|559|Slot|class|net.minecraft.inventory.Slot|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|580|586|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|587|595|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|598|612|hasTagCompound|method|net.minecraft.item.ItemStack|hasTagCompound|()Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|634|640|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|641|649|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|652|666|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|669|675|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|689|695|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|696|704|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|707|721|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|724|730|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|767|771|List|class|java.util.List|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|772|782|PotionType|class|net.minecraft.potion.PotionType|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|794|803|ArrayList|class|java.util.ArrayList|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|830|841|PotionUtils|class|net.minecraft.potion.PotionUtils|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|842|859|getPotionFromItem|method|net.minecraft.potion.PotionUtils|getPotionFromItem|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/potion/PotionType;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|860|866|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|867|875|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|880|891|PotionTypes|class|net.minecraft.init.PotionTypes|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|892|897|EMPTY|field|net.minecraft.init.PotionTypes|EMPTY
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|904|907|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|908|919|PotionUtils|class|net.minecraft.potion.PotionUtils|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|920|937|getPotionFromItem|method|net.minecraft.potion.PotionUtils|getPotionFromItem|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/potion/PotionType;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|429|435|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|442|446|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|416|423|process|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|424|428|Slot|class|net.minecraft.inventory.Slot|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|437|441|Slot|class|net.minecraft.inventory.Slot|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|462|468|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|469|477|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|480|494|hasTagCompound|method|net.minecraft.item.ItemStack|hasTagCompound|()Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|516|522|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|523|531|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|534|548|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|551|557|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|571|577|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|578|586|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|589|603|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|606|612|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|649|653|List|class|java.util.List|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|654|664|PotionType|class|net.minecraft.potion.PotionType|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|676|685|ArrayList|class|java.util.ArrayList|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|712|723|PotionUtils|class|net.minecraft.potion.PotionUtils|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|724|741|getPotionFromItem|method|net.minecraft.potion.PotionUtils|getPotionFromItem|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/potion/PotionType;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|742|748|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|749|757|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|762|773|PotionTypes|class|net.minecraft.init.PotionTypes|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|774|779|EMPTY|field|net.minecraft.init.PotionTypes|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|786|789|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|790|801|PotionUtils|class|net.minecraft.potion.PotionUtils|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|802|819|getPotionFromItem|method|net.minecraft.potion.PotionUtils|getPotionFromItem|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/potion/PotionType;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|820|826|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|827|835|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|862|868|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|869|877|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|880|894|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|897|903|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|921|937|addPotionTooltip|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V
       @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|938|944|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
       @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|945|953|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|980|986|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|987|995|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|998|1012|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1015|1021|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1039|1055|addPotionTooltip|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1056|1062|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1063|1071|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1103|1113|PotionType|class|net.minecraft.potion.PotionType|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1200|1211|PotionTypes|class|net.minecraft.init.PotionTypes|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1212|1217|EMPTY|field|net.minecraft.init.PotionTypes|EMPTY
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1249|1259|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1260|1266|SetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|SetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1267|1271|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1272|1280|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1299|1309|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1310|1316|GetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)I
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1317|1321|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1322|1330|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1385|1395|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1396|1405|SetString|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|SetString|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;Ljava/lang/String;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1406|1410|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1411|1419|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1422|1428|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1429|1435|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1453|1463|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1464|1470|GetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)I
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1471|1475|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1476|1484|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1547|1557|PotionType|class|net.minecraft.potion.PotionType|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1558|1566|REGISTRY|field|net.minecraft.potion.PotionType|REGISTRY
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1567|1583|getNameForObject|method|net.minecraft.util.registry.RegistryNamespaced|getNameForObject|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1590|1598|toString|method|java.lang.Object|toString|()Ljava/lang/String;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1691|1697|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1698|1706|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1707|1716|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1717|1722|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|985|995|PotionType|class|net.minecraft.potion.PotionType|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1082|1093|PotionTypes|class|net.minecraft.init.PotionTypes|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1094|1099|EMPTY|field|net.minecraft.init.PotionTypes|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1131|1141|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1142|1148|SetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|SetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1149|1153|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1154|1162|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1181|1191|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1192|1198|GetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)I
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1199|1203|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1204|1212|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1267|1277|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1278|1287|SetString|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|SetString|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;Ljava/lang/String;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1288|1292|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1293|1301|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1304|1310|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1311|1317|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1335|1345|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1346|1352|GetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)I
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1353|1357|food|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|food|1
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1358|1366|getStack|method|net.minecraft.inventory.Slot|getStack|()Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1429|1439|PotionType|class|net.minecraft.potion.PotionType|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1440|1448|REGISTRY|field|net.minecraft.potion.PotionType|REGISTRY
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1449|1465|getNameForObject|method|net.minecraft.util.registry.RegistryNamespaced|getNameForObject|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1472|1480|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1573|1579|potion|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|process|(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V|potion|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1580|1588|putStack|method|net.minecraft.inventory.Slot|putStack|(Lnet/minecraft/item/ItemStack;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1589|1598|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1599|1604|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
    Method End: process(Lnet/minecraft/inventory/Slot;Lnet/minecraft/inventory/Slot;)V
    Method Start: addPotionTooltip(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1809|1816|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1834|1839|types|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|types|1
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1782|1798|addPotionTooltip|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1799|1808|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1817|1821|List|class|java.util.List|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1822|1832|PotionType|class|net.minecraft.potion.PotionType|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1852|1856|List|class|java.util.List|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1857|1863|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1873|1882|ArrayList|class|java.util.ArrayList|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1917|1927|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1928|1934|GetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)I
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1935|1942|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1989|1999|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2000|2009|GetString|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetString|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2032|2039|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2041|2047|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2048|2054|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2164|2167|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2168|2178|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2179|2188|GetString|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetString|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2215|2222|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2224|2230|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2231|2237|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2367|2373|String|class|java.lang.String|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2453|2463|PotionType|class|net.minecraft.potion.PotionType|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2471|2481|PotionType|class|net.minecraft.potion.PotionType|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2482|2502|getPotionTypeForName|method|net.minecraft.potion.PotionType|getPotionTypeForName|(Ljava/lang/String;)Lnet/minecraft/potion/PotionType;
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2556|2567|PotionTypes|class|net.minecraft.init.PotionTypes|false
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2568|2573|EMPTY|field|net.minecraft.init.PotionTypes|EMPTY
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2602|2607|types|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|types|1
-      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2608|2611|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1691|1698|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1716|1721|types|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|types|1
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1664|1680|addPotionTooltip|method|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1681|1690|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1699|1703|List|class|java.util.List|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1704|1714|PotionType|class|net.minecraft.potion.PotionType|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1734|1738|List|class|java.util.List|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1739|1745|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1755|1764|ArrayList|class|java.util.ArrayList|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1799|1809|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1810|1816|GetInt|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetInt|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;I)I
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1817|1824|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1871|1881|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1882|1891|GetString|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetString|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1914|1921|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1923|1929|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|1930|1936|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2046|2049|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2050|2060|IDLNBTUtil|class|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2061|2070|GetString|method|com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil|GetString|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2097|2104|stackIn|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|stackIn|0
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2106|2112|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2113|2119|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2249|2255|String|class|java.lang.String|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2335|2345|PotionType|class|net.minecraft.potion.PotionType|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2353|2363|PotionType|class|net.minecraft.potion.PotionType|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2364|2384|getPotionTypeForName|method|net.minecraft.potion.PotionType|getPotionTypeForName|(Ljava/lang/String;)Lnet/minecraft/potion/PotionType;
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2438|2449|PotionTypes|class|net.minecraft.init.PotionTypes|false
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2450|2455|EMPTY|field|net.minecraft.init.PotionTypes|EMPTY
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2484|2489|types|param|com.Hileb.add_potion.gui.potion.expOne.PotionProcess|addPotionTooltip|(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V|types|1
+      @|com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java|2490|2493|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
    Method End: addPotionTooltip(Lnet/minecraft/item/ItemStack;Ljava/util/List;)V
 Class End  : com.Hileb.add_potion.gui.potion.expOne.PotionProcess
 endProcessing "com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java"
@@ -1324,7 +1326,11 @@ Class Start: com.Hileb.add_potion.gui.potion.expOne.ProcessMessage
 Class End  : com.Hileb.add_potion.gui.potion.expOne.ProcessMessage
 endProcessing "com/Hileb/add_potion/gui/potion/expOne/ProcessMessage.java"
 
-startProcessing "com/Hileb/add_potion/init/ModConfig.java" md5: 668b961c621b607ed7afa502e5ba9e97
+startProcessing "com/Hileb/add_potion/init/ExtraHealthRender.java" md5: a6ec073c495be65c1d1869f7e7ef09e9
+@|com/Hileb/add_potion/init/ExtraHealthRender.java|8|33|com.Hileb.add_potion.init|package|com.Hileb.add_potion.init|(file)
+endProcessing "com/Hileb/add_potion/init/ExtraHealthRender.java"
+
+startProcessing "com/Hileb/add_potion/init/ModConfig.java" md5: 8ba433703d4da400000578c852f1339a
 @|com/Hileb/add_potion/init/ModConfig.java|8|33|com.Hileb.add_potion.init|package|com.Hileb.add_potion.init|(file)
 Class Start: com.Hileb.add_potion.init.ModConfig
    @|com/Hileb/add_potion/init/ModConfig.java|367|373|Config|class|net.minecraftforge.common.config.Config|false
@@ -1372,11 +1378,15 @@ Class Start: com.Hileb.add_potion.init.ModConfig
       @|com/Hileb/add_potion/init/ModConfig.java|1246|1260|Config.Comment|class|net.minecraftforge.common.config.Config.Comment|false
       @|com/Hileb/add_potion/init/ModConfig.java|1293|1317|Config.RequiresMcRestart|class|net.minecraftforge.common.config.Config.RequiresMcRestart|false
       @|com/Hileb/add_potion/init/ModConfig.java|1342|1360|ap_showPotion_desc|field|com.Hileb.add_potion.init.ModConfig.EntityElectricShakingConf|ap_showPotion_desc|
+      @|com/Hileb/add_potion/init/ModConfig.java|1380|1394|Config.LangKey|class|net.minecraftforge.common.config.Config.LangKey|false
+      @|com/Hileb/add_potion/init/ModConfig.java|1435|1449|Config.Comment|class|net.minecraftforge.common.config.Config.Comment|false
+      @|com/Hileb/add_potion/init/ModConfig.java|1490|1514|Config.RequiresMcRestart|class|net.minecraftforge.common.config.Config.RequiresMcRestart|false
+      @|com/Hileb/add_potion/init/ModConfig.java|1539|1553|ap_maxIs1_desc|field|com.Hileb.add_potion.init.ModConfig.EntityElectricShakingConf|ap_maxIs1_desc|
    Class End  : com.Hileb.add_potion.init.ModConfig.EntityElectricShakingConf
 Class End  : com.Hileb.add_potion.init.ModConfig
 endProcessing "com/Hileb/add_potion/init/ModConfig.java"
 
-startProcessing "com/Hileb/add_potion/init/ModCreativeTab.java" md5: 0033667386c220f260facd08382a62be
+startProcessing "com/Hileb/add_potion/init/ModCreativeTab.java" md5: 13e2d2c5604a87b68c3b4bc759ec8727
 @|com/Hileb/add_potion/init/ModCreativeTab.java|8|33|com.Hileb.add_potion.init|package|com.Hileb.add_potion.init|(file)
 Class Start: com.Hileb.add_potion.init.ModCreativeTab
    @|com/Hileb/add_potion/init/ModCreativeTab.java|317|331|ModCreativeTab|class|com.Hileb.add_potion.init.ModCreativeTab|false
@@ -1388,14 +1398,14 @@ Class Start: com.Hileb.add_potion.init.ModCreativeTab
    @|com/Hileb/add_potion/init/ModCreativeTab.java|410|419|getNextID|method|net.minecraft.creativetab.CreativeTabs|getNextID|()I
    Anon Class Start: com.Hileb.add_potion.init.ModCreativeTab$1
       Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|453|461|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|462|466|Side|class|net.minecraftforge.fml.relauncher.Side|false
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|467|473|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|491|500|ItemStack|class|net.minecraft.item.ItemStack|false
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|501|515|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|553|562|ItemStack|class|net.minecraft.item.ItemStack|false
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|563|568|Items|class|net.minecraft.init.Items|false
-         @|com/Hileb/add_potion/init/ModCreativeTab.java|569|579|POTIONITEM|field|net.minecraft.init.Items|POTIONITEM
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|450|458|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|459|463|Side|class|net.minecraftforge.fml.relauncher.Side|false
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|464|470|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|488|497|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|498|512|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|550|559|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|560|565|Items|class|net.minecraft.init.Items|false
+         @|com/Hileb/add_potion/init/ModCreativeTab.java|566|576|POTIONITEM|field|net.minecraft.init.Items|POTIONITEM
       Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
    Anon Class End: com.Hileb.add_potion.init.ModCreativeTab$1
 Class End  : com.Hileb.add_potion.init.ModCreativeTab

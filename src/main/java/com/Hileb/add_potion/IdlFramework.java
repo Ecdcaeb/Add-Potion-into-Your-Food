@@ -22,7 +22,7 @@ import static com.Hileb.add_potion.init.RegistryHandler.initRegistries;
 public class IdlFramework {
     public static final String MODID = "add_potion";
     public static final String NAME = "Add Potion into Your food";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.0.0.2";
 
     public static Logger logger;
 
@@ -40,7 +40,6 @@ public class IdlFramework {
 
         RegistryHandler.preInitRegistries(event);
         NetworkHandler.init();
-        //cConfigLoader.init(event);
 
     }
 
@@ -86,19 +85,10 @@ public class IdlFramework {
     }
 
     public static void Log(String str) {
-//        if (ModConfig.GeneralConf.LOG_ON)
-//        {
         logger.info(str);
-//        }
     }
 
     public static void Log(String str, Object... args) {
-//        if (ModConfig.GeneralConf.LOG_ON)
-//        {
         logger.info(String.format(str, args));
-//        }
-    }
-    public static String after_mod(String modid){
-        return String.format(";after:%s", modid);
     }
 }
