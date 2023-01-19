@@ -57,72 +57,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="-512">
+              <caret line="170" column="36" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/ApplyUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2226#2227#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2421#2422#0" expanded="true" />
-                <element signature="e#2464#2465#0" expanded="true" />
-                <element signature="e#3038#3039#0" expanded="true" />
-                <element signature="e#3065#3066#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/inventory/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4148">
-              <caret line="270" column="102" selection-start-line="270" selection-start-column="102" selection-end-line="270" selection-end-column="102" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemStack.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-              <folding>
-                <element signature="e#19667#19668#0" expanded="true" />
-                <element signature="e#19736#19737#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/inventory/Slot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-              <folding>
-                <element signature="e#2399#2400#0" expanded="true" />
-                <element signature="e#2448#2449#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="253">
+              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,16 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>在</find>
-      <find>drop</find>
-      <find>ModItem</find>
-      <find>zfp</find>
-      <find>block_craftint_t</find>
-      <find>long_weakness</find>
-      <find>crafting_table</find>
-      <find>.onItemUseFinish</find>
-      <find>IMessageHandler</find>
-      <find>pre</find>
       <find>preIn</find>
       <find>init</find>
       <find>PotionT</find>
@@ -172,6 +121,16 @@
       <find>zLevel</find>
       <find>ResourceLocation</find>
       <find>max</find>
+      <find>set</find>
+      <find>NBTTagCompound</find>
+      <find>lev</find>
+      <find>count</find>
+      <find>whenD</find>
+      <find>addin</find>
+      <find>.get</find>
+      <find>ooI</find>
+      <find>pre event</find>
+      <find>成功</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,18 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moremomostories/advancements/moremomostories/dream1.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/moremomostories/init/ModRecipes.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moremomostories/advancements/moremomostories/card_neature.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moremomostories/advancements/moremomostories/card_mysterious.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moremomostories/advancements/moremomostories/card_interference.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/moremomostories/item/paper/ItemSceneBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/moremomostories/item/paper/ItemScene1.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moremomostories/lang/zh_cn.lang" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moremomostories/models/item/item_scene_1.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moremomostories/models/item/achievement.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/moremomostories/IdlFramework.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/Advancements/Advancementkeys.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/EntityUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/IDLSkillNBT.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/item/ModItems.java" />
@@ -205,14 +152,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/meta/MetaUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/expOne/ContainerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/blocks/ModBlocks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModRecipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/InitDimension.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModAnvilEvents.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModLootList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/item/network/NetworkHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/item/NetworkHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/network/protocols/PacketTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/network/NetworkHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionMath.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/ModGuiElementLoader.java" />
@@ -221,21 +166,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessMessage.java" />
         <option value="$PROJECT_DIR$/GenBlockJson.lua" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/models/block/blackstonebrick.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/recipes/emp_bitdo.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/Advancements/o.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ExtraHealthRender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModCreativeTab.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang" />
         <option value="$PROJECT_DIR$/out/production/IdeallandFramework-master/mcmod.info" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ExtraHealthRender.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/network/NetworkHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/PotionToolTip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/LoadMods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APPotionAffectEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APTooltipEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APCraftEvent.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/EnumApply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APApplyEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/ApplyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/APotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/DeBug.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/potion/ModPotions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java" />
       </list>
     </option>
   </component>
@@ -244,7 +203,7 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
+    <option name="x" value="59" />
     <option name="width" value="1547" />
     <option name="height" value="1071" />
   </component>
@@ -263,7 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,13 +238,8 @@
             <path>
               <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
-              <item name="mods" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
@@ -378,57 +331,25 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Hileb" type="462c0819:PsiDirectoryNode" />
               <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
               <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="potion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,25 +360,25 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Silent Assassin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/Baubles-1.12-1.5.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\src\main\resources\assets" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.Hileb.add_potion.init" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\Add-Potion-into-Your-Food-1.12.2\lib" />
       <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\Add-Potion-into-Your-Food-1.12.2\run\mods" />
       <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\Add-Potion-into-Your-Food-1.12.2\src\main\resources\assets\add_potion\textures\gui" />
       <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\Add-Potion-into-Your-Food-1.12.2\src\main\resources\assets\add_potion\textures" />
       <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\src\main\resources\assets\add_potion" />
-      <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Hileb.add_potion.init" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\MC MOD\Add Potion\IdeallandFramework-master\src\main\resources\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -590,7 +511,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4192691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33222592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -598,13 +519,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32819074" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900332" weight="0.32819074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32819074" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31697056" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31556803" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50099665" side_tool="true" weight="0.32819074" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49833888" weight="0.32819074" />
@@ -623,61 +544,81 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/item/ModItems.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ExtraHealthRender.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="65" />
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/client/config/GuiSelectString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModCreativeTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="203" column="76" selection-start-line="203" selection-start-column="76" selection-end-line="203" selection-end-column="76" />
+        <state relative-caret-position="85">
+          <caret line="10" column="103" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/FontRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/potion/PotionEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="966" selection-start-line="966" selection-end-line="966" />
+        <state relative-caret-position="-119">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/client/config/GuiUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModToolTipEvents.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/network/NetworkHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="259" column="23" selection-start-line="259" selection-start-column="23" selection-end-line="259" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/inventory/GuiContainer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModRecipes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="192" column="26" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/GuiScreen.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/nbt/NBTTagCompound.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="219" column="9" lean-forward="true" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemPotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/PotionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="46" />
+        <state relative-caret-position="75">
+          <caret line="430" column="5" selection-start-line="430" selection-start-column="5" selection-end-line="430" selection-end-column="5" />
           <folding>
-            <element signature="e#1568#1582#0" expanded="true" />
+            <element signature="e#6166#6167#0" expanded="true" />
+            <element signature="e#6217#6218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_333/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="306" column="12" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/rustic-0.4.4.jar!/rustic/common/util/ElixirUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -689,267 +630,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
+    <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/common/item/brew/ItemVial.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="185" column="107" selection-start-line="185" selection-start-column="107" selection-end-line="185" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/recipes/emp_bitdo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemAppleGold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="70" lean-forward="true" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/potion/EffectTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/init/MobEffects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/player/EntityPlayerMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1249">
-          <caret line="449" column="63" selection-start-line="449" selection-start-column="63" selection-end-line="449" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/math/MathHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="106" column="22" lean-forward="true" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/PotionAbsorption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="-204">
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#0#2008#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/Advancements/o.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/Minecraft.java">
+    <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/common/item/brew/ItemBrewVial.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="3215" column="5" lean-forward="true" selection-start-line="3215" selection-start-column="5" selection-end-line="3215" selection-end-column="5" />
-          <folding>
-            <element signature="e#131611#131612#0" expanded="true" />
-            <element signature="e#131651#131652#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModToolTipEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/ScaledResolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/ResourceLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/renderer/BufferBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="201" column="25" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/profiler/Profiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/renderer/EntityRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="1150" column="38" selection-start-line="1150" selection-start-column="38" selection-end-line="1150" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/Gui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/gui/GuiIngame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="900" column="37" selection-start-line="900" selection-start-column="37" selection-end-line="900" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/textures/icons.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/client/event/RenderGameOverlayEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/EntityLivingBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/Potion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="454" column="86" selection-start-line="454" selection-start-column="86" selection-end-line="454" selection-end-column="86" />
-          <folding>
-            <element signature="e#7092#7093#0" expanded="true" />
-            <element signature="e#7120#7121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/client/GuiIngameForge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="198" column="8" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#33110#33111#0" expanded="true" />
-            <element signature="e#33165#33166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ExtraHealthRender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-start-column="2" selection-end-line="64" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/IdeallandFramework-master/assets/add_potion/textures/icons.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/IdeallandFramework-master/mcmod.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="110" lean-forward="true" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/items/SlotItemHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModCreativeTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="103" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/LoadMods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run/config/add_potion.cfg">
+    <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/api/brew/Brew.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="317">
+          <caret line="71" column="60" lean-forward="true" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
+          <folding>
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="24">
+          <caret line="755" column="64" lean-forward="true" selection-start-line="755" selection-start-column="64" selection-end-line="755" selection-end-column="64" />
+          <folding>
+            <element signature="e#19667#19668#0" expanded="true" />
+            <element signature="e#19736#19737#0" expanded="true" />
+            <element signature="e#19868#19869#0" expanded="true" />
+            <element signature="e#19912#19913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="459" column="25" selection-start-line="459" selection-start-column="25" selection-end-line="459" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/common/item/brew/ItemBrewBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="139" column="15" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/PotionEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#3582#3583#0" expanded="true" />
+            <element signature="e#3623#3624#0" expanded="true" />
+            <element signature="e#4270#4271#0" expanded="true" />
+            <element signature="e#4314#4315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APPotionAffectEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APTooltipEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APCraftEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,57 +747,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/EnumApply.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+        <state relative-caret-position="173">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/EnumHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/PotionToolTip.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APApplyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2226#2227#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2421#2422#0" expanded="true" />
-            <element signature="e#2464#2465#0" expanded="true" />
-            <element signature="e#3038#3039#0" expanded="true" />
-            <element signature="e#3065#3066#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/inventory/Container.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/text/translation/I18n.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4148">
-          <caret line="270" column="102" selection-start-line="270" selection-start-column="102" selection-end-line="270" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/inventory/Slot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
-            <element signature="e#2399#2400#0" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/client/resources/I18n.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/Tuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="123" column="7" selection-start-line="123" selection-start-column="7" selection-end-line="161" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/PotionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="285" column="9" selection-start-line="205" selection-start-column="4" selection-end-line="285" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/config/add_potion.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/item/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/relauncher/Side.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/common/gameevent/TickEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/Potion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="e#7092#7093#0" expanded="true" />
+            <element signature="e#7120#7121#0" expanded="true" />
+            <element signature="e#7362#7363#0" expanded="true" />
+            <element signature="e#7394#7395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/ResourceLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/DeBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/APotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/potion/ModPotions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="106">
+          <caret line="78" column="50" lean-forward="true" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemStack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="-512">
+          <caret line="170" column="36" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/ApplyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
           <folding>
-            <element signature="e#19667#19668#0" expanded="true" />
-            <element signature="e#19736#19737#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

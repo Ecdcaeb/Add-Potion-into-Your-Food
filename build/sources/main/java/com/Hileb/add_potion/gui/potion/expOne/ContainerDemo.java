@@ -1,14 +1,20 @@
 package com.Hileb.add_potion.gui.potion.expOne;
 
 import com.Hileb.add_potion.IdlFramework;
+import com.Hileb.add_potion.event.APCraftEvent;
 import com.Hileb.add_potion.init.ModConfig;
+import com.Hileb.add_potion.util.potion.ApplyUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemPotion;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.SlotItemHandler;
@@ -22,13 +28,23 @@ public class ContainerDemo extends Container {
 
     protected Slot potionSlot;
     protected Slot foodSlot;
+    EntityPlayer playerMP;
 
     @SubscribeEvent
     public void omessage(ProcessEvent event){
         onMessage(event.message);
     }
+
     public ProcessMessage onMessage(ProcessMessage message){
-        if (message.message.equals(ProcessMessage.PROCESS)){PotionProcess.process(potionSlot,foodSlot);}
+        if (message.message.equals(ProcessMessage.PROCESS)){
+            ItemStack food=foodSlot.getStack().copy();
+            ItemStack potion=potionSlot.getStack().copy();
+            if (!MinecraftForge.EVENT_BUS.post(new APCraftEvent.Pre(playerMP,food,potion))){
+                foodSlot.putStack(food);
+                potionSlot.putStack(potion);
+                playerMP.sendMessage(new TextComponentTranslation(PotionProcess.process(potionSlot,foodSlot)));
+            }
+        }
         return message;
     }
 
@@ -37,6 +53,7 @@ public class ContainerDemo extends Container {
     public ContainerDemo(EntityPlayer player)
     {
         super();
+        playerMP=player;
         MinecraftForge.EVENT_BUS.register(this);
 
         this.addSlotToContainer(this.potionSlot = new SlotItemHandler(items, 0, 13, 5)
@@ -44,7 +61,7 @@ public class ContainerDemo extends Container {
             @Override
             public boolean isItemValid(ItemStack stack)
             {
-                return super.isItemValid(stack)&&(stack.getItem()==Items.POTIONITEM);
+                return super.isItemValid(stack)&& ApplyUtil.applyPotion(stack);
             }
             @Override
             public boolean canTakeStack(EntityPlayer playerIn)
@@ -58,7 +75,7 @@ public class ContainerDemo extends Container {
         {
             @Override
             public boolean isItemValid(@Nonnull ItemStack stack) {
-                return super.isItemValid(stack)&&(stack.getItem() instanceof ItemFood || stack.getItem()==Items.POTIONITEM);
+                return super.isItemValid(stack)&&ApplyUtil.applyFood(stack);
             }
 
             @Override

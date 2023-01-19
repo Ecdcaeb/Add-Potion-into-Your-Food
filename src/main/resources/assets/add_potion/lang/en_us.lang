@@ -8,3 +8,5 @@ ap.showPotion.desc.tooltip=Whether to display the potionEffects of injected item
 
 ap.configMisc.desc=AP Misc
 ap.config.maxCountIs1.desc=ItemStackLimit = 1
+
+ap.config.addLimit.desc=Add Potion Limit

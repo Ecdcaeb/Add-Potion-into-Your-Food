@@ -1,58 +1,27 @@
 package com.Hileb.add_potion.gui.potion.expOne;
 
-import com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil;
-import net.minecraft.init.PotionTypes;
+import com.Hileb.add_potion.init.ModConfig;
+import com.Hileb.add_potion.util.potion.APotion;
+import com.Hileb.add_potion.util.potion.PotionUtil;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.PotionType;
-import net.minecraft.potion.PotionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PotionProcess {
-    public static void process(Slot potion, Slot food){
-        if (potion.getStack().hasTagCompound()){
-            if (potion.getStack().getTagCompound().hasKey("Potion") || potion.getStack().getTagCompound().hasKey("PotionCountAP")){
-                List<PotionType> types=new ArrayList<>();
-                if (PotionUtils.getPotionFromItem(potion.getStack())!=PotionTypes.EMPTY)types.add(PotionUtils.getPotionFromItem(potion.getStack()));
-                if (potion.getStack().getTagCompound().hasKey("PotionCountAP"))addPotionTooltip(potion.getStack(),types);
-                for(PotionType type:types){
-                    if (type!=null){
-                        if (type!=PotionTypes.EMPTY){
-                            IDLNBTUtil.SetInt(food.getStack(),"PotionCountAP",IDLNBTUtil.GetInt(food.getStack(),"PotionCountAP",0)+1);
-                            IDLNBTUtil.SetString(food.getStack(),String.format("PotionAPS_%d_I",IDLNBTUtil.GetInt(food.getStack(),"PotionCountAP",1)-1),
-                                    PotionType.REGISTRY.getNameForObject(type).toString());
-
-                        }
-                    }
-                }
-                potion.putStack(ItemStack.EMPTY);
+    public static String process(Slot potion, Slot food){
+        if (PotionUtil.getAllEffect(potion.getStack()).size()+PotionUtil.getAllEffect(food.getStack()).size()<=ModConfig.entityElectricShakingConf.ap_addLimit_desc){
+            List<APotion> potionPotion=PotionUtil.getAllEffect(potion.getStack());
+            if (potionPotion==null || potionPotion.size()<=0){
+                return "ap.noPotionEffect";
             }
+            ItemStack stack=food.getStack().copy();
+            PotionUtil.addAPotionToStack(stack,potionPotion);
+            food.putStack(stack);
+            potion.putStack(ItemStack.EMPTY);
+            return "ap.craftSuccess";
         }
-    }
-    public static void addPotionTooltip(ItemStack stackIn,List<PotionType> types) {
-        List<String> s = new ArrayList<>();
-        for (int i = 0; i < IDLNBTUtil.GetInt(stackIn, "PotionCountAP", 0); i++) {
-            if (IDLNBTUtil.GetString(
-                    stackIn, String.format(
-                            "PotionAPS_%d_I", i),
-                    null) != null) {
-                s.add(IDLNBTUtil.GetString(
-                        stackIn, String.format(
-                                "PotionAPS_%d_I", i),
-                        null));
-            }
-        }
-        for (String p : s) {
-            {
-                if (p != null) {
-                    PotionType type = PotionType.getPotionTypeForName(p);
-                    if (type != null && type != PotionTypes.EMPTY) {
-                        types.add(type);
-                    }
-                }
-            }
-        }
+        else return "ap.craftOtOfLimit";
     }
 }

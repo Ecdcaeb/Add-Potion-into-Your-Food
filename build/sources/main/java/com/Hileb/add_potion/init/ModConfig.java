@@ -38,5 +38,10 @@ public class ModConfig {
         @Config.Comment("ap.config.maxCountIs1.desc")
         @Config.RequiresMcRestart
         public boolean ap_maxIs1_desc=false;
+
+        @Config.LangKey("ap.config.addLimit.desc")
+        @Config.Comment("ap.config.addLimit.desc")
+        @Config.RequiresMcRestart
+        public int ap_addLimit_desc=1024;
     }
 }

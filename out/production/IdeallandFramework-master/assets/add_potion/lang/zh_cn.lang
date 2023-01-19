@@ -1,10 +1,15 @@
 tile.blackstonebrick.name=注入工作台
 com.hileb.ap.botton=按下以注入
-com.hileb.ap.desc_1=该物品已被注入以下效果：
-com.hileb.ap.desc_2=即将注入以下效果：
-com.hileb.ap.desc_3=该物品原有以下效果：
+com.hileb.ap.desc_1=物品格效果：
+com.hileb.ap.desc_2=药水格效果：
 ap.showPotion.desc=显示效果
 ap.showPotion.desc.tooltip=是否显示物品已有效果
 
 ap.configMisc.desc=AP杂项
 ap.config.maxCountIs1.desc=最大堆叠量为1
+
+ap.config.addLimit.desc=追加极限
+
+ap.craftOtOfLimit=添加超过极限！
+ap.noPotionEffect=药水没效果或不支持该注入该物品！
+ap.craftSuccess=注入成功！

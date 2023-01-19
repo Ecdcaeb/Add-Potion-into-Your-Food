@@ -185,7 +185,9 @@
   <component name="libraryTable">
     <library name="momostories-1.0">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/momostories-1.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/rustic-0.4.4.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Baubles-1.12-1.5.2.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

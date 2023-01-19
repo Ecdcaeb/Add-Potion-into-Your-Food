@@ -41,6 +41,5 @@ public class ModPotions {
         //VIRUS_ONE.tuples.add(new EffectTuple(0.2f, MobEffects.NAUSEA, 100));
 
         evt.getRegistry().registerAll(INSTANCES.toArray(new Potion[0]));
-        IdlFramework.LogWarning("registered %d potion", INSTANCES.size());
     }
 }
