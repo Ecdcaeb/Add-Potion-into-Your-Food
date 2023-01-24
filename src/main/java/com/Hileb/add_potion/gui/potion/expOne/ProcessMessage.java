@@ -1,5 +1,6 @@
 package com.Hileb.add_potion.gui.potion.expOne;
 
+import com.Hileb.add_potion.IdlFramework;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.network.ByteBufUtils;
@@ -19,10 +20,10 @@ public class ProcessMessage implements IMessage {
     public void toBytes(ByteBuf buf){
         ByteBufUtils.writeUTF8String(buf,message);
     }
-    public static class Handler implements IMessageHandler<ProcessMessage, ProcessMessage> {
-        public ProcessMessage onMessage(final ProcessMessage msg, final MessageContext ctx) {
+    public static class Handler implements IMessageHandler<ProcessMessage,  IMessage> {
+        public  IMessage onMessage(final ProcessMessage msg, final MessageContext ctx) {
             MinecraftForge.EVENT_BUS.post(new ProcessEvent(msg));
-            return msg;
+            return null;
         }
     }
 }

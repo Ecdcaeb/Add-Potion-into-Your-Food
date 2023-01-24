@@ -56,53 +56,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
-              <caret line="170" column="36" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/ApplyUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="411">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>preIn</find>
       <find>init</find>
       <find>PotionT</find>
       <find>List&lt;PotionEffect&gt;</find>
@@ -149,6 +109,7 @@
       <find>ooI</find>
       <find>pre event</find>
       <find>成功</find>
+      <find>I pr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/IDLSkillNBT.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/item/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/RenderHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/RegistryHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/meta/MetaUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/expOne/ContainerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/blocks/ModBlocks.java" />
@@ -181,17 +141,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/ModGuiElementLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/NBTStrDef/IDLNBTUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModToolTipEvents.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessMessage.java" />
         <option value="$PROJECT_DIR$/GenBlockJson.lua" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/models/block/blackstonebrick.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/recipes/emp_bitdo.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/Advancements/o.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModCreativeTab.java" />
         <option value="$PROJECT_DIR$/out/production/IdeallandFramework-master/mcmod.info" />
-        <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ExtraHealthRender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModRecipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/network/NetworkHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/PotionToolTip.java" />
@@ -199,20 +156,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APPotionAffectEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/OnEat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APTooltipEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APCraftEvent.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/EnumApply.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/APApplyEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/ApplyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/PotionProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/APotion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/DeBug.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/potion/ModPotions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/RegistryHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java" />
       </list>
     </option>
   </component>
@@ -221,7 +182,7 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
+    <option name="x" value="55" />
     <option name="width" value="1547" />
     <option name="height" value="1071" />
   </component>
@@ -240,8 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,65 +269,6 @@
               <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="potion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="potion" type="462c0819:PsiDirectoryNode" />
-              <item name="expOne" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Hileb" type="462c0819:PsiDirectoryNode" />
-              <item name="add_potion" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="potion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeallandFramework-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Add-Potion-into-Your-Food-1.12.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -402,6 +302,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,7 +314,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/Baubles-1.12-1.5.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../More MoMostories/githubsource/IdeallandFramework-master/More-MoMostories/IdeallandFramework-master.ipr" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -563,7 +465,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33687708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3461794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -577,7 +479,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32819074" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3141655" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31276298" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50099665" side_tool="true" weight="0.32819074" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49833888" weight="0.32819074" />
@@ -596,102 +498,6 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ExtraHealthRender.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModCreativeTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="103" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/potion/PotionEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModToolTipEvents.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/network/NetworkHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModRecipes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/nbt/NBTTagCompound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="430" column="5" selection-start-line="430" selection-start-column="5" selection-end-line="430" selection-end-column="5" />
-          <folding>
-            <element signature="e#6166#6167#0" expanded="true" />
-            <element signature="e#6217#6218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_333/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="306" column="12" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/rustic-0.4.4.jar!/rustic/common/util/ElixirUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/common/item/brew/ItemVial.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#2008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/common/item/brew/ItemBrewVial.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/LoadMods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/api/brew/Brew.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -778,21 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/event/EnumApply.java" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/EnumHand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -888,16 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/potion/Potion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -950,20 +732,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="78" column="50" lean-forward="true" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="170" column="36" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="90" column="69" lean-forward="true" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,27 +766,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/potion/PotionUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/meta/MetaUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="85" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/ModRecipes.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_333/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/Botania r1.10-353.jar!/vazkii/botania/common/network/PacketJump.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="28" column="79" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraftforge/fml/common/network/simpleimpl/IMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ContainerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#3613#3614#0" expanded="true" />
+            <element signature="e#3640#3641#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/zh_cn.lang">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/add_potion/lang/en_us.lang">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/ProcessMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/gui/potion/expOne/GuiContainerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+          <folding>
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/ModSoundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/MessageDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/CommonDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/util/IDLGeneral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/init/RegistryHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Hileb/add_potion/IdlFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

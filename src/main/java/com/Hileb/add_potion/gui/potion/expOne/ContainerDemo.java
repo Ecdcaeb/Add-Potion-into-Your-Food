@@ -16,6 +16,7 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
@@ -31,21 +32,23 @@ public class ContainerDemo extends Container {
     EntityPlayer playerMP;
 
     @SubscribeEvent
-    public void omessage(ProcessEvent event){
+    public void onMessageEvent(ProcessEvent event){
         onMessage(event.message);
     }
 
-    public ProcessMessage onMessage(ProcessMessage message){
-        if (message.message.equals(ProcessMessage.PROCESS)){
-            ItemStack food=foodSlot.getStack().copy();
-            ItemStack potion=potionSlot.getStack().copy();
-            if (!MinecraftForge.EVENT_BUS.post(new APCraftEvent.Pre(playerMP,food,potion))){
-                foodSlot.putStack(food);
-                potionSlot.putStack(potion);
-                playerMP.sendMessage(new TextComponentTranslation(PotionProcess.process(potionSlot,foodSlot)));
+    public void onMessage(ProcessMessage message){
+        if (!playerMP.world.isRemote) {
+            if (message.message.equals(ProcessMessage.PROCESS)) {
+                ItemStack food = foodSlot.getStack().copy();
+                ItemStack potion = potionSlot.getStack().copy();
+                if (!MinecraftForge.EVENT_BUS.post(new APCraftEvent.Pre(playerMP, food, potion))) {
+                    foodSlot.putStack(food);
+                    potionSlot.putStack(potion);
+                    String tip = PotionProcess.process(potionSlot, foodSlot);
+                    playerMP.sendMessage(new TextComponentTranslation(tip));
+                }
             }
         }
-        return message;
     }
 
 

@@ -88,7 +88,7 @@ public class PotionUtil {
     }
     public static List<APotion> getAllEffectIShouldDo(ItemStack stack){
         List<APotion> list=new ArrayList<>();
-        if(getAPotionFromThis(stack).size()>0)list.addAll(getFormBasicStack(stack));
+        if(getAPotionFromThis(stack).size()>0)list.addAll(getAPotionFromThis(stack));
         if(getFormOldAPStack(stack).size()>0)list.addAll(getFormOldAPStack(stack));
         return list;
     }

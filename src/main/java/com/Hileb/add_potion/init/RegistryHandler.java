@@ -1,18 +1,14 @@
 package com.Hileb.add_potion.init;
+
 import com.Hileb.add_potion.blocks.ModBlocks;
 import com.Hileb.add_potion.item.ModItems;
-
 import com.Hileb.add_potion.util.IHasModel;
-import com.Hileb.add_potion.util.ModSoundHandler;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -56,23 +52,4 @@ public class RegistryHandler {
 		}
 
 	}
-
-	public static void preInitRegistries(FMLPreInitializationEvent event)
-	{
-	}
-
-	public static void postInitReg()
-	{
-		//WorldType TYPE_ONE = new WorldTypeOne();
-	}
-
-	public static void initRegistries(FMLInitializationEvent event)
-	{
-		ModSoundHandler.soundRegister();
-	}
-
-	public static void serverRegistries(FMLServerStartingEvent event)
-    {
-        //event.registerServerCommand(new CommandDimTeleport());
-    }
 }
