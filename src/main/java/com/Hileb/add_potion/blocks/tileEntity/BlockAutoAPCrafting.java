@@ -75,8 +75,10 @@ public class BlockAutoAPCrafting extends BlockBase {
                 if (!te.slotPotion.getStackInSlot(0).isEmpty()){
                     Block.spawnAsEntity(worldIn,pos,te.slotPotion.getStackInSlot(0));
                 }
-                if (!te.slotOut.getStackInSlot(0).isEmpty()){
-                    Block.spawnAsEntity(worldIn,pos,te.slotOut.getStackInSlot(0));
+                for(int i=0;i<te.slotOut.getSlots();i++){
+                    if (!te.slotOut.getStackInSlot(i).isEmpty()){
+                        Block.spawnAsEntity(worldIn,pos,te.slotOut.getStackInSlot(i));
+                    }
                 }
             }
         }

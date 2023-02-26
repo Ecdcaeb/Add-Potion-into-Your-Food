@@ -233,7 +233,7 @@ Class Start: com.Hileb.add_potion.blocks.ModBlocks
 Class End  : com.Hileb.add_potion.blocks.ModBlocks
 endProcessing "com/Hileb/add_potion/blocks/ModBlocks.java"
 
-startProcessing "com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java" md5: 52f272a1309c9d4f75ce2ae9a118bbfc
+startProcessing "com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java" md5: b1b8e1db3a3a8422432042956b174c6a
 @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|8|46|com.Hileb.add_potion.blocks.tileEntity|package|com.Hileb.add_potion.blocks.tileEntity|(file)
 Class Start: com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting
    @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|805|824|BlockAutoAPCrafting|class|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|false
@@ -401,26 +401,28 @@ Class Start: com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting
       @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3758|3761|pos|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
       @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3765|3775|slotPotion|field|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|slotPotion
       @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3776|3790|getStackInSlot|method|net.minecraftforge.items.IItemHandler|getStackInSlot|(I)Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3840|3847|slotOut|field|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|slotOut
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3848|3862|getStackInSlot|method|net.minecraftforge.items.IItemHandler|getStackInSlot|(I)Lnet/minecraft/item/ItemStack;
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3866|3873|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3899|3904|Block|class|net.minecraft.block.Block|false
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3905|3918|spawnAsEntity|method|net.minecraft.block.Block|spawnAsEntity|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;)V
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3919|3926|worldIn|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3927|3930|pos|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3934|3941|slotOut|field|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|slotOut
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3942|3956|getStackInSlot|method|net.minecraftforge.items.IItemHandler|getStackInSlot|(I)Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3849|3856|slotOut|field|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|slotOut
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3857|3865|getSlots|method|net.minecraftforge.items.IItemHandler|getSlots|()I
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3903|3910|slotOut|field|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|slotOut
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3911|3925|getStackInSlot|method|net.minecraftforge.items.IItemHandler|getStackInSlot|(I)Lnet/minecraft/item/ItemStack;
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3929|3936|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3966|3971|Block|class|net.minecraft.block.Block|false
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3972|3985|spawnAsEntity|method|net.minecraft.block.Block|spawnAsEntity|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;)V
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3986|3993|worldIn|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|3994|3997|pos|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4001|4008|slotOut|field|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|slotOut
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4009|4023|getStackInSlot|method|net.minecraftforge.items.IItemHandler|getStackInSlot|(I)Lnet/minecraft/item/ItemStack;
    Method End: breakBlock(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
    Method Start: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4092|4097|world|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|world|0
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4111|4116|state|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4022|4030|Nullable|class|javax.annotation.Nullable|false
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4037|4045|Override|class|java.lang.Override|false
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4058|4068|TileEntity|class|net.minecraft.tileentity.TileEntity|false
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4069|4085|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4086|4091|World|class|net.minecraft.world.World|false
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4099|4110|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4140|4164|TileEntityAutoAPCrafting|class|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|false
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4182|4187|world|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|world|0
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4201|4206|state|param|com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4112|4120|Nullable|class|javax.annotation.Nullable|false
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4127|4135|Override|class|java.lang.Override|false
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4148|4158|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4159|4175|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4176|4181|World|class|net.minecraft.world.World|false
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4189|4200|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java|4230|4254|TileEntityAutoAPCrafting|class|com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting|false
    Method End: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
 Class End  : com.Hileb.add_potion.blocks.tileEntity.BlockAutoAPCrafting
 endProcessing "com/Hileb/add_potion/blocks/tileEntity/BlockAutoAPCrafting.java"
