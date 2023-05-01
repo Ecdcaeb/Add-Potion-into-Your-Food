@@ -43,5 +43,10 @@ public class ModConfig {
         @Config.Comment("ap.config.addLimit.desc")
         @Config.RequiresMcRestart
         public int ap_addLimit_desc=1024;
+
+        @Config.LangKey("ap.config.openArmor.desc")
+        @Config.Comment("ap.config.openArmor.desc")
+        @Config.RequiresMcRestart
+        public boolean openArmor=false;
     }
 }

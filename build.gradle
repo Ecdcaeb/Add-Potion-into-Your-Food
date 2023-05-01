@@ -1,3 +1,4 @@
+
 buildscript {
     repositories {
         if (use_mirror_url == "true") {
@@ -27,8 +28,8 @@ if (useMirror) apply from: "mirror.gradle"
 apply plugin: "net.minecraftforge.gradle.forge"
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
-version = "1.2.0.5"
-group = "com.ideallandframework.add_potion" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "1.2.0.6"
+group = "com.ideallandframework.moremomostories" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "add_potion"
 
 sourceCompatibility = targetCompatibility = "1.8" // Need this here so eclipse task generates correctly.
@@ -54,14 +55,17 @@ repositories {
         // remove minecraft and forge maven repositories to avoid interference
         removeIf {
             it instanceof MavenArtifactRepository &&
-                (it.url.toString() == "https://repo.maven.apache.org/maven2/" ||
-                it.url.toString() == "https://maven.minecraftforge.net" ||
-                it.url.toString() == "https://libraries.minecraft.net/")
+                    (it.url.toString() == "https://repo.maven.apache.org/maven2/" ||
+                            it.url.toString() == "https://maven.minecraftforge.net" ||
+                            it.url.toString() == "https://libraries.minecraft.net/")
         }
         // add mirror repositories
         maven { url "https://maven.aliyun.com/nexus/content/groups/public" }
         maven { url "file://${projectDir}/.gradle/local-repo" }
         maven { url "https://${mirror_maven_url}" }
+        maven {
+            url "https://maven.cleanroommc.com"
+        }
     }
 }
 
@@ -69,6 +73,10 @@ dependencies {
     compile files('lib/Baubles-1.12-1.5.2.jar')
     compile files('lib/Botania r1.10-353.jar')
     compile files('lib/rustic-0.4.4.jar')
+    compile files('lib/PotionCore-1.9_for_1.12.2.jar')
+
+
+    //Magic_Circle-1.0.1.jar
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"

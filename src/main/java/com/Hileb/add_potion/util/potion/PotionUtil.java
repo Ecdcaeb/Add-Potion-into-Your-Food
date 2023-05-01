@@ -5,6 +5,7 @@ import com.Hileb.add_potion.event.APApplyEvent;
 import com.Hileb.add_potion.event.APCraftEvent;
 import com.Hileb.add_potion.gui.potion.expOne.LoadMods;
 import com.Hileb.add_potion.util.NBTStrDef.IDLNBTUtil;
+import com.tmtravlr.potioncore.PotionCoreHelper;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.PotionEffect;
@@ -87,6 +88,12 @@ public class PotionUtil {
         }
         return list;
     }
+    public static List<APotion> getFromPotionCore(ItemStack stack){
+        if (LoadMods.potionCore){
+            return getListOfAPotion(PotionCoreHelper.getEffectsFromStack(stack));
+        }
+        return new ArrayList<>();
+    }
     public static List<APotion> getAllEffectIShouldDo(ItemStack stack){
         List<APotion> list=new ArrayList<>();
         if(getAPotionFromThis(stack).size()>0)list.addAll(getAPotionFromThis(stack));
@@ -101,6 +108,7 @@ public class PotionUtil {
         if(getAPotionFromThis(stack).size()>0)list.addAll(getAPotionFromThis(stack));
         if(LoadMods.rustic && getFromRusticStack(stack).size()>0)list.addAll(getFromRusticStack(stack));
         if (LoadMods.botania && getFromBotanla(stack).size()>0)list.addAll(getFromBotanla(stack));
+        if (LoadMods.potionCore && getFromPotionCore(stack).size()>0)list.addAll(getFromPotionCore(stack));
         MinecraftForge.EVENT_BUS.post(new APCraftEvent.GetAPotion(stack,list));
         return list;
     }
@@ -122,6 +130,13 @@ public class PotionUtil {
         List<PotionEffect> effects=new ArrayList<>();
         for(APotion aPotion:aPotions){
             effects.add(aPotion.getEffect());
+        }
+        return effects;
+    }
+    public static List<APotion> getListOfAPotion(List<PotionEffect> aPotions){
+        List<APotion> effects=new ArrayList<>();
+        for(PotionEffect aPotion:aPotions){
+            effects.add(new APotion(aPotion));
         }
         return effects;
     }
