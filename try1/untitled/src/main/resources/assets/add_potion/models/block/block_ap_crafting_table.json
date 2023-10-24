@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "add_potion:block/top",
+		"east": "add_potion:block/side",
+		"north": "add_potion:block/side",
+		"particle": "add_potion:block/top",
+		"south": "add_potion:block/side",
+		"up": "add_potion:block/top",
+		"west": "add_potion:block/side"
+	}
+}
