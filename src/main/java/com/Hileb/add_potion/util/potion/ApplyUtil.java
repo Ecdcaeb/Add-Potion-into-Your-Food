@@ -10,7 +10,6 @@ import vazkii.botania.common.item.brew.ItemBrewBase;
 
 public class ApplyUtil {
     public static boolean applyFood(ItemStack stack){
-        if (stack.isEmpty())return false;
         APApplyEvent event=new APApplyEvent.Potion(stack);
         MinecraftForge.EVENT_BUS.post(event);
         if (event.applyResult== APApplyEvent.EnumApply.APLLY)return true;
@@ -25,7 +24,6 @@ public class ApplyUtil {
         } else return false;
     }
     public static boolean applyPotion(ItemStack stack){
-        if (stack.isEmpty())return false;
         APApplyEvent event=new APApplyEvent.Potion(stack);
         MinecraftForge.EVENT_BUS.post(event);
         if (event.applyResult== APApplyEvent.EnumApply.APLLY)return true;

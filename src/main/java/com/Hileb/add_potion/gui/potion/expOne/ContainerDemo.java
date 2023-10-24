@@ -139,6 +139,7 @@ public class ContainerDemo extends Container {
                 this.foodSlot.putStack(ItemStack.EMPTY);
             }
         }
+        MinecraftForge.EVENT_BUS.unregister(this);
     }
 
     @Override

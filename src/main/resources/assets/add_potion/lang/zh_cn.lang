@@ -15,4 +15,3 @@ ap.config.addLimit.desc=追加极限
 ap.craftOtOfLimit=添加超过极限！
 ap.noPotionEffect=药水没效果或不支持该注入该物品！
 ap.craftSuccess=注入成功！
-ap.config.openArmor.desc=开启盔甲附魔

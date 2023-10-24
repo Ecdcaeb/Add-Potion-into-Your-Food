@@ -59,17 +59,17 @@ public class OnEat {
         }
         //
     }
-    public static void doit(EntityLivingBase player, ItemStack stack){
+    private static void doit(EntityLivingBase player, ItemStack stack){
         List<APotion> list3=PotionUtil.getAllEffectIShouldDo(stack);
         for(APotion potion:list3){
             player.addPotionEffect(potion.getEffect());
         }
     }
-    public static void doitArea(EntityPotion entityThrowable, ItemStack stack){
+    private static void doitArea(EntityPotion entityThrowable, ItemStack stack){
         List<APotion> list3=PotionUtil.getAllEffectIShouldDo(stack);
         makeAreaOfEffectCloud(entityThrowable,entityThrowable.getPotion(),list3);
     }
-    public static void makeAreaOfEffectCloud(EntityThrowable throwable,ItemStack p_190542_1_, List<APotion> aPotions)
+    private static void makeAreaOfEffectCloud(EntityThrowable throwable,ItemStack p_190542_1_, List<APotion> aPotions)
     {
         EntityAreaEffectCloud entityareaeffectcloud = new EntityAreaEffectCloud(throwable.world, throwable.posX, throwable.posY, throwable.posZ);
         entityareaeffectcloud.setOwner(throwable.getThrower());

@@ -16,4 +16,3 @@ ap.config.addLimit.desc=Add Potion Limit
 ap.craftOtOfLimit=Out of Limit!
 ap.noPotionEffect=You could not add it into your food!
 ap.craftSuccess=Adding successfully！
-ap.config.openArmor.desc=can add to armor

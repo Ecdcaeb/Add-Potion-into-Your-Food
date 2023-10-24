@@ -3,11 +3,9 @@ package com.Hileb.add_potion;
 import com.Hileb.add_potion.blocks.tileEntity.TileEntityAutoAPCrafting;
 import com.Hileb.add_potion.gui.ModGuiElementLoader;
 import com.Hileb.add_potion.gui.potion.expOne.LoadMods;
-import com.Hileb.add_potion.init.ModConfig;
 import com.Hileb.add_potion.init.RegistryHandler;
 import com.Hileb.add_potion.network.NetworkHandler;
 import com.Hileb.add_potion.proxy.ProxyBase;
-import com.Hileb.add_potion.recipe.PotionRecipeFactoryExtend;
 import com.Hileb.add_potion.util.Reference;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
@@ -16,7 +14,6 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.apache.logging.log4j.Logger;
 
@@ -26,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 public class IdlFramework {
     public static final String MODID = "add_potion";
     public static final String NAME = "Add Potion into Your food";
-    public static final String VERSION = "1.2.0.6";
+    public static final String VERSION = "1.2.0.5";
 
     public static Logger logger;
 
@@ -52,10 +49,6 @@ public class IdlFramework {
     public static void Init(FMLInitializationEvent event) {
         new ModGuiElementLoader();
         LoadMods.init();
-
-        if (LoadMods.liquidenchanting || ModConfig.entityElectricShakingConf.openArmor){
-            ForgeRegistries.RECIPES.register(new PotionRecipeFactoryExtend().setRegistryName(MODID,"extra"));
-        }
 
 		LogWarning("%s has finished its initializations", MODID);
 
