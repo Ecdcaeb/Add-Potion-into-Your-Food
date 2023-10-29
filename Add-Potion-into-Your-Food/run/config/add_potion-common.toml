@@ -1,8 +1,0 @@
-#is slot max item count once is 1
-ap_maxIs1_desc = false
-#the max count of potion of one item
-#Range: > 0
-ap_addLimit_desc = 1024
-#should show tooltip of item for client
-ap_showPotion_desc = false
-
