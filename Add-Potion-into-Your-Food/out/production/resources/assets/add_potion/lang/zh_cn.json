@@ -1,0 +1,17 @@
+{
+  "ap.config.addLimit.desc": "追加极限",
+  "ap.config.maxCountIs1.desc": "最大堆叠量为1",
+  "ap.config.openArmor.desc": "开启盔甲附魔",
+  "ap.configMisc.desc": "AP杂项",
+  "ap.craftOtOfLimit": "添加超过极限！",
+  "ap.craftSuccess": "注入成功！",
+  "ap.noPotionEffect": "药水没效果或不支持该注入该物品！",
+  "ap.showPotion.desc": "显示效果",
+  "ap.showPotion.desc.tooltip": "是否显示物品已有效果",
+  "block.add_potion.block_ap_crafting_table": "注入工作台",
+  "com.hileb.ap.botton": "按下以注入",
+  "com.hileb.ap.desc_1": "物品格效果：",
+  "com.hileb.ap.desc_2": "药水格效果：",
+  "itemGroup.apMiscTab": "给您下药了",
+  "tile.auto_ap_crafting.name": "注入工厂"
+}
