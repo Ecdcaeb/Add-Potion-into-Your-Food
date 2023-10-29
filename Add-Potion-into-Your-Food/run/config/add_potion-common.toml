@@ -4,5 +4,5 @@ ap_maxIs1_desc = false
 #Range: > 0
 ap_addLimit_desc = 1024
 #should show tooltip of item for client
-ap_showPotion_desc = false
+ap_showPotion_desc = true
 

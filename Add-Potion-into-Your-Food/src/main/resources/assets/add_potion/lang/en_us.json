@@ -10,7 +10,7 @@
   "ap.showPotion.desc.tooltip":"Whether to display the potionEffects of injected items,in Potion Table",
 
   "ap.configMisc.desc":"AP Misc",
-  "ap.config.maxCountIs1.desc":"ItemStackLimit ":" 1",
+  "ap.config.maxCountIs1.desc":"max itemstack count slot is 1 for limit",
 
   "ap.config.addLimit.desc":"Add Potion Limit",
 

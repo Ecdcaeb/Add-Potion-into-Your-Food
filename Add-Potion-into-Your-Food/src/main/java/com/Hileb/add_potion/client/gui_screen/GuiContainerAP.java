@@ -29,7 +29,7 @@ import java.util.List;
 public class GuiContainerAP extends AbstractContainerScreen<ContainerAP> {
     public final ContainerAP containerAP;
     public final ImageButton craft_button;
-    private static final ResourceLocation BUTTON_TEXTURE = new ResourceLocation(AddPotion.MODID,"textures/gui/button.png");
+    //private static final ResourceLocation BUTTON_TEXTURE = new ResourceLocation(AddPotion.MODID,"textures/gui/button.png");
     public static final ResourceLocation BACKGROUND_TEXTURE = new ResourceLocation(AddPotion.MODID,"textures/gui/gui_potion.png");
     public GuiContainerAP(ContainerAP containerAPIn, Inventory inventory, Component component) {
         super(containerAPIn,inventory,component);
@@ -49,7 +49,11 @@ public class GuiContainerAP extends AbstractContainerScreen<ContainerAP> {
         pGuiGraphics.blit(BACKGROUND_TEXTURE, i, j, 0, 0, this.imageWidth, this.imageHeight);
         craft_button.setPosition(this.leftPos+36,this.topPos+8);
     }
-
+    @Override
+    protected void renderLabels(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY) {
+        pGuiGraphics.drawString(this.font, this.title, this.titleLabelX+80, this.titleLabelY, 4210752, false);
+        pGuiGraphics.drawString(this.font, this.playerInventoryTitle, this.inventoryLabelX+80, this.inventoryLabelY-30, 4210752, false);
+    }
     @Override
     public void render(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, float pPartialTick) {
         super.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
