@@ -1,19 +1,18 @@
 package com.Hileb.add_potion.init;
 
-import com.Hileb.add_potion.item.ModItems;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.PotionUtils;
+import net.minecraft.world.item.alchemy.Potions;
+
+import static com.Hileb.add_potion.IdlFramework.MODID;
 
 public class ModCreativeTab {
-	public static final CreativeTabs IDL_MISC = new CreativeTabs(CreativeTabs.getNextID(), "apMiscTab")
-	{
-        @SideOnly(Side.CLIENT)
-        public ItemStack getTabIconItem()
-        {
-            return new ItemStack(Items.POTIONITEM);
-        }
-    };
+	public static final CreativeModeTab IDL_MISC = new CreativeModeTab(MODID) {
+		@Override
+		public ItemStack makeIcon() {
+			return PotionUtils.setPotion(new ItemStack(Items.POTION), Potions.POISON);
+		}
+	};
 }

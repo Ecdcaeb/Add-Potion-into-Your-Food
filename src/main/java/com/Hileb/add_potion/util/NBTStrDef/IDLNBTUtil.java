@@ -21,7 +21,7 @@ public class IDLNBTUtil {
 	
 	public static NBTTagCompound getNBT(Entity entity) {
 		NBTTagCompound nbt = entity.getEntityData();
-	    return nbt;
+		return nbt;
 	}
 	//writeEntityToNBT
 	//readEntityFromNBT

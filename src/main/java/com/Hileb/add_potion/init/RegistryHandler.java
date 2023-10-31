@@ -1,7 +1,5 @@
 package com.Hileb.add_potion.init;
 
-import com.Hileb.add_potion.blocks.ModBlocks;
-import com.Hileb.add_potion.item.ModItems;
 import com.Hileb.add_potion.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;

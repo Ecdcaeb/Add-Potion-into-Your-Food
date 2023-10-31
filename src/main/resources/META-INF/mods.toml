@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+issueTrackerURL="https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/issues"
+
+[[mods]]
+modId="add_potion"
+version="${file.jarVersion}"
+displayName="Add Potion into Your Food"
+credits="\nIdealland - they provided this framework.\nZFP - very very cute.~\nLiu Dongyu - sponsor for 1.18.2+."
+authors="Hileb, Liu Dongyu"
+description='''
+A mod for ZFP.Using the Potion Table,the mod which is described by Taoism Deeplake as 'PPAP' add potion...
+'''
+
+[[dependencies.add_potion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.add_potion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

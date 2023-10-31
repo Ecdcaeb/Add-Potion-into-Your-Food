@@ -7,15 +7,15 @@ import javax.annotation.Nonnull;
 import java.util.List;
 
 public class APTooltipEvent extends Event {
-    public List<String> stringList;
-    public ItemStack stack;
-    public APTooltipEvent(@Nonnull List<String> tooltip, ItemStack stackIn){
-        stringList=tooltip;
-        stack=stackIn;
-    }
+	public List<String> stringList;
+	public ItemStack stack;
+	public APTooltipEvent(@Nonnull List<String> tooltip, ItemStack stackIn) {
+		stringList=tooltip;
+		stack=stackIn;
+	}
 
-    @Override
-    public boolean isCancelable() {
-        return false;
-    }
+	@Override
+	public boolean isCancelable() {
+		return false;
+	}
 }
