@@ -1,15 +1,14 @@
 package com.Hileb.add_potion;
 
-import com.Hileb.add_potion.gui.ModGuiElementLoader;
-import com.Hileb.add_potion.gui.potion.expOne.LoadMods;
-import com.Hileb.add_potion.init.ModBlockEntities;
-import com.Hileb.add_potion.init.ModBlocks;
-import com.Hileb.add_potion.init.ModItems;
-import com.Hileb.add_potion.network.NetworkHandler;
-import com.Hileb.add_potion.proxy.ClientProxy;
-import com.Hileb.add_potion.proxy.ProxyBase;
-import com.Hileb.add_potion.proxy.ServerProxy;
-import com.Hileb.add_potion.util.ModLogger;
+import com.Hileb.add_potion.common.gui.ModGuiElementLoader;
+import com.Hileb.add_potion.common.util.compat.LoadMods;
+import com.Hileb.add_potion.common.init.ModBlockEntities;
+import com.Hileb.add_potion.common.init.ModBlocks;
+import com.Hileb.add_potion.common.init.ModItems;
+import com.Hileb.add_potion.common.proxy.ClientProxy;
+import com.Hileb.add_potion.common.proxy.ProxyBase;
+import com.Hileb.add_potion.common.proxy.ServerProxy;
+import com.Hileb.add_potion.common.util.ModLogger;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
@@ -62,8 +61,6 @@ public class IdlFramework {
 	public void setup(FMLCommonSetupEvent event) {
 		new ModGuiElementLoader();
 		LoadMods.init();
-
-		NetworkHandler.init();
 
 		ModLogger.LogWarning("%s has finished its initializations", MODID);
 	}

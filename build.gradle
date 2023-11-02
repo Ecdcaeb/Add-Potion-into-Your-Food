@@ -113,6 +113,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     maven { // TOP
+        name 'CurseMaven'
         url "https://cursemaven.com"
     }
     maven { // JEI
@@ -120,13 +121,19 @@ repositories {
         url 'https://dvs1.progwml6.com/files/maven'
     }
     maven { //mirror
-        name = "ModMaven"
-        url = "https://modmaven.dev"
+        name "ModMaven"
+        url "https://modmaven.dev"
+    }
+    maven { //Botania
+        name 'BlameJared'
+        url 'https://maven.blamejared.com'
     }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.0'
+
+    compileOnly fg.deobf("vazkii.botania:Botania:1.18.2-435:api")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
