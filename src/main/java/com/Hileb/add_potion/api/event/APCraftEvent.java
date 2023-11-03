@@ -5,7 +5,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 
 /**
- * This Event is fired when player uses a potion table to add potion to a food.
+ * This Event is fired when player uses a potion table to add potion to food.
  * @see com.Hileb.add_potion.common.gui.PotionTableMenu#clickMenuButton
  */
 public class APCraftEvent extends PlayerEvent {

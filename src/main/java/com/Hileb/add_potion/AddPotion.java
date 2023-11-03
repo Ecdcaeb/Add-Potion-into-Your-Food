@@ -1,5 +1,6 @@
 package com.Hileb.add_potion;
 
+import com.Hileb.add_potion.common.init.ModMenuTypes;
 import com.Hileb.add_potion.common.util.compat.LoadMods;
 import com.Hileb.add_potion.common.init.ModBlockEntities;
 import com.Hileb.add_potion.common.init.ModBlocks;
@@ -53,6 +54,7 @@ public class AddPotion {
 		ModBlocks.init(bus);
 		ModItems.init(bus);
 		ModBlockEntities.init(bus);
+		ModMenuTypes.init(bus);
 	}
 
 	public void setup(FMLCommonSetupEvent event) {

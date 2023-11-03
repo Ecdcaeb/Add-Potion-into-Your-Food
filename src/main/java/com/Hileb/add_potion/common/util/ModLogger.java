@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 public class ModLogger {
 	public static final boolean SHOW_WARN = true;
 
+	@SuppressWarnings("NotNullFieldNotInitialized")
 	public static Logger logger;
 
 	public static void LogWarning(String str, Object... args) {

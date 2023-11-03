@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "tag": "minecraft:crafting_table"
+      "item": "minecraft:crafting_table"
     },
     "X": {
       "item": "minecraft:brewing_stand"

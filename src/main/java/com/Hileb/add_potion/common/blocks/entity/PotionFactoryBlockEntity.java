@@ -147,6 +147,7 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 		this.items.set(index, itemStack);
 	}
 
+	@SuppressWarnings("ConstantConditions")
 	@Override
 	public boolean stillValid(Player player) {
 		if (this.level.getBlockEntity(this.worldPosition) != this) {

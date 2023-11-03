@@ -23,7 +23,7 @@ public class ClientEventHandler {
 		ItemStack itemStack = event.getItemStack();
 		if(itemStack.isEdible()) {
 			List<MobEffectInstance> effects = APUtils.getEffectsFromFood(itemStack);
-			if(!effects.isEmpty() && APUtils.isEffectsHiding(itemStack)) {
+			if(!effects.isEmpty() && !APUtils.isEffectsHiding(itemStack)) {
 				for(MobEffectInstance instance : effects) {
 					MutableComponent component = new TranslatableComponent(instance.getDescriptionId());
 					MobEffect mobeffect = instance.getEffect();
