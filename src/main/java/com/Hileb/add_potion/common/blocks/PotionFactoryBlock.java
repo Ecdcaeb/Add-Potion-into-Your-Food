@@ -54,7 +54,7 @@ public class PotionFactoryBlock extends BaseEntityBlock {
 		if(itemStack.isEmpty()) {
 			return new TextComponent(" - Empty.").withStyle(ChatFormatting.GRAY);
 		}
-		return new TextComponent(String.format(" - [%s](%d).", itemStack.getItem().getRegistryName(), itemStack.getCount())).withStyle(ChatFormatting.GRAY);
+		return new TextComponent(" - [%s](%d).".formatted(itemStack.getItem().getRegistryName(), itemStack.getCount())).withStyle(ChatFormatting.GRAY);
 	}
 
 	@Override

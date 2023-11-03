@@ -1,6 +1,5 @@
 package com.Hileb.add_potion;
 
-import com.Hileb.add_potion.common.gui.ModGuiElementLoader;
 import com.Hileb.add_potion.common.util.compat.LoadMods;
 import com.Hileb.add_potion.common.init.ModBlockEntities;
 import com.Hileb.add_potion.common.init.ModBlocks;
@@ -21,13 +20,11 @@ import org.apache.logging.log4j.LogManager;
 import java.util.function.Supplier;
 
 
-@Mod(IdlFramework.MODID)
-public class IdlFramework {
+@Mod(AddPotion.MODID)
+public class AddPotion {
 	public static final String MODID = "add_potion";
 	public static final String NAME = "Add Potion into Your food";
 	public static final String VERSION = "1.2.0.5";
-
-
 
 	public static <T> Supplier<T> bootstrapErrorToXCPInDev(Supplier<T> in) {
 		if(FMLLoader.isProduction()) {
@@ -47,7 +44,7 @@ public class IdlFramework {
 			bootstrapErrorToXCPInDev(() -> ServerProxy::new)
 	);
 
-	public IdlFramework() {
+	public AddPotion() {
 		ModLogger.logger = LogManager.getLogger(MODID);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -59,7 +56,6 @@ public class IdlFramework {
 	}
 
 	public void setup(FMLCommonSetupEvent event) {
-		new ModGuiElementLoader();
 		LoadMods.init();
 
 		ModLogger.LogWarning("%s has finished its initializations", MODID);

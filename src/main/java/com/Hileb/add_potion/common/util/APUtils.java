@@ -17,29 +17,29 @@ import net.minecraftforge.common.MinecraftForge;
 
 import java.util.List;
 
-import static com.Hileb.add_potion.IdlFramework.MODID;
+import static com.Hileb.add_potion.AddPotion.MODID;
 
 public final class APUtils {
 	private static final String TAG_EFFECTS = new ResourceLocation(MODID, "effects").toString();
 
-	public static boolean canPlaceToPotionSlot(ItemStack itemStack) {
-		boolean ret = itemStack.getItem() instanceof PotionItem || LoadMods.isBotaniaPotion(itemStack);
-		IngredientCheckEvent event = new IngredientCheckEvent.Potion(itemStack, ret);
+	public static boolean canPlaceToPotionSlot(ItemStack potion) {
+		boolean ret = potion.getItem() instanceof PotionItem || LoadMods.isBotaniaPotion(potion);
+		IngredientCheckEvent event = new IngredientCheckEvent.Potion(potion, ret);
 		MinecraftForge.EVENT_BUS.post(event);
 		return event.isIngredient();
 	}
 
-	public static boolean canPlaceToFoodSlot(ItemStack itemStack) {
-		IngredientCheckEvent event = new IngredientCheckEvent.Food(itemStack, itemStack.isEdible());
+	public static boolean canPlaceToFoodSlot(ItemStack food) {
+		IngredientCheckEvent event = new IngredientCheckEvent.Food(food, food.isEdible());
 		MinecraftForge.EVENT_BUS.post(event);
 		return event.isIngredient();
 	}
 
-	public static List<MobEffectInstance> getPotionEffects(ItemStack itemStack) {
+	public static List<MobEffectInstance> getPotionEffects(ItemStack potion) {
 		List<MobEffectInstance> ret = Lists.newArrayList();
-		ret.addAll(PotionUtils.getMobEffects(itemStack));
-		ret.addAll(LoadMods.getBotaniaEffects(itemStack));
-		PotionEffectEvent event = new PotionEffectEvent(itemStack, ret);
+		ret.addAll(PotionUtils.getMobEffects(potion));
+		ret.addAll(LoadMods.getBotaniaEffects(potion));
+		PotionEffectEvent event = new PotionEffectEvent(potion, ret);
 		MinecraftForge.EVENT_BUS.post(event);
 		return event.getEffects();
 	}

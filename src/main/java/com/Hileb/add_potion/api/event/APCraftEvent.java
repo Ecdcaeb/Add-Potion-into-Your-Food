@@ -1,66 +1,40 @@
 package com.Hileb.add_potion.api.event;
 
-import com.Hileb.add_potion.common.util.potion.APotion;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.common.eventhandler.Event;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 
-import java.util.List;
+/**
+ * This Event is fired when player uses a potion table to add potion to a food.
+ * @see com.Hileb.add_potion.common.gui.PotionTableMenu#clickMenuButton
+ */
+public class APCraftEvent extends PlayerEvent {
+	protected final ItemStack potion;
+	protected final ItemStack food;
+	protected final ItemStack result;
 
-public abstract class APCraftEvent extends Event {
-	public ItemStack foodStack;
-	public ItemStack potionStack;
-	public EntityPlayer player;
-	public APCraftEvent(EntityPlayer playerIn,ItemStack foodStackIn, ItemStack potionStackIn) {
-		player=playerIn;
-		foodStack=foodStackIn;
-		potionStack=potionStackIn;
+	public APCraftEvent(Player player, ItemStack potion, ItemStack food, ItemStack result) {
+		super(player);
+		this.potion = potion;
+		this.food = food;
+		this.result = result;
 	}
 
 
 	@Override
-	public abstract boolean isCancelable();
-
-	public static class Pre extends APCraftEvent{
-		public Pre(EntityPlayer playerIn,ItemStack foodStackIn, ItemStack potionStackIn) {
-			super(playerIn,foodStackIn,potionStackIn);
-		}
-
-		@Override
-		public boolean isCancelable() {
-			return true;
-		}
-	}
-	public static class Post extends APCraftEvent{
-		public Post(EntityPlayer playerIn,ItemStack foodStackIn, ItemStack potionStackIn) {
-			super(playerIn,foodStackIn,potionStackIn);
-		}
-
-		@Override
-		public boolean isCancelable() {
-			return false;
-		}
-	}
-	public static class GetAPotion extends APCraftEvent{
-		public List<APotion> aPotions;
-		public ItemStack stack;
-		public GetAPotion(ItemStack stackIn,List<APotion> aPotionsIn) {
-			super(null,null,null);
-			/**
-			 * if you use it
-			 * you can't use itemStack that is not "stack".For example:food,potion,player
-			 * Because NPE(null);
-			 */
-			stack=stackIn;
-			aPotions=aPotionsIn;
-		}
-		@Override
-		public boolean isCancelable() {
-			return false;
-		}
-		public ItemStack getStack() {
-			return stack;
-		}
+	public boolean isCancelable() {
+		return false;
 	}
 
+	public ItemStack getPotion() {
+		return this.potion;
+	}
+
+	public ItemStack getFood() {
+		return this.food;
+	}
+
+	public ItemStack getOutput() {
+		return this.result;
+	}
 }

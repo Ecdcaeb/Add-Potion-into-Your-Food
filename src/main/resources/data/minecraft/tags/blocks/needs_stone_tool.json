@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "add_potion:potion_table",
+    "add_potion:potion_factory"
+  ]
+}

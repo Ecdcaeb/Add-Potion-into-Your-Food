@@ -1,0 +1,12 @@
+{
+  "language": "Chinese",
+  "language.code": "zh_cn",
+  "language.region": "China",
+  
+  "itemGroup.add_potion": "给您下药了",
+  
+  "block.add_potion.potion_table": "注入工作台",
+  "block.add_potion.potion_factory": "注入工厂",
+  
+  "container.potion_table": "注入工作台"
+}

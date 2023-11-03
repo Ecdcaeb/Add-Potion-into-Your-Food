@@ -7,7 +7,7 @@ import net.minecraftforge.eventbus.api.Event;
  * This Event is fired to indicating if an item is food or potion. Fired in Forge bus (MinecraftForge.EVENT_BUS), and is NOT cancelable.
  */
 public abstract class IngredientCheckEvent extends Event {
-	protected ItemStack stack;
+	protected final ItemStack stack;
 
 	protected boolean modified;
 

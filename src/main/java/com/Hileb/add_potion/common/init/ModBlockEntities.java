@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import static com.Hileb.add_potion.IdlFramework.MODID;
+import static com.Hileb.add_potion.AddPotion.MODID;
 
 @SuppressWarnings("ConstantConditions")
 public class ModBlockEntities {

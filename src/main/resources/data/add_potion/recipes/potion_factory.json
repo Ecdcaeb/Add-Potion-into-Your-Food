@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "add_potion:potion_table"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " R ",
+    "R#R",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "item": "add_potion:potion_factory"
+  }
+}

@@ -7,7 +7,7 @@ buildscript {
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '[6.0,6.2)', changing: true
-        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+        // classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
 }
 
@@ -16,7 +16,7 @@ plugins {
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
-apply plugin: 'org.spongepowered.mixin'
+// apply plugin: 'org.spongepowered.mixin'
 
 version = '40.1.0.0'
 group = 'com.Hileb.add_potion'
@@ -35,13 +35,13 @@ minecraft {
             workingDirectory project.file('run/client')
 
             property 'forge.logging.markers', 'REGISTRIES'
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            // property 'mixin.env.remapRefMap', 'true'
+            // property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             property 'forge.logging.console.level', 'debug'
 
             property 'forge.enabledGameTestNamespaces', 'add_potion'
-            arg "-mixin.config=add_potion.mixins.json"
+            // arg "-mixin.config=add_potion.mixins.json"
 
             mods {
                 add_potion {
@@ -54,13 +54,13 @@ minecraft {
             workingDirectory project.file('run/server')
 
             property 'forge.logging.markers', 'REGISTRIES'
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            // property 'mixin.env.remapRefMap', 'true'
+            // property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             property 'forge.logging.console.level', 'debug'
 
             property 'forge.enabledGameTestNamespaces', 'add_potion'
-            arg "-mixin.config=add_potion.mixins.json"
+            // arg "-mixin.config=add_potion.mixins.json"
 
             mods {
                 add_potion {
@@ -73,13 +73,13 @@ minecraft {
             workingDirectory project.file('run/testServer')
 
             property 'forge.logging.markers', 'REGISTRIES'
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            // property 'mixin.env.remapRefMap', 'true'
+            // property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             property 'forge.logging.console.level', 'debug'
 
             property 'forge.enabledGameTestNamespaces', 'add_potion'
-            arg "-mixin.config=add_potion.mixins.json"
+            // arg "-mixin.config=add_potion.mixins.json"
 
             mods {
                 add_potion {
@@ -92,13 +92,13 @@ minecraft {
             workingDirectory project.file('run/datagen')
 
             property 'forge.logging.markers', 'REGISTRIES'
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            // property 'mixin.env.remapRefMap', 'true'
+            // property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             property 'forge.logging.console.level', 'debug'
 
             args '--mod', 'add_potion', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-            arg "-mixin.config=add_potion.mixins.json"
+            // arg "-mixin.config=add_potion.mixins.json"
 
             mods {
                 add_potion {
@@ -134,8 +134,9 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.0'
 
     compileOnly fg.deobf("vazkii.botania:Botania:1.18.2-435:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.1.255")
 
-    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    // annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
 jar {
@@ -168,13 +169,13 @@ publishing {
     }
 }
 
-mixin {
-    add sourceSets.main, 'add_potion.refmap.json'
-    config 'add_potion.mixins.json'
-
-    debug.verbose = true
-    debug.export = true
-}
+// mixin {
+//     add sourceSets.main, 'add_potion.refmap.json'
+//     config 'add_potion.mixins.json'
+//
+//     debug.verbose = true
+//     debug.export = true
+// }
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'

@@ -1,0 +1,12 @@
+{
+  "language": "English",
+  "language.code": "en_us",
+  "language.region": "United States",
+  
+  "itemGroup.add_potion": "Add Potion to Your Food",
+  
+  "block.add_potion.potion_table": "Potion Table",
+  "block.add_potion.potion_factory": "Potion Factory",
+  
+  "container.potion_table": "Potion Table"
+}

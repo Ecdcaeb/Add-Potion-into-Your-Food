@@ -12,8 +12,8 @@ import java.util.List;
  * @see IngredientCheckEvent.Potion
  */
 public class PotionEffectEvent extends Event {
-	protected ItemStack stack;
-	protected List<MobEffectInstance> effects;
+	protected final ItemStack stack;
+	protected final List<MobEffectInstance> effects;
 
 	protected boolean modified;
 
