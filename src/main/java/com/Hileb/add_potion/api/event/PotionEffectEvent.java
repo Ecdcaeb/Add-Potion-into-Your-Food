@@ -12,19 +12,16 @@ import java.util.List;
  * @see IngredientCheckEvent.Potion
  */
 public class PotionEffectEvent extends Event {
-	protected final ItemStack stack;
+	protected final ItemStack potion;
 	protected final List<MobEffectInstance> effects;
 
-	protected boolean modified;
-
-	public PotionEffectEvent(ItemStack stack, List<MobEffectInstance> effects) {
-		this.stack = stack;
+	public PotionEffectEvent(ItemStack potion, List<MobEffectInstance> effects) {
+		this.potion = potion;
 		this.effects = effects;
-		this.modified = false;
 	}
 
-	public boolean isModified() {
-		return this.modified;
+	public ItemStack getPotion() {
+		return this.potion;
 	}
 
 	public void addEffect(MobEffectInstance effect) {

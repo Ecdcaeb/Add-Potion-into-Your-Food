@@ -12,12 +12,18 @@ import java.util.List;
  * @see com.Hileb.add_potion.common.util.APUtils#applyEffectsToFood
  */
 public class ApplyEffectsToFoodEvent extends Event {
+	protected ItemStack potion;
 	protected ItemStack food;
 	protected List<MobEffectInstance> effects;
 
-	public ApplyEffectsToFoodEvent(ItemStack food, List<MobEffectInstance> effects) {
+	public ApplyEffectsToFoodEvent(ItemStack potion, ItemStack food, List<MobEffectInstance> effects) {
+		this.potion = potion;
 		this.food = food;
 		this.effects = effects;
+	}
+
+	public ItemStack getPotion() {
+		return this.potion;
 	}
 
 	public ItemStack getFood() {

@@ -7,6 +7,8 @@
   
   "block.add_potion.potion_table": "注入工作台",
   "block.add_potion.potion_factory": "注入工厂",
+
+  "item.add_potion.food.extra_effects": "额外药效：",
   
   "container.potion_table": "注入工作台"
 }

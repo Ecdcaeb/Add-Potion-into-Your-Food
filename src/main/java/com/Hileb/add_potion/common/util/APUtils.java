@@ -13,6 +13,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PotionItem;
 import net.minecraft.world.item.alchemy.PotionUtils;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.MinecraftForge;
 
 import java.util.List;
@@ -21,6 +23,7 @@ import static com.Hileb.add_potion.AddPotion.MODID;
 
 public final class APUtils {
 	private static final String TAG_EFFECTS = new ResourceLocation(MODID, "effects").toString();
+	private static final String TAG_DISABLE = new ResourceLocation(MODID, "disable").toString();
 
 	public static boolean canPlaceToPotionSlot(ItemStack potion) {
 		boolean ret = potion.getItem() instanceof PotionItem || LoadMods.isBotaniaPotion(potion);
@@ -44,10 +47,10 @@ public final class APUtils {
 		return event.getEffects();
 	}
 
-	public static ItemStack applyEffectsToFood(ItemStack food, List<MobEffectInstance> effects) {
+	public static ItemStack applyEffectsToFood(ItemStack potion, ItemStack food) {
+		List<MobEffectInstance> effects = getPotionEffects(potion);
 		ItemStack ret = food.copy();
-		ApplyEffectsToFoodEvent event = new ApplyEffectsToFoodEvent(ret, effects);
-		MinecraftForge.EVENT_BUS.post(event);
+		setEffectsShow(ret);
 		CompoundTag nbt = ret.getOrCreateTag();
 		ListTag listTag;
 		if(nbt.contains(TAG_EFFECTS, Tag.TAG_LIST)) {
@@ -55,6 +58,8 @@ public final class APUtils {
 		} else {
 			listTag = new ListTag();
 		}
+		ApplyEffectsToFoodEvent event = new ApplyEffectsToFoodEvent(potion, ret, effects);
+		MinecraftForge.EVENT_BUS.post(event);
 		for(MobEffectInstance instance: event.getEffects()) {
 			CompoundTag tag = new CompoundTag();
 			instance.save(tag);
@@ -80,5 +85,26 @@ public final class APUtils {
 			});
 		}
 		return ret;
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static boolean isEffectsHiding(ItemStack food) {
+		CompoundTag nbt = food.getTag();
+		return nbt != null && nbt.contains(TAG_DISABLE, Tag.TAG_BYTE) && nbt.getBoolean(TAG_DISABLE);
+	}
+
+	public static void setEffectsHiding(ItemStack food) {
+		CompoundTag tag = food.getOrCreateTag();
+		tag.putBoolean(TAG_DISABLE, true);
+		food.setTag(tag);
+	}
+
+	public static void setEffectsShow(ItemStack food) {
+		CompoundTag tag = food.getOrCreateTag();
+		tag.remove(TAG_DISABLE);
+		if(tag.isEmpty()) {
+			tag = null;
+		}
+		food.setTag(tag);
 	}
 }

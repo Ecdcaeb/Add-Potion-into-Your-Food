@@ -7,6 +7,8 @@
   
   "block.add_potion.potion_table": "Potion Table",
   "block.add_potion.potion_factory": "Potion Factory",
+
+  "item.add_potion.food.extra_effects": "Additional Effects",
   
   "container.potion_table": "Potion Table"
 }

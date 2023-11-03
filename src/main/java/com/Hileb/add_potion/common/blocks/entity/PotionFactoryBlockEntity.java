@@ -42,7 +42,7 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 			if(level.hasNeighborSignal(blockPos)) {
 				ItemStack potion = blockEntity.getItem(SLOT_INPUT);
 				ItemStack food = blockEntity.getItem(SLOT_FOOD);
-				ItemStack result = APUtils.applyEffectsToFood(food, APUtils.getPotionEffects(potion));
+				ItemStack result = APUtils.applyEffectsToFood(potion, food);
 				for(int i = SLOT_RESULT1; i <= SLOT_RESULT3; ++i) {
 					ItemStack slot = blockEntity.getItem(i);
 					if(slot.isEmpty()) {
