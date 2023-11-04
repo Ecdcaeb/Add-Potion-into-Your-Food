@@ -11,6 +11,12 @@ import java.util.List;
  * @Author Hileb
  * @Date 2023/10/28 21:13
  **/
+
+@FunctionalInterface
 public interface IPotionGetter {
+    /**
+     * @param stack ItemStack
+     * @return the list of APotions for custom extraction. e.g. botanic , potion core ,vanilla , add_potion
+     */
     List<APotion> get(ItemStack stack);
 }

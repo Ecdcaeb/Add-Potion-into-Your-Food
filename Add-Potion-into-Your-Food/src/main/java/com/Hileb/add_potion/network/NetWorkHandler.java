@@ -4,12 +4,9 @@ import com.Hileb.add_potion.AddPotion;
 import com.Hileb.add_potion.common.container.ContainerAP;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraftforge.event.network.CustomPayloadEvent;
 import net.minecraftforge.network.ChannelBuilder;
 import net.minecraftforge.network.NetworkDirection;
 import net.minecraftforge.network.SimpleChannel;
-
-import java.util.function.BiConsumer;
 
 public class NetWorkHandler {
     public static final SimpleChannel INSTANCE = ChannelBuilder.named(new ResourceLocation(AddPotion.MODID,"main"))

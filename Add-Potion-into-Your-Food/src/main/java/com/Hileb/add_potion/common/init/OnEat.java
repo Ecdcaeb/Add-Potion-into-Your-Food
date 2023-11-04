@@ -1,6 +1,6 @@
 package com.Hileb.add_potion.common.init;
 
-import com.Hileb.add_potion.common.events.APPotionAffectEvent;
+import com.Hileb.add_potion.api.events.APPotionAffectEvent;
 import com.Hileb.add_potion.common.potion.APotion;
 import com.Hileb.add_potion.common.potion.ApplyUtil;
 import com.Hileb.add_potion.common.potion.PotionUtil;

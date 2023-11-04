@@ -1,7 +1,9 @@
-package com.Hileb.add_potion.common.potion;
+package com.Hileb.add_potion.api;
 
 
 import com.Hileb.add_potion.APConfig;
+import com.Hileb.add_potion.common.potion.APotion;
+import com.Hileb.add_potion.common.potion.PotionUtil;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
@@ -14,18 +16,6 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 public class PotionProcess {
-    @Deprecated
-    public static ItemStack processAuto(ItemStack potion, ItemStack food){
-        List<APotion> potions=PotionUtil.getAllEffect(potion);
-        List<APotion> foods=PotionUtil.getAllEffect(food);
-        if (potions.size()+foods.size()<= APConfig.ap_addLimit_desc){
-            ItemStack stackOut=food.copy();
-            PotionUtil.addAPotionToStack(stackOut,potions);
-            return stackOut;
-        }
-        else return ItemStack.EMPTY;
-    }
-
     /**
      * @param food 食物
      * @param potion 药水
@@ -33,9 +23,8 @@ public class PotionProcess {
      * 如果失败{@link InteractionResult.FAIL}，内部为 {@link ItemStack.EMPTY}.
      */
     public static InteractionResultHolder<ItemStack> process(ItemStack food, ItemStack potion){
-        List<APotion> potions=PotionUtil.getAllEffect(potion);
-        List<APotion> foods=PotionUtil.getAllEffect(food);
-        if (potions.size()+foods.size()<= APConfig.ap_addLimit_desc){
+        if (PotionUtil.getAPotionCount(food)+PotionUtil.getAPotionCount(potion)<= APConfig.ap_addLimit_desc){
+            List<APotion> potions= PotionUtil.getAllEffect(potion);
             ItemStack stackOut=food.copy();
             PotionUtil.addAPotionToStack(stackOut,potions);
             return InteractionResultHolder.success(stackOut);

@@ -2,9 +2,9 @@ package com.Hileb.add_potion.common.container;
 
 import com.Hileb.add_potion.APConfig;
 import com.Hileb.add_potion.common.APRegisterHandler;
-import com.Hileb.add_potion.common.events.APCraftEvent;
+import com.Hileb.add_potion.api.events.APCraftEvent;
 import com.Hileb.add_potion.common.potion.ApplyUtil;
-import com.Hileb.add_potion.common.potion.PotionProcess;
+import com.Hileb.add_potion.api.PotionProcess;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;

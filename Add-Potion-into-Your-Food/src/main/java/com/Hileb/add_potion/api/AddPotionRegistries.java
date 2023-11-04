@@ -1,12 +1,8 @@
 package com.Hileb.add_potion.api;
 
-import com.Hileb.add_potion.AddPotion;
-import net.minecraft.core.Registry;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.registries.*;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

@@ -3,7 +3,7 @@ package com.Hileb.add_potion.common.potion;
 
 import com.Hileb.add_potion.api.AddPotionRegistries;
 import com.Hileb.add_potion.api.IPotionGetter;
-import com.Hileb.add_potion.common.events.APCraftEvent;
+import com.Hileb.add_potion.api.events.APCraftEvent;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -81,11 +81,16 @@ public final class PotionUtil {
         }
         IDFBasicNBTUtil.setInt(tag,NBT_COUNT,list.size());
     }
+    @SuppressWarnings("all")
     public static void addAPotionToStack(ItemStack stack,List<APotion> list){
-        if (list==null || list.size()<=0)return;
-        List<APotion> oldList=BuildInUtils.getInternalAPEffect(stack);
-        if (oldList.size()>0)list.addAll(oldList);
-        writeAPotionToStack(stack,list);
+        if (list==null || list.isEmpty())return;
+        int oldSize=getAPotionCount(stack);
+        if (!stack.hasTag())stack.setTag(new CompoundTag());
+        CompoundTag tag=stack.getTag();
+        int size=list.size();
+        for(int i=0;i<size;i++){
+            tag.put(getNBTPotionById(i+oldSize),list.get(i).toNBT());
+        }
     }
     public static List<MobEffectInstance> getListOfPotionEffect(List<APotion> aPotions){
         List<MobEffectInstance> effects=new ArrayList<>();
@@ -100,5 +105,10 @@ public final class PotionUtil {
             effects.add(new APotion(aPotion));
         }
         return effects;
+    }
+    public static int getAPotionCount(ItemStack stack){
+        if (stack.hasTag() && stack.getTag().contains(NBT_COUNT,99)){
+            return stack.getTag().getInt(NBT_COUNT);
+        }else return 0;
     }
 }
