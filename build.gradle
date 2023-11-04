@@ -135,6 +135,7 @@ dependencies {
 
     compileOnly fg.deobf("vazkii.botania:Botania:1.18.2-435:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.1.255")
+    runtimeOnly fg.deobf("curse.maven:jade-324717:4575623")
 
     // annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }

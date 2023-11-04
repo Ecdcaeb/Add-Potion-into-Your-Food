@@ -83,6 +83,7 @@ public class PotionTableMenu extends AbstractContainerMenu {
 				ItemStack result = APUtils.applyEffectsToFood(this.potionSlot.getItem(), this.foodSlot.getItem());
 				APCraftEvent event = new APCraftEvent(player, this.potionSlot.getItem(), this.foodSlot.getItem(), result);
 				MinecraftForge.EVENT_BUS.post(event);
+				this.potionSlot.getItem().shrink(1);
 				this.foodSlot.set(event.getOutput());
 			}
 		}

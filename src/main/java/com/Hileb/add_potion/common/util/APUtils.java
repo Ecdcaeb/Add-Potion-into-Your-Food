@@ -50,6 +50,7 @@ public final class APUtils {
 	public static ItemStack applyEffectsToFood(ItemStack potion, ItemStack food) {
 		List<MobEffectInstance> effects = getPotionEffects(potion);
 		ItemStack ret = food.copy();
+		ret.setCount(1);
 		setEffectsShow(ret);
 		CompoundTag nbt = ret.getOrCreateTag();
 		ListTag listTag;

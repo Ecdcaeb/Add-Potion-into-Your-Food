@@ -11,7 +11,7 @@ import net.minecraftforge.event.entity.player.PlayerEvent;
 public class APCraftEvent extends PlayerEvent {
 	protected final ItemStack potion;
 	protected final ItemStack food;
-	protected final ItemStack result;
+	protected ItemStack result;
 
 	public APCraftEvent(Player player, ItemStack potion, ItemStack food, ItemStack result) {
 		super(player);
@@ -36,5 +36,9 @@ public class APCraftEvent extends PlayerEvent {
 
 	public ItemStack getOutput() {
 		return this.result;
+	}
+
+	public void setOutput(ItemStack result) {
+		this.result = result;
 	}
 }

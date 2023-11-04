@@ -6,6 +6,7 @@ import net.minecraftforge.event.entity.living.LivingEvent;
 
 public class APPotionAffectEvent extends LivingEvent {
 	protected final ItemStack food;
+
 	public APPotionAffectEvent(LivingEntity player, ItemStack food) {
 		super(player);
 		this.food = food;

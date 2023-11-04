@@ -42,17 +42,22 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 			if(level.hasNeighborSignal(blockPos)) {
 				ItemStack potion = blockEntity.getItem(SLOT_INPUT);
 				ItemStack food = blockEntity.getItem(SLOT_FOOD);
-				ItemStack result = APUtils.applyEffectsToFood(potion, food);
-				for(int i = SLOT_RESULT1; i <= SLOT_RESULT3; ++i) {
-					ItemStack slot = blockEntity.getItem(i);
-					if(slot.isEmpty()) {
-						blockEntity.setItem(i, result);
-						potion.shrink(1);
-						food.shrink(1);
-					} else if(ItemStack.isSameItemSameTags(slot, result)) {
-						blockEntity.getItem(i).grow(1);
-						potion.shrink(1);
-						food.shrink(1);
+				if(!potion.isEmpty() && !food.isEmpty()) {
+					ItemStack result = APUtils.applyEffectsToFood(potion, food);
+					for (int i = SLOT_RESULT1; i <= SLOT_RESULT3; ++i) {
+						ItemStack slot = blockEntity.getItem(i);
+						if (slot.isEmpty()) {
+							potion.shrink(1);
+							food.shrink(1);
+							blockEntity.setItem(i, result);
+							break;
+						} else if (ItemStack.isSameItemSameTags(slot, result)) {
+							potion.shrink(1);
+							food.shrink(1);
+							blockEntity.getItem(i).grow(result.getCount());
+							blockEntity.setChanged();
+							break;
+						}
 					}
 				}
 			}
@@ -145,6 +150,7 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 	@Override
 	public void setItem(int index, ItemStack itemStack) {
 		this.items.set(index, itemStack);
+		this.setChanged();
 	}
 
 	@SuppressWarnings("ConstantConditions")
@@ -158,7 +164,7 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 
 	@Override
 	public void clearContent() {
-
+		this.items.clear();
 	}
 
 	private static final int[] SLOTS_FOR_UP = new int[]{SLOT_INPUT};
