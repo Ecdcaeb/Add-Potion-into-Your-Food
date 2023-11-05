@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.Hileb.add_potion.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "add_potion.refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+    "HeroGiftsTaskAccess"
+  ]
+}

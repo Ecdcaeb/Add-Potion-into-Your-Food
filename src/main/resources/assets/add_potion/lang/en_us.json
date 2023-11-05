@@ -9,6 +9,10 @@
   "block.add_potion.potion_factory": "Potion Factory",
 
   "item.add_potion.food.extra_effects": "Additional Effects",
+
+  "entity.minecraft.villager.add_potion.apothecary": "Apothecary",
   
-  "container.potion_table": "Potion Table"
+  "container.potion_table": "Potion Table",
+
+  "subtitles.entity.villager.work_apothecary": "Apothecary works"
 }

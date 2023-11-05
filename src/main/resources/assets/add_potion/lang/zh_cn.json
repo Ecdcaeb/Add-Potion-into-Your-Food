@@ -9,6 +9,10 @@
   "block.add_potion.potion_factory": "注入工厂",
 
   "item.add_potion.food.extra_effects": "额外药效：",
+
+  "entity.minecraft.villager.add_potion.apothecary": "药师",
   
-  "container.potion_table": "注入工作台"
+  "container.potion_table": "注入工作台",
+
+  "subtitles.entity.villager.work_apothecary": "药师：工作"
 }

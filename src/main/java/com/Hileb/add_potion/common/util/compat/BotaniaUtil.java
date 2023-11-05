@@ -8,7 +8,7 @@ import vazkii.botania.api.brew.IBrewItem;
 import java.util.List;
 
 //Make sure that botania is loaded before calling <clinit> method of this class!
-public class BotaniaUtil {
+public final class BotaniaUtil {
 	public static boolean isBotaniaPotion(ItemStack itemStack) {
 		return itemStack.getItem() instanceof IBrewItem;
 	}

@@ -1,0 +1,12 @@
+{
+  "entity.villager.work_apothecary": {
+    "category": "entity",
+    "sounds": [
+      {
+        "name": "entity.villager.work_cleric",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.villager.work_apothecary"
+  }
+}

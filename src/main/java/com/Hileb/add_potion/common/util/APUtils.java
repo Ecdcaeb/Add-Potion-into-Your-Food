@@ -9,7 +9,10 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.Tag;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PotionItem;
 import net.minecraft.world.item.alchemy.PotionUtils;
@@ -17,13 +20,15 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.MinecraftForge;
 
+import javax.annotation.Nullable;
 import java.util.List;
 
 import static com.Hileb.add_potion.AddPotion.MODID;
 
 public final class APUtils {
-	private static final String TAG_EFFECTS = new ResourceLocation(MODID, "effects").toString();
-	private static final String TAG_DISABLE = new ResourceLocation(MODID, "disable").toString();
+	public static final String TAG_EFFECTS = new ResourceLocation(MODID, "effects").toString();
+	public static final String TAG_DISABLE = new ResourceLocation(MODID, "disable").toString();
+	private static final String TAG_OWNER = new ResourceLocation(MODID, "owner").toString();
 
 	public static boolean canPlaceToPotionSlot(ItemStack potion) {
 		boolean ret = potion.getItem() instanceof PotionItem || LoadMods.isBotaniaPotion(potion);
@@ -47,7 +52,14 @@ public final class APUtils {
 		return event.getEffects();
 	}
 
-	public static ItemStack applyEffectsToFood(ItemStack potion, ItemStack food) {
+	public static void applyEffectTo(ListTag listTag, MobEffectInstance instance) {
+		CompoundTag tag = new CompoundTag();
+		instance.save(tag);
+
+		listTag.add(tag);
+	}
+
+	public static ItemStack applyEffectsToFood(@Nullable LivingEntity owner, ItemStack potion, ItemStack food) {
 		List<MobEffectInstance> effects = getPotionEffects(potion);
 		ItemStack ret = food.copy();
 		ret.setCount(1);
@@ -62,10 +74,10 @@ public final class APUtils {
 		ApplyEffectsToFoodEvent event = new ApplyEffectsToFoodEvent(potion, ret, effects);
 		MinecraftForge.EVENT_BUS.post(event);
 		for(MobEffectInstance instance: event.getEffects()) {
-			CompoundTag tag = new CompoundTag();
-			instance.save(tag);
-			
-			listTag.add(tag);
+			applyEffectTo(listTag, instance);
+		}
+		if(owner != null) {
+			nbt.putUUID(TAG_OWNER, owner.getUUID());
 		}
 		nbt.put(TAG_EFFECTS, listTag);
 		ret.setTag(nbt);
@@ -86,6 +98,16 @@ public final class APUtils {
 			});
 		}
 		return ret;
+	}
+
+	@Nullable
+	public static LivingEntity getOwner(ServerLevel level, ItemStack food) {
+		CompoundTag nbt = food.getTag();
+		if(nbt != null && nbt.contains(TAG_OWNER, Tag.TAG_INT_ARRAY)) {
+			Entity entity = level.getEntity(nbt.getUUID(TAG_OWNER));
+			return entity instanceof LivingEntity livingEntity ? livingEntity : null;
+		}
+		return null;
 	}
 
 	@OnlyIn(Dist.CLIENT)
