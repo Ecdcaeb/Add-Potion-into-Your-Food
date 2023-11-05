@@ -11,6 +11,10 @@ public class ModLogger {
 		logger.warn(String.format(str, args));
 	}
 
+	public static void Debug(String str, Object... args) {
+		logger.debug(String.format(str, args));
+	}
+
 	public static void LogInfo(String str, Object... args) {
 		logger.info(String.format(str, args));
 	}

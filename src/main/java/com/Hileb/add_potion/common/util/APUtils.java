@@ -45,7 +45,12 @@ public final class APUtils {
 
 	public enum PotionType implements IExtensibleEnum {
 		DEFAULT((livingEntity, effect, owner) -> {
-			livingEntity.addEffect(effect, owner);
+			MobEffect mobEffect = effect.getEffect();
+			if(mobEffect.isInstantenous()) {
+				mobEffect.applyInstantenousEffect(owner, owner, livingEntity, effect.getAmplifier(), 1.0D);
+			} else {
+				livingEntity.addEffect(effect, owner);
+			}
 		}),
 		SPLASH((livingEntity, effect, owner) -> {
 			livingEntity.level.playSound(null, livingEntity.blockPosition(), SoundEvents.SPLASH_POTION_BREAK, SoundSource.PLAYERS, 1.0F, 1.0F);
@@ -53,18 +58,18 @@ public final class APUtils {
 			List<LivingEntity> list = livingEntity.level.getEntitiesOfClass(LivingEntity.class, aabb);
 			for(LivingEntity victim: list) {
 				if (victim.isAffectedByPotions()) {
-					double d0 = livingEntity.distanceToSqr(victim);
-					if (d0 < 16.0D) {
-						double d1 = 1.0D - Math.sqrt(d0) / 4.0D;
+					double dist = livingEntity.distanceToSqr(victim);
+					if (dist < 16.0D) {
+						double multiplier = 1.0D - Math.sqrt(dist) / 4.0D;
 						if (victim == livingEntity) {
-							d1 = 1.0D;
+							multiplier = 1.0D;
 						}
 
 						MobEffect mobEffect = effect.getEffect();
 						if (mobEffect.isInstantenous()) {
-							mobEffect.applyInstantenousEffect(owner, owner, victim, effect.getAmplifier(), d1);
+							mobEffect.applyInstantenousEffect(owner, owner, victim, effect.getAmplifier(), multiplier);
 						} else {
-							int i = (int)(d1 * (double)effect.getDuration() + 0.5D);
+							int i = (int)(multiplier * (double)effect.getDuration() + 0.5D);
 							if (i > 20) {
 								victim.addEffect(new MobEffectInstance(mobEffect, i, effect.getAmplifier(), effect.isAmbient(), effect.isVisible()), owner);
 							}
