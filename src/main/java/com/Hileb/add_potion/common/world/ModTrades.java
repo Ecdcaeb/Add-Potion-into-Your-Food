@@ -22,9 +22,11 @@ import static com.Hileb.add_potion.common.util.APUtils.TAG_DISABLE;
 import static com.Hileb.add_potion.common.util.APUtils.TAG_EFFECTS;
 import static net.minecraft.world.item.alchemy.Potions.*;
 
+@SuppressWarnings("unused")
 public final class ModTrades {
 	public static final int DEFAULT_SUPPLY = 12;
 	public static final int COMMON_ITEMS_SUPPLY = 16;
+	public static final int UNCOMMON_ITEMS_SUPPLY = 3;
 	public static final int XP_LEVEL_1_SELL = 1;
 	public static final int XP_LEVEL_1_BUY = 2;
 	public static final int XP_LEVEL_2_SELL = 5;
@@ -73,7 +75,7 @@ public final class ModTrades {
 				} while(flags[choice]);
 				flags[choice] = true;
 				for (MobEffectInstance instance: pool.get(choice).getEffects()) {
-					APUtils.applyEffectTo(listTag, instance);
+					APUtils.applyEffectTo(listTag, instance, APUtils.PotionType.DEFAULT);
 				}
 			}
 			nbt.put(TAG_EFFECTS, listTag);
@@ -83,6 +85,13 @@ public final class ModTrades {
 			result.setTag(nbt);
 
 			return new MerchantOffer(new ItemStack(Items.EMERALD, this.emeraldCost), result, this.maxUses, this.villagerXp, this.priceMultiplier);
+		}
+	}
+
+	public record EmeraldForItems(ItemLike item, int itemCount, int emeraldCost, int maxUses, int villagerXp, float priceMultiplier) implements VillagerTrades.ItemListing {
+		public MerchantOffer getOffer(Entity trader, Random random) {
+			ItemStack itemstack = new ItemStack(this.item, this.itemCount);
+			return new MerchantOffer(itemstack, new ItemStack(Items.EMERALD, this.emeraldCost), this.maxUses, this.villagerXp, this.priceMultiplier);
 		}
 	}
 

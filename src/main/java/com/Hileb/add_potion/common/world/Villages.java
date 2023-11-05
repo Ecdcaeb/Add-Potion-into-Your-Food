@@ -7,7 +7,6 @@ import com.Hileb.add_potion.common.util.compat.LoadMods;
 import com.Hileb.add_potion.mixin.HeroGiftsTaskAccess;
 import com.google.common.collect.ImmutableSet;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
-import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
@@ -37,8 +36,8 @@ public final class Villages {
 		HeroGiftsTaskAccess.getGifts().put(Registers.PROF_APOTHECARY.get(), new ResourceLocation(MODID, "gameplay/hero_of_the_village/apothecary_gift"));
 	}
 
-	public static void addAllStructuresToPool(RegistryAccess registryAccess) {
-	}
+//	public static void addAllStructuresToPool(RegistryAccess registryAccess) {
+//	}
 
 	@SuppressWarnings("SameParameterValue")
 	public static class Registers {
@@ -81,8 +80,21 @@ public final class Villages {
 			ResourceLocation currentVillagerProfession = event.getType().getRegistryName();
 
 			if(APOTHECARY.equals(currentVillagerProfession)) {
+				trades.get(1).add(new ModTrades.EmeraldForItems(Items.GLASS_BOTTLE, 9, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_1_BUY, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
 				trades.get(1).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.BREAD, 2, 1, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_1_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
-				trades.get(1).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.APPLE, 2, 1, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_1_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(2).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.APPLE, 2, 1, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_2_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(2).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.CARROT, 3, 1, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_2_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(2).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.POTATO, 3, 1, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_2_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(3).add(new ModTrades.EmeraldForItems(Items.NETHER_WART, 22, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_3_BUY, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(3).add(new ModTrades.EmeraldForItems(Items.GOLD_INGOT, 3, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_3_BUY, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(3).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.COOKIE, 2, 2, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_3_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(4).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.GOLDEN_APPLE, 1, 3, 8, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_4_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(4).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.COOKED_PORKCHOP, 3, 2, 2, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_4_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(4).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.COOKED_BEEF, 3, 2, 2, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_4_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.RABBIT_STEW, 1, 3, 2, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.MUSHROOM_STEW, 1, 3, 1, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.GOLDEN_CARROT, 1, 3, 5, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.PUMPKIN_PIE, 1, 3, 2, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
 			}
 		}
 

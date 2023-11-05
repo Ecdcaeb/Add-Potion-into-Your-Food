@@ -14,5 +14,9 @@
   
   "container.potion_table": "Potion Table",
 
+  "add_potion.potion_type.default": "%s",
+  "add_potion.potion_type.splash": "Splash %s",
+  "add_potion.potion_type.lingering": "Lingering %s",
+
   "subtitles.entity.villager.work_apothecary": "Apothecary works"
 }

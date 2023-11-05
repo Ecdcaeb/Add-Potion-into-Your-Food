@@ -5,7 +5,6 @@ import com.Hileb.add_potion.api.event.ApplyEffectsToFoodEvent;
 import com.Hileb.add_potion.api.event.IngredientCheckEvent;
 import com.Hileb.add_potion.common.util.APUtils;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -14,8 +13,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-
-import java.util.List;
 
 import static com.Hileb.add_potion.AddPotion.MODID;
 
@@ -27,11 +24,10 @@ public class ForgeEventHandler {
 		Level level = entity.level;
 		if (level instanceof ServerLevel serverLevel) {
 			ItemStack food = event.getItem();
-			List<MobEffectInstance> effects = APUtils.getEffectsFromFood(food);
 			LivingEntity owner = APUtils.getOwner(serverLevel, food);
 
 			if(!MinecraftForge.EVENT_BUS.post(new APPotionAffectEvent(entity, event.getItem()))) {
-				effects.forEach(instance -> entity.addEffect(instance, owner));
+				APUtils.getEffectsFromFood(food).forEach((instance, potionType) -> potionType.afterEat.accept(entity, instance, owner));
 			}
 		}
 	}
