@@ -40,7 +40,7 @@ import static com.Hileb.add_potion.AddPotion.MODID;
 public final class APUtils {
 	public static final String TAG_EFFECTS = new ResourceLocation(MODID, "effects").toString();
 	public static final String TAG_DISABLE = new ResourceLocation(MODID, "disable").toString();
-	private static final String TAG_OWNER = new ResourceLocation(MODID, "owner").toString();
+	public static final String TAG_OWNER = new ResourceLocation(MODID, "owner").toString();
 	private static final String TAG_POTION_TYPE = new ResourceLocation(MODID, "potion_type").toString();
 
 	public enum PotionType implements IExtensibleEnum {

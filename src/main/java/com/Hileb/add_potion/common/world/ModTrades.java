@@ -18,8 +18,7 @@ import net.minecraftforge.common.MinecraftForge;
 import java.util.List;
 import java.util.Random;
 
-import static com.Hileb.add_potion.common.util.APUtils.TAG_DISABLE;
-import static com.Hileb.add_potion.common.util.APUtils.TAG_EFFECTS;
+import static com.Hileb.add_potion.common.util.APUtils.*;
 import static net.minecraft.world.item.alchemy.Potions.*;
 
 @SuppressWarnings("unused")
@@ -82,6 +81,8 @@ public final class ModTrades {
 			if(random.nextInt(4) == 0) {
 				nbt.putBoolean(TAG_DISABLE, true);
 			}
+			nbt.putUUID(TAG_OWNER, trader.getUUID());
+
 			result.setTag(nbt);
 
 			return new MerchantOffer(new ItemStack(Items.EMERALD, this.emeraldCost), result, this.maxUses, this.villagerXp, this.priceMultiplier);
