@@ -7,7 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga": "2023-10-28 21:19:24 +0800"
+      "minecraft:taiga": "2023-10-28 21:19:24 +0800",
+      "minecraft:old_growth_spruce_taiga": "2023-11-05 10:51:53 +0800"
     },
     "done": false
   },
@@ -20,6 +21,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2023-10-29 11:37:50 +0800",
+      "honey_bottle": "2023-11-05 10:48:18 +0800",
       "enchanted_golden_apple": "2023-10-29 11:35:10 +0800"
     },
     "done": false
@@ -27,6 +29,90 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-10-29 11:35:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-11-04 23:05:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2023-11-04 23:05:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2023-11-04 23:05:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2023-11-04 23:05:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2023-11-05 11:17:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2023-11-05 11:17:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-11-05 11:17:33 +0800"
     },
     "done": true
   },

@@ -6,6 +6,8 @@ import com.Hileb.add_potion.api.events.APCraftEvent;
 import com.Hileb.add_potion.common.potion.ApplyUtil;
 import com.Hileb.add_potion.api.PotionProcess;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -15,6 +17,8 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.entity.SculkSensorBlockEntity;
+import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.SlotItemHandler;
@@ -44,7 +48,9 @@ public class ContainerAP extends AbstractContainerMenu {
             if (result.getResult()== InteractionResult.SUCCESS){
                 APCraftEvent.Post post_event=new APCraftEvent.Post(player,result.getObject());
                 foodSlot.set(post_event.result);
-                potionSlot.set(ItemStack.EMPTY);
+                potionSlot.getItem().shrink(1);
+                player.sendSystemMessage(Component.translatable("ap.craftSuccess"));
+                player.level().playSound(player, player.getX(),player.getY(),player.getZ(), SoundEvents.PISTON_EXTEND, SoundSource.BLOCKS, 0.5f,player.level().random.nextFloat() * 0.15F + 0.6F);
             }else {
                 player.sendSystemMessage(Component.translatable("ap.noPotionEffect"));
             }

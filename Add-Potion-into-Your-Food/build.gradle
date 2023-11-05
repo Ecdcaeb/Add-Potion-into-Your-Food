@@ -7,8 +7,8 @@ plugins {
 }
 
 
-group = mod_version
-version = mod_group_id
+group = mod_group_id
+version = mod_version
 
 base {
     archivesName = mod_id
@@ -182,8 +182,21 @@ tasks.named('jar', Jar).configure {
     }
 
     // This is the preferred method to reobfuscate your jar file
+
     finalizedBy 'reobfJar'
 }
+
+tasks.register("release"){
+    doFirst {
+    }
+    doLast {
+        copy {
+            from 'build/libs'
+            into 'releases/jar'
+        }
+    }
+}
+release.mustRunAfter(build)
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation

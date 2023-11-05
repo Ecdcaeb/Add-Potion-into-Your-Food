@@ -2,11 +2,13 @@ package com.Hileb.add_potion.client.gui_screen;
 
 import com.Hileb.add_potion.APConfig;
 import com.Hileb.add_potion.AddPotion;
-import com.Hileb.add_potion.common.container.ContainerAP;
+import com.Hileb.add_potion.api.AddPotionRegistries;
 import com.Hileb.add_potion.api.events.APTooltipEvent;
+import com.Hileb.add_potion.common.container.ContainerAP;
 import com.Hileb.add_potion.common.potion.PotionUtil;
 import com.Hileb.add_potion.network.APMessage;
 import com.Hileb.add_potion.network.NetWorkHandler;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.components.WidgetSprites;
@@ -26,28 +28,33 @@ import java.util.List;
 
 @OnlyIn(Dist.CLIENT)
 public class GuiContainerAP extends AbstractContainerScreen<ContainerAP> {
-    public final ContainerAP containerAP;
     public final ImageButton craft_button;
-    //private static final ResourceLocation BUTTON_TEXTURE = new ResourceLocation(AddPotion.MODID,"textures/gui/button.png");
+    private static final WidgetSprites BUTTON_SPRITE=new WidgetSprites(new ResourceLocation(AddPotion.MODID,"button"),new ResourceLocation(AddPotion.MODID,"button_down"),new ResourceLocation(AddPotion.MODID,"button_highlight"));
     public static final ResourceLocation BACKGROUND_TEXTURE = new ResourceLocation(AddPotion.MODID,"textures/gui/gui_potion.png");
     public GuiContainerAP(ContainerAP containerAPIn, Inventory inventory, Component component) {
         super(containerAPIn,inventory,component);
         this.imageWidth = 176;
         this.imageHeight= 133;
-
-        containerAP=containerAPIn;
-        craft_button=new ImageButton(this.leftPos+36,this.topPos+8, 24,14,
-                new WidgetSprites(new ResourceLocation("social_interactions/report_button"), new ResourceLocation("social_interactions/report_button_disabled"), new ResourceLocation("social_interactions/report_button_highlighted"))
-                ,pButton -> NetWorkHandler.INSTANCE.send(new APMessage(), PacketDistributor.SERVER.noArg()));
-        this.addRenderableWidget(craft_button);
+        this.addRenderableWidget(craft_button=new ImageButton(this.leftPos+36,this.topPos+8, 24,14,
+                BUTTON_SPRITE,
+                pButton -> {
+                    NetWorkHandler.INSTANCE.send(new APMessage(), PacketDistributor.SERVER.noArg());
+                    this.setFocused(false);
+                }));
     }
     @Override
     protected void renderBg(GuiGraphics pGuiGraphics, float pPartialTick, int pMouseX, int pMouseY) {
         int i = this.leftPos;
         int j = (this.height - this.imageHeight) / 2;
         pGuiGraphics.blit(BACKGROUND_TEXTURE, i, j, 0, 0, this.imageWidth, this.imageHeight);
+    }
+
+    @Override
+    protected void containerTick() {
+        craft_button.setFocused(false);
         craft_button.setPosition(this.leftPos+36,this.topPos+8);
     }
+
     @Override
     protected void renderLabels(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY) {
         pGuiGraphics.drawString(this.font, this.title, this.titleLabelX+80, this.titleLabelY, 4210752, false);
@@ -58,7 +65,7 @@ public class GuiContainerAP extends AbstractContainerScreen<ContainerAP> {
         super.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
         this.renderTooltip(pGuiGraphics, pMouseX, pMouseY);
         if (craft_button.isMouseOver(pMouseX,pMouseY)){
-            pGuiGraphics.renderComponentTooltip(this.font,getTooltip(containerAP.potionSlot.getItem(),containerAP.foodSlot.getItem()),pMouseX,pMouseY);
+            pGuiGraphics.renderComponentTooltip(this.font,getTooltip(getMenu().potionSlot.getItem(),getMenu().foodSlot.getItem()),pMouseX,pMouseY);
         }
     }
     public static List<Component> getTooltip(ItemStack p,ItemStack f){

@@ -13,5 +13,5 @@
   "com.hileb.ap.desc_1": "物品格效果：",
   "com.hileb.ap.desc_2": "药水格效果：",
   "itemGroup.apMiscTab": "给您下药了",
-  "tile.auto_ap_crafting.name": "注入工厂"
+  "block.add_potion.block_ap_auto_crafter": "注入工厂"
 }

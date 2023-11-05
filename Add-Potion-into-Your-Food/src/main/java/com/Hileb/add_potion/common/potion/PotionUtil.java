@@ -4,6 +4,7 @@ package com.Hileb.add_potion.common.potion;
 import com.Hileb.add_potion.api.AddPotionRegistries;
 import com.Hileb.add_potion.api.IPotionGetter;
 import com.Hileb.add_potion.api.events.APCraftEvent;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -23,7 +24,7 @@ public final class PotionUtil {
             List<APotion> list=new ArrayList<>();
             if (stack.hasTag() && stack.getTag().contains(NBT_COUNT)){
                 CompoundTag tag=stack.getTag();
-                for(int i=0;i<IDFBasicNBTUtil.getInt(tag,NBT_COUNT,0);i++){
+                for(int i = 0; i< APNBTUtils.getInt(tag,NBT_COUNT,0); i++){
                     list.add(APotion.fromNBT(stack.getTag().getCompound(getNBTPotionById(i))));
                 }
             }
@@ -79,17 +80,22 @@ public final class PotionUtil {
         for(int i=0;i<list.size();i++){
             tag.put(getNBTPotionById(i),list.get(i).toNBT());
         }
-        IDFBasicNBTUtil.setInt(tag,NBT_COUNT,list.size());
+        APNBTUtils.setInt(tag,NBT_COUNT,list.size());
     }
     @SuppressWarnings("all")
     public static void addAPotionToStack(ItemStack stack,List<APotion> list){
         if (list==null || list.isEmpty())return;
         int oldSize=getAPotionCount(stack);
-        if (!stack.hasTag())stack.setTag(new CompoundTag());
-        CompoundTag tag=stack.getTag();
-        int size=list.size();
-        for(int i=0;i<size;i++){
-            tag.put(getNBTPotionById(i+oldSize),list.get(i).toNBT());
+        if (oldSize==0){
+            writeAPotionToStack(stack,list);
+        }else {
+            if (!stack.hasTag())stack.setTag(new CompoundTag());
+            CompoundTag tag=stack.getTag();
+            for(int i=0;i<list.size();i++){
+                tag.put(getNBTPotionById(i+oldSize),list.get(i).toNBT());
+            }
+            APNBTUtils.setInt(tag,NBT_COUNT,list.size()+oldSize);
+
         }
     }
     public static List<MobEffectInstance> getListOfPotionEffect(List<APotion> aPotions){

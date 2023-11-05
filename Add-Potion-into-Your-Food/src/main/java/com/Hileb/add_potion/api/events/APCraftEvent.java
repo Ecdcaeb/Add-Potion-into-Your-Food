@@ -2,9 +2,7 @@ package com.Hileb.add_potion.api.events;
 
 
 import com.Hileb.add_potion.common.potion.APotion;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.Event;
 import org.jetbrains.annotations.Nullable;

@@ -3,6 +3,8 @@ package com.Hileb.add_potion.common.block;
 import com.Hileb.add_potion.common.container.ContainerAP;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.SimpleMenuProvider;
@@ -38,6 +40,7 @@ public class BlockAPCrafting extends Block {
         if (world.isClientSide) {
             return InteractionResult.SUCCESS;
         } else {
+            world.playSound(entityPlayer, pos.getX(),pos.getY(),pos.getZ(), SoundEvents.PISTON_EXTEND, SoundSource.BLOCKS, 0.5f,world.random.nextFloat() * 0.15F + 0.6F);
             ((IForgeServerPlayer)entityPlayer).openMenu(
                     new SimpleMenuProvider(
                     (id,inventory,player)->new ContainerAP(id,inventory,ContainerLevelAccess.create(world,pos)),
@@ -45,18 +48,4 @@ public class BlockAPCrafting extends Block {
             return InteractionResult.CONSUME;
         }
     }
-//
-//    @Nullable
-//    @Override
-//    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-//        return new TileEntityBlockCrafting(pos,state);
-//    }
-//
-//    @Nullable
-//    @Override
-//    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level p_153212_, BlockState p_153213_, BlockEntityType<T> type) {
-//        return type == APRegisterHandler.TILE_ENTITY_BLOCK_AP_CRAFTING_TABLE.get() ? TileEntityBlockCrafting::tick : null;
-//    }
-
-
 }

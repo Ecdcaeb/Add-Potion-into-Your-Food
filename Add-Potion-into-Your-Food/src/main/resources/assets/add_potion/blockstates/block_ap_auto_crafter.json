@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "add_potion:block/block_ap_crafting_table" }
+	}
+}
