@@ -36,8 +36,7 @@ public final class Villages {
 		HeroGiftsTaskAccess.getGifts().put(Registers.PROF_APOTHECARY.get(), new ResourceLocation(MODID, "gameplay/hero_of_the_village/apothecary_gift"));
 	}
 
-//	public static void addAllStructuresToPool(RegistryAccess registryAccess) {
-//	}
+//	addAllStructuresToPool(RegistryAccess registryAccess)
 
 	@SuppressWarnings("SameParameterValue")
 	public static class Registers {
@@ -74,7 +73,6 @@ public final class Villages {
 	public static class Events {
 		@SubscribeEvent
 		public static void registerTrades(VillagerTradesEvent event) {
-			ModTrades.init();
 			Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 
 			ResourceLocation currentVillagerProfession = event.getType().getRegistryName();

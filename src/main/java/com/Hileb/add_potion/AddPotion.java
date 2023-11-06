@@ -9,6 +9,7 @@ import com.Hileb.add_potion.common.proxy.ClientProxy;
 import com.Hileb.add_potion.common.proxy.ProxyBase;
 import com.Hileb.add_potion.common.proxy.ServerProxy;
 import com.Hileb.add_potion.common.util.ModLogger;
+import com.Hileb.add_potion.common.world.ModTrades;
 import com.Hileb.add_potion.common.world.Villages;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -60,8 +61,11 @@ public class AddPotion {
 	}
 
 	public void setup(FMLCommonSetupEvent event) {
-		LoadMods.init();
+		event.enqueueWork(() -> {
+			LoadMods.init();
+			ModTrades.init();
 
-		ModLogger.LogInfo("%s has finished its initializations", MODID);
+			ModLogger.LogInfo("%s has finished its initializations", MODID);
+		});
 	}
 }
