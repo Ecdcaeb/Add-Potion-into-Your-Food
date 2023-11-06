@@ -5,6 +5,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.Event;
 
+import javax.annotation.Nullable;
 import java.util.List;
 
 /**
@@ -14,12 +15,17 @@ import java.util.List;
 public class ApplyEffectsToFoodEvent extends Event {
 	protected final ItemStack potion;
 	protected final ItemStack food;
+
+	@Nullable
+	protected ItemStack potionRemaining;
+
 	protected final List<MobEffectInstance> effects;
 
 	public ApplyEffectsToFoodEvent(ItemStack potion, ItemStack food, List<MobEffectInstance> effects) {
 		this.potion = potion;
 		this.food = food;
 		this.effects = effects;
+		this.potionRemaining = null;
 	}
 
 	public ItemStack getPotion() {
@@ -40,5 +46,14 @@ public class ApplyEffectsToFoodEvent extends Event {
 
 	public List<MobEffectInstance> getEffects() {
 		return this.effects;
+	}
+
+	@Nullable
+	public ItemStack getPotionRemaining() {
+		return this.potionRemaining;
+	}
+
+	public void setPotionRemaining(@Nullable ItemStack potionRemaining) {
+		this.potionRemaining = potionRemaining;
 	}
 }

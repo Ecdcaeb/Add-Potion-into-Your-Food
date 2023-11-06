@@ -14,6 +14,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.Tuple;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.AreaEffectCloud;
@@ -34,6 +35,7 @@ import org.apache.logging.log4j.util.TriConsumer;
 import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import static com.Hileb.add_potion.AddPotion.MODID;
 
@@ -132,7 +134,7 @@ public final class APUtils {
 		listTag.add(tag);
 	}
 
-	public static ItemStack applyEffectsToFood(@Nullable LivingEntity owner, ItemStack potion, ItemStack food) {
+	public static Tuple<ItemStack, Optional<ItemStack>> applyEffectsToFood(@Nullable LivingEntity owner, ItemStack potion, ItemStack food) {
 		List<MobEffectInstance> effects = getPotionEffects(potion);
 		ItemStack ret = food.copy();
 		ret.setCount(1);
@@ -159,7 +161,7 @@ public final class APUtils {
 		nbt.put(TAG_EFFECTS, listTag);
 		ret.setTag(nbt);
 
-		return ret;
+		return new Tuple<>(ret, Optional.ofNullable(event.getPotionRemaining()));
 	}
 	
 	public static Map<MobEffectInstance, PotionType> getEffectsFromFood(ItemStack food) {

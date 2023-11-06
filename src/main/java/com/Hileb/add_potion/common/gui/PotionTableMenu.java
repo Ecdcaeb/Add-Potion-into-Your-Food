@@ -4,6 +4,7 @@ import com.Hileb.add_potion.api.event.APCraftEvent;
 import com.Hileb.add_potion.common.init.ModBlocks;
 import com.Hileb.add_potion.common.init.ModMenuTypes;
 import com.Hileb.add_potion.common.util.APUtils;
+import net.minecraft.util.Tuple;
 import net.minecraft.world.Container;
 import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.entity.player.Inventory;
@@ -13,6 +14,8 @@ import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+
+import java.util.Optional;
 
 public class PotionTableMenu extends AbstractContainerMenu {
 	private static final int SLOT_POTION = 0;
@@ -80,10 +83,10 @@ public class PotionTableMenu extends AbstractContainerMenu {
 	public boolean clickMenuButton(Player player, int index) {
 		if(index == 0) {
 			if(this.potionSlot.hasItem() && this.foodSlot.hasItem()) {
-				ItemStack result = APUtils.applyEffectsToFood(player, this.potionSlot.getItem(), this.foodSlot.getItem());
-				APCraftEvent event = new APCraftEvent(player, this.potionSlot.getItem(), this.foodSlot.getItem(), result);
+				Tuple<ItemStack, Optional<ItemStack>> result = APUtils.applyEffectsToFood(player, this.potionSlot.getItem(), this.foodSlot.getItem());
+				APCraftEvent event = new APCraftEvent(player, this.potionSlot.getItem(), this.foodSlot.getItem(), result.getA());
 				MinecraftForge.EVENT_BUS.post(event);
-				this.potionSlot.getItem().shrink(1);
+				result.getB().ifPresentOrElse(this.potionSlot::set, () -> this.potionSlot.getItem().shrink(1));
 				this.foodSlot.set(event.getOutput());
 			}
 		}

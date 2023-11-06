@@ -5,6 +5,14 @@
   "refmap": "add_potion.refmap.json",
   "minVersion": "0.8",
   "mixins": [
-    "HeroGiftsTaskAccess"
+    "HeroGiftsTaskAccess",
+    "VillagerMixin",
+    "animals.AbstractHorseMixin",
+    "animals.AnimalMixin",
+    "animals.CatMixin",
+    "animals.FoxMixin",
+    "animals.OcelotMixin",
+    "animals.ParrotMixin",
+    "animals.WolfMixin"
   ]
 }

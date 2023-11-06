@@ -6,6 +6,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.util.Tuple;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.world.WorldlyContainer;
 import net.minecraft.world.entity.player.Player;
@@ -21,6 +22,7 @@ import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
+import java.util.Optional;
 
 public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyContainer {
 	public static final int SLOT_INPUT = 0;
@@ -43,21 +45,23 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 				ItemStack potion = blockEntity.getItem(SLOT_INPUT);
 				ItemStack food = blockEntity.getItem(SLOT_FOOD);
 				if(!potion.isEmpty() && !food.isEmpty()) {
-					ItemStack result = APUtils.applyEffectsToFood(null, potion, food);
+					Tuple<ItemStack, Optional<ItemStack>> result = APUtils.applyEffectsToFood(null, potion, food);
 					for (int i = SLOT_RESULT1; i <= SLOT_RESULT3; ++i) {
 						ItemStack slot = blockEntity.getItem(i);
 						if (slot.isEmpty()) {
-							potion.shrink(1);
-							food.shrink(1);
-							blockEntity.setItem(i, result);
-							break;
-						} else if (ItemStack.isSameItemSameTags(slot, result)) {
-							potion.shrink(1);
-							food.shrink(1);
-							blockEntity.getItem(i).grow(result.getCount());
-							blockEntity.setChanged();
-							break;
+							blockEntity.items.set(i, result.getA());
+						} else if (ItemStack.isSameItemSameTags(slot, result.getA())) {
+							blockEntity.getItem(i).grow(result.getA().getCount());
+						} else {
+							continue;
 						}
+						result.getB().ifPresentOrElse(
+								itemStack -> blockEntity.items.set(SLOT_INPUT, itemStack),
+								() -> potion.shrink(1)
+						);
+						food.shrink(1);
+						blockEntity.setChanged();
+						break;
 					}
 				}
 			}

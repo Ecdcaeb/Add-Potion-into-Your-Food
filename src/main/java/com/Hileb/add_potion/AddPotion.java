@@ -22,7 +22,7 @@ import org.apache.logging.log4j.LogManager;
 
 import java.util.function.Supplier;
 
-
+@SuppressWarnings("unused")
 @Mod(AddPotion.MODID)
 public class AddPotion {
 	public static final String MODID = "add_potion";
@@ -64,6 +64,7 @@ public class AddPotion {
 		event.enqueueWork(() -> {
 			LoadMods.init();
 			ModTrades.init();
+			Villages.init();
 
 			ModLogger.LogInfo("%s has finished its initializations", MODID);
 		});
