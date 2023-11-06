@@ -91,7 +91,7 @@ public final class Villages {
 				trades.get(4).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.COOKED_BEEF, 3, 2, 2, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_4_SELL, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
 				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.RABBIT_STEW, 1, 3, 2, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
 				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.MUSHROOM_STEW, 1, 3, 1, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
-				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.GOLDEN_CARROT, 1, 3, 5, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
+				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.GOLDEN_CARROT, 1, 3, 2, ModTrades.UNCOMMON_ITEMS_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
 				trades.get(5).add(new ModTrades.FoodWithRandomEffectsForEmerald(Items.PUMPKIN_PIE, 1, 3, 2, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_5_TRADE, ModTrades.LOW_TIER_PRICE_MULTIPLIER));
 			}
 		}

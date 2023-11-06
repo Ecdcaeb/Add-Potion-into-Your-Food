@@ -6,7 +6,7 @@ import net.minecraftforge.eventbus.api.Event;
 import java.util.List;
 
 /**
- * This Event is fired to register beneficial and harmful potions added by other mods.
+ * This Event is fired during ServerAboutToStartEvent to register beneficial and harmful potions added by other mods.
  * @see com.Hileb.add_potion.common.world.ModTrades
  */
 public class AddVillagerTradePotionEvent extends Event {

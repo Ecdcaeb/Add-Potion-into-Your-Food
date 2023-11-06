@@ -11,6 +11,9 @@ import com.Hileb.add_potion.common.util.ModLogger;
 import com.Hileb.add_potion.common.util.compat.LoadMods;
 import com.Hileb.add_potion.common.world.ModTrades;
 import com.Hileb.add_potion.common.world.Villages;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.server.ServerAboutToStartEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModList;
@@ -53,20 +56,27 @@ public class AddPotion {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		bus.addListener(this::setup);
 
+		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, this::onServerAboutToStart);
+
 		ModBlocks.init(bus);
 		ModItems.init(bus);
 		ModBlockEntities.init(bus);
 		ModMenuTypes.init(bus);
 		Villages.Registers.init(bus);
+
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public void setup(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			LoadMods.init();
-			ModTrades.init();
 			Villages.init();
 
 			ModLogger.LogInfo("%s has finished its initializations", MODID);
 		});
+	}
+
+	public void onServerAboutToStart(ServerAboutToStartEvent event) {
+		ModTrades.init();
 	}
 }
