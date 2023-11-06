@@ -86,21 +86,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
-    "criteria": {
-      "has_redstone_ore": "2023-11-05 11:17:41 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_redstone": "2023-11-05 11:17:33 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
-    "criteria": {
-      "has_redstone_ore": "2023-11-05 11:17:41 +0800"
     },
     "done": true
   },
@@ -113,6 +101,30 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2023-11-05 11:17:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2023-11-05 11:17:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2023-11-05 11:17:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2023-11-06 13:15:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2023-11-06 13:15:29 +0800"
     },
     "done": true
   },

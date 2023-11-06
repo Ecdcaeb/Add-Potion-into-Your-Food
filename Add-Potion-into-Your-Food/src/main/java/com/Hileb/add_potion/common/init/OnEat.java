@@ -36,11 +36,11 @@ public class OnEat {
     }
     @SubscribeEvent
     public static void addPotionIntoEntityPotion(EntityJoinLevelEvent event){
-        if (event.getEntity() instanceof ThrownPotion entity && !event.getLevel().isClientSide){
+        if (!event.getLevel().isClientSide && event.getEntity() instanceof ThrownPotion entity){
             ItemStack stack=entity.getItem();
             APEventFactory.onThrowableHandle(entity,stack,apPotionAffectEvent -> {
                 Collection<MobEffectInstance> collection=PotionUtil.getListOfPotionEffect(PotionUtil.BuildInUtils.getInternalAPEffect(apPotionAffectEvent.food));
-                collection.addAll(PotionUtils.getCustomEffects(stack));
+                collection.addAll(PotionUtils.getCustomEffects(apPotionAffectEvent.food));
                 PotionUtils.setCustomEffects(stack,collection);
             });
         }

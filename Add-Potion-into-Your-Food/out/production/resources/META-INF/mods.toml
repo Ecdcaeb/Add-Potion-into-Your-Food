@@ -4,7 +4,7 @@ license="MIT"
 issueTrackerURL="https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/issues"
 [[mods]]
 modId="add_potion"
-version="${mod_version}"
+version="48.3.0.9"
 displayName="Add-Potion-into-Your-Food"
 displayURL="https://www.mcmod.cn/class/8478.html"
 credits='''Idealland - they provided this framework.
@@ -12,8 +12,8 @@ credits='''Idealland - they provided this framework.
            Liu Dongyu - sponsor for 1.18.2+.
 '''
 
-authors="${mod_authors}"
-description='''${mod_description}'''
+authors="Hileb"
+description='''A mod for ZFP.Using the Potion Table,the mod which is described by Taoism Deeplake as 'PPAP' add potion...'''
 [[dependencies.add_potion]]
    modId="forge"
    mandatory=true
