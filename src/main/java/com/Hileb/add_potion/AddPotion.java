@@ -51,7 +51,7 @@ public class AddPotion {
 		ModLogger.logger = LogManager.getLogger(MODID);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		MinecraftForge.EVENT_BUS.addListener(this::setup);
+		bus.addListener(this::setup);
 
 		ModBlocks.init(bus);
 		ModItems.init(bus);
