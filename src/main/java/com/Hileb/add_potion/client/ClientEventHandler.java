@@ -20,7 +20,7 @@ public class ClientEventHandler {
 	@SubscribeEvent
 	public static void onToolTipShow(ItemTooltipEvent event) {
 		ItemStack itemStack = event.getItemStack();
-		if(itemStack.isEdible()) {
+		if(APUtils.canPlaceToFoodSlot(itemStack)) {
 			if(!APUtils.isEffectsHiding(itemStack)) {
 				APUtils.getEffectsFromFood(itemStack).forEach(((instance, potionType) -> {
 					MutableComponent component = new TranslatableComponent(instance.getDescriptionId());
