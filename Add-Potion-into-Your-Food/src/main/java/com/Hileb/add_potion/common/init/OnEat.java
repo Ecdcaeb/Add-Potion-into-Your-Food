@@ -26,7 +26,7 @@ public class OnEat {
         LivingEntity entity=event.getEntity();
         if (!entity.level().isClientSide){
             ItemStack stack=event.getItem();
-            if (ApplyUtil.canApplyStackAsFoods(entity instanceof Player?(Player)entity:null,stack)){
+            if (PotionUtil.getAPotionCount(stack)>0){
                 APEventFactory.onLivingEaten(entity,stack,apPotionAffectEvent -> {
                     PotionUtil.BuildInUtils.getInternalAPEffect(apPotionAffectEvent.food).
                             forEach(aPotion -> entity.addEffect(aPotion.getEffect()));
@@ -38,11 +38,13 @@ public class OnEat {
     public static void addPotionIntoEntityPotion(EntityJoinLevelEvent event){
         if (!event.getLevel().isClientSide && event.getEntity() instanceof ThrownPotion entity){
             ItemStack stack=entity.getItem();
-            APEventFactory.onThrowableHandle(entity,stack,apPotionAffectEvent -> {
-                Collection<MobEffectInstance> collection=PotionUtil.getListOfPotionEffect(PotionUtil.BuildInUtils.getInternalAPEffect(apPotionAffectEvent.food));
-                collection.addAll(PotionUtils.getCustomEffects(apPotionAffectEvent.food));
-                PotionUtils.setCustomEffects(stack,collection);
-            });
+            if (PotionUtil.getAPotionCount(stack)>0){
+                APEventFactory.onThrowableHandle(entity,stack,apPotionAffectEvent -> {
+                    Collection<MobEffectInstance> collection=PotionUtil.getListOfPotionEffect(PotionUtil.BuildInUtils.getInternalAPEffect(apPotionAffectEvent.food));
+                    collection.addAll(PotionUtils.getCustomEffects(apPotionAffectEvent.food));
+                    PotionUtils.setCustomEffects(stack,collection);
+                });
+            }
         }
     }
     @SubscribeEvent
@@ -51,10 +53,12 @@ public class OnEat {
         if (!level.isClientSide){
             if (event.getTarget() instanceof Animal animal){
                 if (animal.isFood(event.getItemStack())) {
-                    APEventFactory.onLivingEaten(animal,event.getItemStack(),apPotionAffectEvent -> {
-                        PotionUtil.BuildInUtils.getInternalAPEffect(apPotionAffectEvent.food).
-                                forEach(aPotion ->animal.addEffect(aPotion.getEffect()));
-                    });
+                    if (PotionUtil.getAPotionCount(event.getItemStack())>0){
+                        APEventFactory.onLivingEaten(animal,event.getItemStack(),apPotionAffectEvent -> {
+                            PotionUtil.BuildInUtils.getInternalAPEffect(apPotionAffectEvent.food).
+                                    forEach(aPotion ->animal.addEffect(aPotion.getEffect()));
+                        });
+                    }
                 }
             }
         }
