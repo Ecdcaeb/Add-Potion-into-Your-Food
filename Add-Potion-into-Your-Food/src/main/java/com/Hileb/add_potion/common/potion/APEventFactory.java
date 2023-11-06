@@ -29,4 +29,5 @@ public class APEventFactory {
     public static void onThrowableHandle(ThrownPotion entity,ItemStack stack,Consumer<APPotionAffectEvent> success){
         fireAndHandle(new APPotionAffectEvent(entity, stack), success, event -> {});
     }
+
 }
