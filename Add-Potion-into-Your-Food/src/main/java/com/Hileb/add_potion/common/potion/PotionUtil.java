@@ -40,7 +40,7 @@ public final class PotionUtil {
                 public static final IPotionGetter AP_EFFECT=BuildInUtils::getInternalAPEffect;
                 public static final IPotionGetter VANILLA=BuildInUtils::getFormVanilla;
                 public static final AddPotionRegistries.Adjuster BOTH=((player, stack) -> (stack.getItem()== Items.POTION || stack.getItem()==Items.LINGERING_POTION || stack.getItem()==Items.SPLASH_POTION)?AddPotionRegistries.Result.APPLY: AddPotionRegistries.Result.PASS);
-                public static final AddPotionRegistries.Adjuster FOOD_ONLY=(player, stack) ->  stack.getItem().isEdible()?AddPotionRegistries.Result.APPLY: AddPotionRegistries.Result.PASS;
+                public static final AddPotionRegistries.Adjuster FOOD_ONLY=(player, stack) ->  stack.getItem().isEdible() || stack.is(Items.WHEAT) || stack.is(Items.WHEAT_SEEDS)?AddPotionRegistries.Result.APPLY: AddPotionRegistries.Result.PASS;
             }
         }
     }

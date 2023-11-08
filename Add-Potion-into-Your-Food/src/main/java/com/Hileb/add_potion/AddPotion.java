@@ -59,8 +59,6 @@ public class AddPotion {
         //vanilla
         AddPotionRegistries.addBoth(PotionUtil.BuildInUtils.RegisterObject.Vanilla.BOTH);
         AddPotionRegistries.addFood(PotionUtil.BuildInUtils.RegisterObject.Vanilla.FOOD_ONLY);
-        //exp:
-        AddPotionRegistries.addBoth(((player, stack) -> AddPotionRegistries.Result.APPLY));
         //
         AddPotionRegistries.addGetter(new ResourceLocation(MODID,"internal_getter"),PotionUtil.BuildInUtils.RegisterObject.Vanilla.AP_EFFECT);
         AddPotionRegistries.addGetter(new ResourceLocation(MODID,"vanilla_getter"),PotionUtil.BuildInUtils.RegisterObject.Vanilla.VANILLA);
