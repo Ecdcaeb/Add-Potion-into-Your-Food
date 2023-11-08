@@ -39,4 +39,4 @@ Put the original liquid medicine into the liquid medicine box, and put the origi
 ![image](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/assets/107909747/573d4666-adeb-459a-a32f-d9daba3fa53d)
 
 # For developer:
- download the file.
+https://cursemaven.com/
