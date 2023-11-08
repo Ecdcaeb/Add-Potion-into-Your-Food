@@ -6,6 +6,8 @@ ____state____:
 -  _Active_ :
  
    + [1.20.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.20.2)
+ 
+   + [1.18.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.18.2)
 
 - _Legacy_:
 
@@ -13,7 +15,6 @@ ____state____:
    
 - _WIP_:
 
-    + [1.18.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.18.2)
     
     + [1.19.4](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.19.4)
    
