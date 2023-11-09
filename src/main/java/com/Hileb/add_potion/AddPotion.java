@@ -1,9 +1,6 @@
 package com.Hileb.add_potion;
 
-import com.Hileb.add_potion.common.init.ModBlockEntities;
-import com.Hileb.add_potion.common.init.ModBlocks;
-import com.Hileb.add_potion.common.init.ModItems;
-import com.Hileb.add_potion.common.init.ModMenuTypes;
+import com.Hileb.add_potion.common.init.*;
 import com.Hileb.add_potion.common.proxy.ClientProxy;
 import com.Hileb.add_potion.common.proxy.ProxyBase;
 import com.Hileb.add_potion.common.proxy.ServerProxy;
@@ -21,6 +18,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLLoader;
+import net.minecraftforge.registries.RegisterEvent;
 import org.apache.logging.log4j.LogManager;
 
 import java.util.function.Supplier;
@@ -55,6 +53,7 @@ public class AddPotion {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		bus.addListener(this::setup);
+		bus.addListener(this::onRegister);
 
 		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, this::onServerAboutToStart);
 
@@ -65,6 +64,10 @@ public class AddPotion {
 		Villages.Registers.init(bus);
 
 		MinecraftForge.EVENT_BUS.register(this);
+	}
+
+	public void onRegister(RegisterEvent event) {
+		ModSounds.init(event);
 	}
 
 	public void setup(FMLCommonSetupEvent event) {

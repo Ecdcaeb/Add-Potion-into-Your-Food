@@ -3,16 +3,17 @@ package com.Hileb.add_potion.common.world;
 import com.Hileb.add_potion.api.event.AddVillagerTradePotionEvent;
 import com.Hileb.add_potion.common.init.ModBlocks;
 import com.Hileb.add_potion.common.init.ModSounds;
+import com.Hileb.add_potion.common.util.RegistryHelper;
 import com.Hileb.add_potion.common.util.compat.LoadMods;
 import com.Hileb.add_potion.mixin.HeroGiftsTaskAccess;
 import com.google.common.collect.ImmutableSet;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -26,6 +27,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.function.Supplier;
 
 import static com.Hileb.add_potion.AddPotion.MODID;
 
@@ -41,26 +43,27 @@ public final class Villages {
 	@SuppressWarnings("SameParameterValue")
 	public static class Registers {
 		public static final DeferredRegister<PoiType> POINTS_OF_INTEREST = DeferredRegister.create(ForgeRegistries.POI_TYPES, MODID);
-		public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.PROFESSIONS, MODID);
+		public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, MODID);
 
 		public static final RegistryObject<PoiType> POI_POTION_TABLE = POINTS_OF_INTEREST.register(
-				"potion_table", () -> createPOI(Villages.APOTHECARY, assembleStates(ModBlocks.POTION_TABLE.get()))
+				"potion_table", () -> createPOI(assembleStates(ModBlocks.POTION_TABLE.get()))
 		);
 
 		public static final RegistryObject<VillagerProfession> PROF_APOTHECARY = PROFESSIONS.register(
-				Villages.APOTHECARY.getPath(), () -> createProf(Villages.APOTHECARY, POI_POTION_TABLE.get(), ModSounds.VILLAGER_WORK_APOTHECARY)
+				Villages.APOTHECARY.getPath(), () -> createProf(Villages.APOTHECARY, POI_POTION_TABLE::getKey, ModSounds.VILLAGER_WORK_APOTHECARY)
 		);
 
 		private static Collection<BlockState> assembleStates(Block block) {
 			return block.getStateDefinition().getPossibleStates();
 		}
 
-		private static PoiType createPOI(ResourceLocation name, Collection<BlockState> block) {
-			return new PoiType(name.toString(), ImmutableSet.copyOf(block), 1, 1);
+		private static PoiType createPOI(Collection<BlockState> block) {
+			return new PoiType(ImmutableSet.copyOf(block), 1, 1);
 		}
 
-		private static VillagerProfession createProf(ResourceLocation name, PoiType poi, SoundEvent sound) {
-			return new VillagerProfession(name.toString(), poi, ImmutableSet.<Item>builder().build(), ImmutableSet.<Block>builder().build(), sound);
+		private static VillagerProfession createProf(ResourceLocation name, Supplier<ResourceKey<PoiType>> poi, SoundEvent sound) {
+			ResourceKey<PoiType> poiName = poi.get();
+			return new VillagerProfession(name.toString(), (p) -> p.is(poiName), (p) -> p.is(poiName), ImmutableSet.of(), ImmutableSet.of(), sound);
 		}
 
 		public static void init(IEventBus bus) {
@@ -75,7 +78,7 @@ public final class Villages {
 		public static void registerTrades(VillagerTradesEvent event) {
 			Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 
-			ResourceLocation currentVillagerProfession = event.getType().getRegistryName();
+			ResourceLocation currentVillagerProfession = RegistryHelper.getRegistryName(event.getType());
 
 			if(APOTHECARY.equals(currentVillagerProfession)) {
 				trades.get(1).add(new ModTrades.EmeraldForItems(Items.GLASS_BOTTLE, 9, 1, ModTrades.DEFAULT_SUPPLY, ModTrades.XP_LEVEL_1_BUY, ModTrades.LOW_TIER_PRICE_MULTIPLIER));

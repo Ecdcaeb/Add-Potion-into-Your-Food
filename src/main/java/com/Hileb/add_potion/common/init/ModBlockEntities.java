@@ -12,7 +12,7 @@ import static com.Hileb.add_potion.AddPotion.MODID;
 
 @SuppressWarnings("ConstantConditions")
 public class ModBlockEntities {
-	private static final DeferredRegister<BlockEntityType<?>> REGISTER = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, MODID);
+	private static final DeferredRegister<BlockEntityType<?>> REGISTER = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MODID);
 
 	public static final RegistryObject<BlockEntityType<PotionFactoryBlockEntity>> POTION_FACTORY = REGISTER.register(
 			"potion_factory", () -> new BlockEntityType<>(

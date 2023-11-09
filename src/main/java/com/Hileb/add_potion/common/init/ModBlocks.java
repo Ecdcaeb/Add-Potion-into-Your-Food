@@ -4,7 +4,6 @@ import com.Hileb.add_potion.common.blocks.PotionFactoryBlock;
 import com.Hileb.add_potion.common.gui.PotionTableMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -31,7 +30,7 @@ public class ModBlocks {
 	@SuppressWarnings("deprecation")
 	public static final RegistryObject<Block> POTION_TABLE = REGISTER.register(
 			"potion_table", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5.0F)) {
-				private static final Component CONTAINER_TITLE = new TranslatableComponent("container.potion_table");
+				private static final Component CONTAINER_TITLE = Component.translatable("container.potion_table");
 
 				@Override
 				public InteractionResult use(BlockState blockState, Level level, BlockPos blockPos, Player p_57086_, InteractionHand p_57087_, BlockHitResult p_57088_) {

@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 import static com.Hileb.add_potion.AddPotion.MODID;
 
 public class ModMenuTypes {
-	private static final DeferredRegister<MenuType<?>> REGISTER = DeferredRegister.create(ForgeRegistries.CONTAINERS, MODID);
+	private static final DeferredRegister<MenuType<?>> REGISTER = DeferredRegister.create(ForgeRegistries.MENU_TYPES, MODID);
 
 	public static final RegistryObject<MenuType<PotionTableMenu>> POTION_TABLE_MENU = REGISTER.register(
 			"potion_table", () -> new MenuType<>(PotionTableMenu::new)

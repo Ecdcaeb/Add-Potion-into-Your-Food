@@ -5,6 +5,7 @@ import com.Hileb.add_potion.common.util.APUtils;
 import com.google.common.collect.Lists;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.npc.VillagerTrades;
@@ -16,7 +17,6 @@ import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.MinecraftForge;
 
 import java.util.List;
-import java.util.Random;
 
 import static com.Hileb.add_potion.common.util.APUtils.*;
 import static net.minecraft.world.item.alchemy.Potions.*;
@@ -60,7 +60,7 @@ public final class ModTrades {
 
 	public record FoodWithRandomEffectsForEmerald(ItemLike item, int itemCount, int chooses, int emeraldCost, int maxUses, int villagerXp, float priceMultiplier) implements VillagerTrades.ItemListing {
 		@Override
-		public MerchantOffer getOffer(Entity trader, Random random) {
+		public MerchantOffer getOffer(Entity trader, RandomSource random) {
 			ItemStack result = new ItemStack(this.item, this.itemCount);
 			CompoundTag nbt = result.getOrCreateTag();
 			ListTag listTag = new ListTag();
@@ -90,7 +90,7 @@ public final class ModTrades {
 	}
 
 	public record EmeraldForItems(ItemLike item, int itemCount, int emeraldCost, int maxUses, int villagerXp, float priceMultiplier) implements VillagerTrades.ItemListing {
-		public MerchantOffer getOffer(Entity trader, Random random) {
+		public MerchantOffer getOffer(Entity trader, RandomSource random) {
 			ItemStack itemstack = new ItemStack(this.item, this.itemCount);
 			return new MerchantOffer(itemstack, new ItemStack(Items.EMERALD, this.emeraldCost), this.maxUses, this.villagerXp, this.priceMultiplier);
 		}

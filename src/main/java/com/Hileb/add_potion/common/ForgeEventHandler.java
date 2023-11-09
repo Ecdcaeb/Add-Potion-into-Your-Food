@@ -26,7 +26,7 @@ import static com.Hileb.add_potion.AddPotion.MODID;
 public class ForgeEventHandler {
 	@SubscribeEvent
 	public static void onFoodEaten(LivingEntityUseItemEvent.Finish event) {
-		LivingEntity entity = event.getEntityLiving();
+		LivingEntity entity = event.getEntity();
 		Level level = entity.level;
 		if (level instanceof ServerLevel serverLevel) {
 			ItemStack food = event.getItem();
