@@ -105,7 +105,7 @@ public final class APUtils {
 	}
 
 	public static boolean canPlaceToPotionSlot(ItemStack potion) {
-		boolean ret = potion.getItem() instanceof PotionItem;
+		boolean ret = potion.getItem() instanceof PotionItem || LoadMods.isBotaniaPotion(potion);
 		IngredientCheckEvent event = new IngredientCheckEvent.Potion(potion, ret);
 		MinecraftForge.EVENT_BUS.post(event);
 		return event.isIngredient();
