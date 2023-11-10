@@ -18,7 +18,7 @@ plugins {
 }
 apply plugin: 'org.spongepowered.mixin'
 
-version = '40.2.0.0'
+version = '40.2.0.1'
 group = 'com.Hileb.add_potion'
 archivesBaseName = 'add_potion'
 
