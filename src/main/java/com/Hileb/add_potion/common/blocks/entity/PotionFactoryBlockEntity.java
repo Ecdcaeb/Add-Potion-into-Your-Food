@@ -60,24 +60,29 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 						} else {
 							continue;
 						}
-						result.getB().ifPresent(
+						result.getB().ifPresentOrElse(
 								itemStack -> {
-									ItemStack slotBottle = blockEntity.getItem(SLOT_GLASS_BOTTLE);
-									if(slotBottle.isEmpty()) {
-										blockEntity.items.set(SLOT_GLASS_BOTTLE, itemStack);
-									} else if (ItemStack.isSameItemSameTags(slotBottle, itemStack)) {
-										blockEntity.getItem(SLOT_GLASS_BOTTLE).grow(itemStack.getCount());
+									if(APUtils.canPlaceToPotionSlot(itemStack)) {
+										blockEntity.items.set(SLOT_INPUT, itemStack);
 									} else {
-										double d0 = level.random.nextDouble() * 0.7D + 0.15D;
-										double d1 = level.random.nextDouble() * 0.7D + 2.0D / 3.0D;
-										double d2 = level.random.nextDouble() * 0.7D + 0.15D;
-										ItemEntity itementity = new ItemEntity(level, blockPos.getX() + d0, blockPos.getY() + d1, blockPos.getZ() + d2, itemStack);
-										itementity.setDefaultPickUpDelay();
-										level.addFreshEntity(itementity);
+										ItemStack slotBottle = blockEntity.getItem(SLOT_GLASS_BOTTLE);
+										if(slotBottle.isEmpty()) {
+											blockEntity.items.set(SLOT_GLASS_BOTTLE, itemStack);
+										} else if (ItemStack.isSameItemSameTags(slotBottle, itemStack)) {
+											blockEntity.getItem(SLOT_GLASS_BOTTLE).grow(itemStack.getCount());
+										} else {
+											double d0 = level.random.nextDouble() * 0.7D + 0.15D;
+											double d1 = level.random.nextDouble() * 0.7D + 2.0D / 3.0D;
+											double d2 = level.random.nextDouble() * 0.7D + 0.15D;
+											ItemEntity itementity = new ItemEntity(level, blockPos.getX() + d0, blockPos.getY() + d1, blockPos.getZ() + d2, itemStack);
+											itementity.setDefaultPickUpDelay();
+											level.addFreshEntity(itementity);
+										}
+										potion.shrink(1);
 									}
-								}
+								},
+								() -> potion.shrink(1)
 						);
-						potion.shrink(1);
 						food.shrink(1);
 						blockEntity.setChanged();
 						break;

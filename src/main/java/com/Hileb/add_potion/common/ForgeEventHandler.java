@@ -4,6 +4,7 @@ import com.Hileb.add_potion.api.AddPotionApi;
 import com.Hileb.add_potion.api.event.ApplyEffectsToFoodEvent;
 import com.Hileb.add_potion.api.event.IngredientCheckEvent;
 import com.Hileb.add_potion.common.util.APUtils;
+import com.Hileb.add_potion.common.util.compat.LoadMods;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.entity.LivingEntity;
@@ -54,11 +55,14 @@ public class ForgeEventHandler {
 
 	@SubscribeEvent
 	public static void onApplyPotionToFood(ApplyEffectsToFoodEvent event) {
-		if(event.getPotion().is(Items.GOLD_INGOT)) {
+		ItemStack potion = event.getPotion();
+		if(potion.is(Items.GOLD_INGOT)) {
 			APUtils.setEffectsHiding(event.getFood());
 			event.setSuccess();
-		} else if(event.getPotion().is(Items.POTION)) {
-			event.setPotionRemaining(new ItemStack(Items.GLASS_BOTTLE, event.getPotion().getCount()));
+		} else if(potion.is(Items.POTION)) {
+			event.setPotionRemaining(new ItemStack(Items.GLASS_BOTTLE, potion.getCount()));
+		} else if(LoadMods.isBotaniaPotion(potion)) {
+			event.setPotionRemaining(LoadMods.getBotaniaPotionRemaining(potion));
 		}
 	}
 }

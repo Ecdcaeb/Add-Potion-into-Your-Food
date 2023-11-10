@@ -133,7 +133,7 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19-41.1.0'
 
-    compileOnly fg.deobf("vazkii.botania:Botania:1.19.2-440-FORGE:api")
+    compileOnly fg.deobf("vazkii.botania:Botania:1.19.2-440-FORGE")
     compileOnly fg.deobf("curse.maven:emeraldcraft-639754:4312197")
     runtimeOnly fg.deobf("mezz.jei:jei-1.19-forge:11.1.1.239")
     runtimeOnly fg.deobf("curse.maven:jade-324717:3903499")
