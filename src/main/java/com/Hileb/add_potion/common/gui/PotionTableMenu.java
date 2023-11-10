@@ -84,6 +84,9 @@ public class PotionTableMenu extends AbstractContainerMenu {
 		if(index == 0) {
 			if(this.potionSlot.hasItem() && this.foodSlot.hasItem()) {
 				Tuple<ItemStack, Optional<ItemStack>> result = APUtils.applyEffectsToFood(player, this.potionSlot.getItem(), this.foodSlot.getItem());
+				if(result == null) {
+					return true;
+				}
 				APCraftEvent event = new APCraftEvent(player, this.potionSlot.getItem(), this.foodSlot.getItem(), result.getA());
 				MinecraftForge.EVENT_BUS.post(event);
 				result.getB().ifPresentOrElse(this.potionSlot::set, () -> this.potionSlot.getItem().shrink(1));

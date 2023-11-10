@@ -56,6 +56,7 @@ public class ForgeEventHandler {
 	public static void onApplyPotionToFood(ApplyEffectsToFoodEvent event) {
 		if(event.getPotion().is(Items.GOLD_INGOT)) {
 			APUtils.setEffectsHiding(event.getFood());
+			event.setSuccess();
 		} else if(event.getPotion().is(Items.POTION)) {
 			event.setPotionRemaining(new ItemStack(Items.GLASS_BOTTLE, event.getPotion().getCount()));
 		}

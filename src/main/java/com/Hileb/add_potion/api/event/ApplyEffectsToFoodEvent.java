@@ -16,16 +16,19 @@ public class ApplyEffectsToFoodEvent extends Event {
 	protected final ItemStack potion;
 	protected final ItemStack food;
 
+	protected boolean success;
+
 	@Nullable
 	protected ItemStack potionRemaining;
 
 	protected final List<MobEffectInstance> effects;
 
-	public ApplyEffectsToFoodEvent(ItemStack potion, ItemStack food, List<MobEffectInstance> effects) {
+	public ApplyEffectsToFoodEvent(ItemStack potion, ItemStack food, List<MobEffectInstance> effects, boolean success) {
 		this.potion = potion;
 		this.food = food;
 		this.effects = effects;
 		this.potionRemaining = null;
+		this.success = success;
 	}
 
 	public ItemStack getPotion() {
@@ -55,5 +58,17 @@ public class ApplyEffectsToFoodEvent extends Event {
 
 	public void setPotionRemaining(@Nullable ItemStack potionRemaining) {
 		this.potionRemaining = potionRemaining;
+	}
+
+	public boolean getSuccess() {
+		return this.success;
+	}
+
+	public void setSuccess() {
+		this.success = true;
+	}
+
+	public void setSuccess(boolean success) {
+		this.success = success;
 	}
 }

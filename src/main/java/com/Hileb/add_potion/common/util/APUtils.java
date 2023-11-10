@@ -105,7 +105,7 @@ public final class APUtils {
 	}
 
 	public static boolean canPlaceToPotionSlot(ItemStack potion) {
-		boolean ret = potion.getItem() instanceof PotionItem || LoadMods.isBotaniaPotion(potion);
+		boolean ret = potion.getItem() instanceof PotionItem;
 		IngredientCheckEvent event = new IngredientCheckEvent.Potion(potion, ret);
 		MinecraftForge.EVENT_BUS.post(event);
 		return event.isIngredient();
@@ -134,11 +134,17 @@ public final class APUtils {
 		listTag.add(tag);
 	}
 
+	@Nullable
 	public static Tuple<ItemStack, Optional<ItemStack>> applyEffectsToFood(@Nullable LivingEntity owner, ItemStack potion, ItemStack food) {
 		List<MobEffectInstance> effects = getPotionEffects(potion);
 		ItemStack ret = food.copy();
 		ret.setCount(1);
 		setEffectsShow(ret);
+		ApplyEffectsToFoodEvent event = new ApplyEffectsToFoodEvent(potion, ret, effects, canPlaceToFoodSlot(food) && canPlaceToPotionSlot(potion));
+		MinecraftForge.EVENT_BUS.post(event);
+		if(!event.getSuccess()) {
+			return null;
+		}
 		CompoundTag nbt = ret.getOrCreateTag();
 		ListTag listTag;
 		if(nbt.contains(TAG_EFFECTS, Tag.TAG_LIST)) {
@@ -150,8 +156,6 @@ public final class APUtils {
 		if(potion.getItem() instanceof PotionItem potionItem) {
 			potionType = getPotionTypeOfPotionItem(potionItem);
 		}
-		ApplyEffectsToFoodEvent event = new ApplyEffectsToFoodEvent(potion, ret, effects);
-		MinecraftForge.EVENT_BUS.post(event);
 		for(MobEffectInstance instance: event.getEffects()) {
 			applyEffectTo(listTag, instance, potionType);
 		}
