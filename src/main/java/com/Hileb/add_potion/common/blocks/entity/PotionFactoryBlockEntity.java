@@ -9,6 +9,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.Tuple;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.world.WorldlyContainer;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -30,7 +31,8 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 	public static final int SLOT_RESULT1 = 2;
 	public static final int SLOT_RESULT2 = 3;
 	public static final int SLOT_RESULT3 = 4;
-	public static final int SLOT_COUNT = 5;
+	public static final int SLOT_GLASS_BOTTLE = 5;
+	public static final int SLOT_COUNT = 6;
 
 	protected NonNullList<ItemStack> items = NonNullList.withSize(SLOT_COUNT, ItemStack.EMPTY);
 
@@ -46,6 +48,9 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 				ItemStack food = blockEntity.getItem(SLOT_FOOD);
 				if(!potion.isEmpty() && !food.isEmpty()) {
 					Tuple<ItemStack, Optional<ItemStack>> result = APUtils.applyEffectsToFood(null, potion, food);
+					if(result == null) {
+						return;
+					}
 					for (int i = SLOT_RESULT1; i <= SLOT_RESULT3; ++i) {
 						ItemStack slot = blockEntity.getItem(i);
 						if (slot.isEmpty()) {
@@ -55,10 +60,24 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 						} else {
 							continue;
 						}
-						result.getB().ifPresentOrElse(
-								itemStack -> blockEntity.items.set(SLOT_INPUT, itemStack),
-								() -> potion.shrink(1)
+						result.getB().ifPresent(
+								itemStack -> {
+									ItemStack slotBottle = blockEntity.getItem(SLOT_GLASS_BOTTLE);
+									if(slotBottle.isEmpty()) {
+										blockEntity.items.set(SLOT_GLASS_BOTTLE, itemStack);
+									} else if (ItemStack.isSameItemSameTags(slotBottle, itemStack)) {
+										blockEntity.getItem(SLOT_GLASS_BOTTLE).grow(itemStack.getCount());
+									} else {
+										double d0 = level.random.nextDouble() * 0.7D + 0.15D;
+										double d1 = level.random.nextDouble() * 0.7D + 2.0D / 3.0D;
+										double d2 = level.random.nextDouble() * 0.7D + 0.15D;
+										ItemEntity itementity = new ItemEntity(level, blockPos.getX() + d0, blockPos.getY() + d1, blockPos.getZ() + d2, itemStack);
+										itementity.setDefaultPickUpDelay();
+										level.addFreshEntity(itementity);
+									}
+								}
 						);
+						potion.shrink(1);
 						food.shrink(1);
 						blockEntity.setChanged();
 						break;
@@ -172,7 +191,7 @@ public class PotionFactoryBlockEntity extends BlockEntity implements WorldlyCont
 	}
 
 	private static final int[] SLOTS_FOR_UP = new int[]{SLOT_INPUT};
-	private static final int[] SLOTS_FOR_DOWN = new int[]{SLOT_RESULT1, SLOT_RESULT2, SLOT_RESULT3};
+	private static final int[] SLOTS_FOR_DOWN = new int[]{SLOT_RESULT1, SLOT_RESULT2, SLOT_RESULT3, SLOT_GLASS_BOTTLE};
 	private static final int[] SLOTS_FOR_SIDES = new int[]{SLOT_FOOD};
 
 	@Override
