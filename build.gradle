@@ -18,7 +18,7 @@ plugins {
 }
 apply plugin: 'org.spongepowered.mixin'
 
-version = '41.1.0.0'
+version = '44.1.0.0'
 group = 'com.Hileb.add_potion'
 archivesBaseName = 'add_potion'
 
@@ -26,7 +26,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'official', version: '1.19'
+    mappings channel: 'official', version: '1.19.3'
 
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
@@ -131,12 +131,12 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19-41.1.0'
+    minecraft 'net.minecraftforge:forge:1.19.3-44.1.0'
 
-    compileOnly fg.deobf("vazkii.botania:Botania:1.19.2-440-FORGE")
-    compileOnly fg.deobf("curse.maven:emeraldcraft-639754:4312197")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.19-forge:11.1.1.239")
-    runtimeOnly fg.deobf("curse.maven:jade-324717:3903499")
+    compileOnly fg.deobf("vazkii.botania:Botania:1.19.4-441-FORGE-20230703.194317-7")
+    compileOnly fg.deobf("curse.maven:emeraldcraft-639754:4547943")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.19.3-forge:12.4.0.22")
+    runtimeOnly fg.deobf("curse.maven:jade-324717:4434045")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
