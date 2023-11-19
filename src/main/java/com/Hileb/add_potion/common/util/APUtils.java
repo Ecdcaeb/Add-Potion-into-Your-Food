@@ -216,6 +216,19 @@ public final class APUtils {
 		food.setTag(tag);
 	}
 
+	public static void clearEffects(ItemStack food) {
+		CompoundTag tag = food.getTag();
+		if(tag != null) {
+			tag.remove(TAG_DISABLE);
+			tag.remove(TAG_EFFECTS);
+			tag.remove(TAG_OWNER);
+			if(tag.size() == 0) {
+				tag = null;
+			}
+		}
+		food.setTag(tag);
+	}
+
 	public static PotionType getPotionType(CompoundTag nbt) {
 		if(nbt.contains(TAG_POTION_TYPE, Tag.TAG_STRING)) {
 			try {

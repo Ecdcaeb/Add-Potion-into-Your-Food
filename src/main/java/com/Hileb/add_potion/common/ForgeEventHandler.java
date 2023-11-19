@@ -38,7 +38,7 @@ public class ForgeEventHandler {
 	@SubscribeEvent
 	public static void onPlaceToFoodSlot(IngredientCheckEvent.Food event) {
 		ItemStack food = event.getStack();
-		if(food.is(Items.CRIMSON_FUNGUS) || food.is(ItemTags.AXOLOTL_TEMPT_ITEMS) ||
+		if(food.is(Items.MILK_BUCKET) || food.is(Items.CRIMSON_FUNGUS) || food.is(ItemTags.AXOLOTL_TEMPT_ITEMS) ||
 				AbstractHorse.FOOD_ITEMS.test(food) || Chicken.FOOD_ITEMS.test(food) ||
 				Llama.FOOD_ITEMS.test(food) || Pig.FOOD_ITEMS.test(food) ||
 				Turtle.FOOD_ITEMS.test(food) || Strider.FOOD_ITEMS.test(food)) {
@@ -48,7 +48,8 @@ public class ForgeEventHandler {
 
 	@SubscribeEvent
 	public static void onPlaceToPotionSlot(IngredientCheckEvent.Potion event) {
-		if(event.getStack().is(Items.GOLD_INGOT)) {
+		ItemStack potion = event.getStack();
+		if(potion.is(Items.GOLD_INGOT) || potion.is(Items.MILK_BUCKET)) {
 			event.setIngredient(true);
 		}
 	}
@@ -58,6 +59,10 @@ public class ForgeEventHandler {
 		ItemStack potion = event.getPotion();
 		if(potion.is(Items.GOLD_INGOT)) {
 			APUtils.setEffectsHiding(event.getFood());
+			event.setSuccess();
+		} else if(potion.is(Items.MILK_BUCKET)) {
+			APUtils.clearEffects(event.getFood());
+			event.setPotionRemaining(new ItemStack(Items.BUCKET, potion.getCount()));
 			event.setSuccess();
 		} else if(potion.is(Items.POTION)) {
 			event.setPotionRemaining(new ItemStack(Items.GLASS_BOTTLE, potion.getCount()));
