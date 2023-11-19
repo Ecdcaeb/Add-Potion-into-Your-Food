@@ -19,7 +19,7 @@ public class ModCreativeTab {
 		ITEM_GROUP = event.registerCreativeModeTab(new ResourceLocation(MODID, "item_group"), builder -> builder
 				.icon(() -> PotionUtils.setPotion(new ItemStack(Items.POTION), Potions.POISON))
 				.title(Component.translatable("itemGroup.add_potion"))
-				.displayItems((flag, output, hasPermission) -> {
+				.displayItems((flag, output) -> {
 					output.accept(ModItems.POTION_TABLE.get());
 					output.accept(ModItems.POTION_FACTORY.get());
 				})
