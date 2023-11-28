@@ -15,7 +15,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,7 +30,7 @@ public class ModBlocks {
 
 	@SuppressWarnings("deprecation")
 	public static final RegistryObject<Block> POTION_TABLE = REGISTER.register(
-			"potion_table", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5.0F)) {
+			"potion_table", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(5.0F)) {
 				private static final Component CONTAINER_TITLE = Component.translatable("container.potion_table");
 
 				@Override
@@ -51,7 +52,7 @@ public class ModBlocks {
 	);
 
 	public static final RegistryObject<Block> POTION_FACTORY = REGISTER.register(
-			"potion_factory", () -> new PotionFactoryBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5.0F))
+			"potion_factory", () -> new PotionFactoryBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(5.0F))
 	);
 
 	public static void init(IEventBus bus) {

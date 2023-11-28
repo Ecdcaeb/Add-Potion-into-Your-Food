@@ -12,23 +12,31 @@ buildscript {
 }
 
 plugins {
+    id 'eclipse'
     id 'idea'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '5.1.+'
 }
+apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '45.2.0.0'
+base {
+    archivesName = 'add_potion'
+}
+
+version = '46.0.14.0'
 group = 'com.Hileb.add_potion'
-archivesBaseName = 'add_potion'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'official', version: '1.19.4'
+    mappings channel: 'official', version: '1.20'
 
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    enableIdeaPrepareRuns = true
+    copyIdeResources = true
+    generateRunFolders = true
 
     runs {
         client {
@@ -131,12 +139,12 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.4-45.2.0'
+    minecraft 'net.minecraftforge:forge:1.20-46.0.14'
 
-    compileOnly fg.deobf("vazkii.botania:Botania:1.19.4-441-FORGE-20230703.194317-7")
-    compileOnly fg.deobf("curse.maven:emeraldcraft-639754:4615376")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:13.1.0.15")
-    runtimeOnly fg.deobf("curse.maven:jade-324717:4573063")
+    compileOnly fg.deobf("vazkii.botania:Botania:1.20.1-441-FORGE")
+    compileOnly fg.deobf("curse.maven:emeraldcraft-639754:4670869")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20-forge:14.0.0.11")
+    runtimeOnly fg.deobf("curse.maven:jade-324717:4801177")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }

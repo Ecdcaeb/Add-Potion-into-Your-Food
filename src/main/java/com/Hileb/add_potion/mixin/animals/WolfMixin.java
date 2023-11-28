@@ -18,7 +18,7 @@ public class WolfMixin {
 	public void applyAPEffectsTo(Player player, InteractionHand hand, CallbackInfoReturnable<InteractionResult> cir) {
 		Wolf current = (Wolf)(Object)this;
 		ItemStack itemStack = player.getItemInHand(hand);
-		if(current.level instanceof ServerLevel serverLevel) {
+		if(current.level() instanceof ServerLevel serverLevel) {
 			AddPotionApi.onFoodEaten(current, serverLevel, itemStack);
 		}
 	}

@@ -54,13 +54,13 @@ public class AddPotion {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		bus.addListener(this::setup);
 		bus.addListener(this::onRegister);
-		bus.addListener(ModCreativeTab::creativeTabEvent);
 
 		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, this::onServerAboutToStart);
 
 		ModBlocks.init(bus);
 		ModItems.init(bus);
 		ModBlockEntities.init(bus);
+		ModCreativeTab.init(bus);
 		ModMenuTypes.init(bus);
 		Villages.Registers.init(bus);
 

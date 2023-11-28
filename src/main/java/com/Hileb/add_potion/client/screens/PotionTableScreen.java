@@ -1,11 +1,9 @@
 package com.Hileb.add_potion.client.screens;
 
 import com.Hileb.add_potion.common.gui.PotionTableMenu;
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -30,18 +28,15 @@ public class PotionTableScreen extends AbstractContainerScreen<PotionTableMenu> 
 	}
 
 	@Override
-	public void render(PoseStack transform, int x, int y, float partialTicks) {
+	public void render(GuiGraphics transform, int x, int y, float partialTicks) {
 		super.render(transform, x, y, partialTicks);
 		this.renderTooltip(transform, x, y);
 	}
 
 	@Override
-	protected void renderBg(PoseStack transform, float partialTicks, int x, int y) {
+	protected void renderBg(GuiGraphics transform, float partialTicks, int x, int y) {
 		this.renderBackground(transform);
-		RenderSystem.setShader(GameRenderer::getPositionTexShader);
-		RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
-		RenderSystem.setShaderTexture(0, BG_LOCATION);
-		this.blit(transform, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight);
+		transform.blit(BG_LOCATION, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight);
 		int buttonX = this.leftPos + BUTTON_X;
 		int buttonY = this.topPos + BUTTON_Y;
 		this.renderButtons(transform, x, y, buttonX, buttonY);
@@ -79,7 +74,7 @@ public class PotionTableScreen extends AbstractContainerScreen<PotionTableMenu> 
 		return super.mouseReleased(x, y, button);
 	}
 
-	private void renderButtons(PoseStack transform, int x, int y, int buttonX, int buttonY) {
+	private void renderButtons(GuiGraphics transform, int x, int y, int buttonX, int buttonY) {
 		int i = 0;
 		if(this.clicked) {
 			i = 2;
@@ -90,6 +85,6 @@ public class PotionTableScreen extends AbstractContainerScreen<PotionTableMenu> 
 				i = 1;
 			}
 		}
-		this.blit(transform, buttonX, buttonY, 0, this.imageHeight + i * BUTTON_HEIGHT, BUTTON_WIDTH, BUTTON_HEIGHT);
+		transform.blit(BG_LOCATION, buttonX, buttonY, 0, this.imageHeight + i * BUTTON_HEIGHT, BUTTON_WIDTH, BUTTON_HEIGHT);
 	}
 }

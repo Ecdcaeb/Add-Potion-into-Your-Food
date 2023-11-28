@@ -28,7 +28,7 @@ public class ForgeEventHandler {
 	@SubscribeEvent
 	public static void onFoodEaten(LivingEntityUseItemEvent.Finish event) {
 		LivingEntity entity = event.getEntity();
-		Level level = entity.level;
+		Level level = entity.level();
 		if (level instanceof ServerLevel serverLevel) {
 			ItemStack food = event.getItem();
 			AddPotionApi.onFoodEaten(entity, serverLevel, food);

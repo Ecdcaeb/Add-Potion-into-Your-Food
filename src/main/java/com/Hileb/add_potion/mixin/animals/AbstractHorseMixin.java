@@ -16,7 +16,7 @@ public class AbstractHorseMixin {
 	@Inject(method = "fedFood", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/animal/horse/AbstractHorse;handleEating(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)Z", shift = At.Shift.AFTER))
 	public void applyAPEffectsTo(Player player, ItemStack itemStack, CallbackInfoReturnable<InteractionResult> cir) {
 		AbstractHorse current = (AbstractHorse)(Object)this;
-		if(current.level instanceof ServerLevel serverLevel) {
+		if(current.level() instanceof ServerLevel serverLevel) {
 			AddPotionApi.onFoodEaten(current, serverLevel, itemStack);
 		}
 	}

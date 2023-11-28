@@ -55,9 +55,9 @@ public final class APUtils {
 			}
 		}),
 		SPLASH((livingEntity, effect, owner) -> {
-			livingEntity.level.playSound(null, livingEntity.blockPosition(), SoundEvents.SPLASH_POTION_BREAK, SoundSource.PLAYERS, 1.0F, 1.0F);
+			livingEntity.level().playSound(null, livingEntity.blockPosition(), SoundEvents.SPLASH_POTION_BREAK, SoundSource.PLAYERS, 1.0F, 1.0F);
 			AABB aabb = AABB.ofSize(livingEntity.position(), 8.0, 4.0, 8.0);
-			List<LivingEntity> list = livingEntity.level.getEntitiesOfClass(LivingEntity.class, aabb);
+			List<LivingEntity> list = livingEntity.level().getEntitiesOfClass(LivingEntity.class, aabb);
 			for(LivingEntity victim: list) {
 				if (victim.isAffectedByPotions()) {
 					double dist = livingEntity.distanceToSqr(victim);
@@ -81,15 +81,15 @@ public final class APUtils {
 			}
 		}),
 		LINGERING((livingEntity, effect, owner) -> {
-			livingEntity.level.playSound(null, livingEntity.blockPosition(), SoundEvents.SPLASH_POTION_BREAK, SoundSource.PLAYERS, 1.0F, 1.0F);
-			AreaEffectCloud cloud = new AreaEffectCloud(livingEntity.level, livingEntity.getX(), livingEntity.getY(0.25D), livingEntity.getZ());
+			livingEntity.level().playSound(null, livingEntity.blockPosition(), SoundEvents.SPLASH_POTION_BREAK, SoundSource.PLAYERS, 1.0F, 1.0F);
+			AreaEffectCloud cloud = new AreaEffectCloud(livingEntity.level(), livingEntity.getX(), livingEntity.getY(0.25D), livingEntity.getZ());
 			cloud.setOwner(owner);
 			cloud.setRadius(3.0F);
 			cloud.setRadiusOnUse(-0.5F);
 			cloud.setWaitTime(10);
 			cloud.setRadiusPerTick(-cloud.getRadius() / (float)cloud.getDuration());
 			cloud.addEffect(effect);
-			livingEntity.level.addFreshEntity(cloud);
+			livingEntity.level().addFreshEntity(cloud);
 		});
 
 		public final TriConsumer<LivingEntity, MobEffectInstance, LivingEntity> afterEat;	//Call this on server side only!

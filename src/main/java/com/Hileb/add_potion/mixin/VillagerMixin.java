@@ -15,7 +15,7 @@ public class VillagerMixin {
 	private ItemStack consumeItemAndApplyAPEffects(SimpleContainer instance, int index, int count) {
 		ItemStack itemStack = instance.removeItem(index, count);
 		Villager current = (Villager)(Object)this;
-		if(current.level instanceof ServerLevel serverLevel) {
+		if(current.level() instanceof ServerLevel serverLevel) {
 			AddPotionApi.onFoodEaten(current, serverLevel, itemStack);
 		}
 		return itemStack;

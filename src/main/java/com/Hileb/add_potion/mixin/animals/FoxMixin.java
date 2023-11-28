@@ -16,7 +16,7 @@ public class FoxMixin {
 	@Inject(method = "usePlayerItem", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/animal/Fox;playSound(Lnet/minecraft/sounds/SoundEvent;FF)V", shift = At.Shift.BEFORE))
 	protected void applyAPEffectsTo(Player player, InteractionHand hand, ItemStack itemStack, CallbackInfo ci) {
 		Fox current = (Fox)(Object)this;
-		if(current.level instanceof ServerLevel serverLevel) {
+		if(current.level() instanceof ServerLevel serverLevel) {
 			AddPotionApi.onFoodEaten(current, serverLevel, itemStack);
 		}
 	}
