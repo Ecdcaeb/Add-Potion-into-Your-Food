@@ -12,7 +12,7 @@ Idealland - they provided the framework at 1.12.2.
 ZFP - very very cute.~
 Liu Dongyu - sponsor for 1.18.2+.
 '''
-authors=" Liu Dongyu , Hileb"
+authors="Liu Dongyu , Hileb"
 description='''
 A mod for ZFP.Using the Potion Table,the mod which is described by Taoism Deeplake as 'PPAP' add potion...
 '''
@@ -27,6 +27,6 @@ A mod for ZFP.Using the Potion Table,the mod which is described by Taoism Deepla
 [[dependencies.add_potion]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20,1.21)"
+    versionRange="[1.20,1.20.2)"
     ordering="NONE"
     side="BOTH"
