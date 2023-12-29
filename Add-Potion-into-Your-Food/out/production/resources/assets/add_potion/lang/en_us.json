@@ -1,0 +1,18 @@
+{
+  "ap.config.addLimit.desc": "Add Potion Limit",
+  "ap.config.maxCountIs1.desc": "max itemstack count slot is 1 for limit",
+  "ap.config.openArmor.desc": "can add to armor",
+  "ap.configMisc.desc": "AP Misc",
+  "ap.craftOtOfLimit": "Out of Limit!",
+  "ap.craftSuccess": "Adding successfully！",
+  "ap.noPotionEffect": "You could not add it into your food!",
+  "ap.showPotion.desc": "show potionEffects",
+  "ap.showPotion.desc.tooltip": "Whether to display the potionEffects of injected items,in Potion Table",
+  "block.add_potion.block_ap_crafting_table": "Potion Table",
+  "com.hileb.ap.botton": "Press this button to inject",
+  "com.hileb.ap.desc_1": "This item has been injected with the following potionEffects:",
+  "com.hileb.ap.desc_2": "The following potionEffects will be injected:",
+  "com.hileb.ap.desc_3": "This item has the following potionEffects(tooltip):",
+  "itemGroup.apMiscTab": "Add Potion into Your Food",
+  "block.add_potion.block_ap_auto_crafter": "Potion Factory"
+}

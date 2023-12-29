@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "DCD",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "add_potion:item_block_ap_crafting_table"
+    },
+    "D": {
+      "item": "minecraft:item_block_ap_auto_crafter"
+    }
+  },
+  "result": {
+    "item": "add_potion:item",
+    "count": 1
+  }
+}

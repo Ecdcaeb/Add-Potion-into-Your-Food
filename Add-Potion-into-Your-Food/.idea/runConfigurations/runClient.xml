@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runClient" type="Application" factoryName="Application" singleton="false">
+    <option name="ALTERNATIVE_JRE_PATH" value="jbr-17" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="MOD_CLASSES" value="add_potion%%$PROJECT_DIR$/../Add-Potion-into-Your-Food\out\production\resources;add_potion%%$PROJECT_DIR$/../Add-Potion-into-Your-Food\out\production\classes" />
+      <env name="MCP_MAPPINGS" value="official_1.20.4" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.bootstrap.ForgeBootstrap" />
+    <module name="Add-Potion-into-Your-Food.main" />
+    <option name="PROGRAM_PARAMETERS" value="--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 12 --assetsDir &quot;E:\project\MC MOD\UnusuallyProjectPack\Add-Potion-into-Your-Food\Add-Potion-into-Your-Food\gradle\caches\forge_gradle\assets&quot; --gameDir ." />
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -Dforge.enabledGameTestNamespaces=add_potion -Dforge.enableGameTest=true -Djava.net.preferIPv6Addresses=system -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":copyIntellijResources" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>

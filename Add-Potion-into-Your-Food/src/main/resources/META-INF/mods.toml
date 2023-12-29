@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[49,)"
+license="${mod_license}"
+issueTrackerURL="https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/issues"
+[[mods]]
+modId="add_potion"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://www.mcmod.cn/class/8478.html"
+credits='''Idealland - they provided this framework.
+           ZFP - very very cute.~
+           Liu Dongyu - sponsor for 1.18.2~1.20.1.
+           LexManos - stick to MinecraftForge.
+'''
+
+authors="Hileb"
+description='''${mod_description}'''
+[[dependencies.add_potion]]
+   modId="forge"
+   mandatory=true
+   versionRange="[49,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.add_potion]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20.4,1.21)"
+   ordering="NONE"
+   side="BOTH"
