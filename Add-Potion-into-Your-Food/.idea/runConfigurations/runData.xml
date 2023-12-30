@@ -7,7 +7,7 @@
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\run-data"/>
     <module name="Add-Potion-into-Your-Food.main"/>
     <envs>
-      <env name="MOD_CLASSES" value="add_potion%%$PROJECT_DIR$\out\production\resources;add_potion%%$PROJECT_DIR$\out\production\classes"/>
+      <env name="MOD_CLASSES" value="$PROJECT_DIR$\out\production\resources;$PROJECT_DIR$\out\production\classes"/>
       <env name="MCP_MAPPINGS" value="official_1.20.4"/>
     </envs>
     <method v="2">

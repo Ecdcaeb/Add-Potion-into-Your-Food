@@ -14,8 +14,8 @@ public class PotionProcess {
     /**
      * @param food 食物
      * @param potion 药水
-     * @return 产物的结果，如果成功{@link InteractionResult#SUCCESS} 内含产物——食物的复制品。
-     * 如果失败{@link InteractionResult#FAIL}，内部为 {@link ItemStack#EMPTY}.
+     * @return the result of process产物的结果，if success 如果成功{@link InteractionResult#SUCCESS} 内含产物——食物的复制品。The copy of result.
+     * 如果失败{@link InteractionResult#FAIL}，内部为 {@link ItemStack#EMPTY}.If Fail,The empty itemStack.
      */
     public static InteractionResultHolder<ItemStack> process(ItemStack food, ItemStack potion){
         if (food.isEmpty() || potion.isEmpty())return InteractionResultHolder.fail(ItemStack.EMPTY);
