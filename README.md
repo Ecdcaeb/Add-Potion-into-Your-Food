@@ -5,19 +5,21 @@ switch each branch for each version of Minecraft.
 ____state____:
 -  _Active_ :
  
-   + [1.20.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.20.2)
+   + [1.20.4](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.20.4)
  
-   + [1.18.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.18.2)
+   + [1.20](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.20)
+     
+   + [1.19.4](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/new/1.19.4)
 
    + [1.19.3](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.19.3)
+ 
+   + [1.18.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.18.2)
 
 - _Legacy_:
 
    + [1.12.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.12.2)
-   
-- _WIP_:
-    
-    + [1.19.4](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.19.4)
+     
+   + [1.20.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.20.2)
    
 
 [![Curseforge](http://cf.way2muchnoise.eu/full_739891_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/add-potion-into-your-food) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_739891_all.svg)](https://www.curseforge.com/minecraft/mc-mods/add-potion-into-your-food)
